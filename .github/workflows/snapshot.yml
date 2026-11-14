@@ -2,8 +2,8 @@ name: Snapshot
 
 on:
   schedule:
-    # UTC. GitHub may delay or drop scheduled runs under load, especially at :00.
-    - cron: "7,22,37,52 * * * *"
+    # Backup only: GitHub may delay or skip scheduled runs.
+    - cron: "7 */6 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -12,11 +12,12 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 350
     steps:
       - name: Check out
         uses: actions/checkout@v4
@@ -26,18 +27,31 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch snapshot
-        run: node scripts/snapshot.mjs
-
-      - name: Commit if changed
+      - name: Snapshot loop (every 15 min, ~5.5 h)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p data
-          git add data/snapshot.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update market snapshot"
-            git push
-          fi
+          for i in $(seq 1 22); do
+            echo "=== Round $i at $(date -u +%H:%M:%S) UTC ==="
+            if node scripts/snapshot.mjs; then
+              mkdir -p data
+              git add data/snapshot.json
+              if git diff --staged --quiet; then
+                echo "No changes to commit"
+              else
+                git commit -m "Update market snapshot" || true
+                git pull --rebase origin main || git rebase --abort || true
+                git push || echo "Push failed, will retry next round"
+              fi
+            else
+              echo "Snapshot failed, will retry next round"
+            fi
+            if [ "$i" -lt 22 ]; then sleep 900; fi
+          done
+
+      - name: Restart itself
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run snapshot.yml --ref main
+
