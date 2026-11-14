@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T22:53:46.433Z",
+  "generatedAt": "2026-11-14T22:54:10.404Z",
   "sources": {
     "kalshi": {
       "ok": true,
-      "fetchedAt": "2026-11-14T22:53:46.437Z",
+      "fetchedAt": "2026-11-14T22:54:10.407Z",
       "count": 16,
       "httpStatus": 200
     },
     "limitless": {
       "ok": true,
-      "fetchedAt": "2026-11-14T22:53:47.020Z",
+      "fetchedAt": "2026-11-14T22:54:11.284Z",
       "count": 150,
       "httpStatus": 200,
       "truncated": true
     },
     "predictit": {
       "ok": true,
-      "fetchedAt": "2026-11-14T22:53:51.678Z",
+      "fetchedAt": "2026-11-14T22:54:11.772Z",
       "count": 150,
       "httpStatus": 200
     }
@@ -264,12 +264,12 @@
       "close_time": "2026-11-17T21:25:00Z",
       "expected_expiration_time": "2026-11-16T00:25:00Z",
       "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "volume": "937633.37",
-      "volume_fp": "937633.37",
+      "volume": "937648.16",
+      "volume_fp": "937648.16",
       "volume_24h": "255193.66",
       "volume_24h_fp": "255193.66",
-      "open_interest": "788370.76",
-      "open_interest_fp": "788370.76",
+      "open_interest": "788385.55",
+      "open_interest_fp": "788385.55",
       "yes_bid": "0.6500",
       "yes_ask": "0.6600",
       "rules_primary": "If San Francisco wins the San Francisco vs Dallas Pro Football game originally scheduled for Nov 15, 2026, then the market resolves to Yes.",
@@ -300,12 +300,12 @@
       "close_time": "2026-11-17T03:30:00Z",
       "expected_expiration_time": "2026-11-15T08:30:00Z",
       "event_ticker": "KXUFCFIGHT-26NOV14GANHOK",
-      "volume": "5508457.08",
-      "volume_fp": "5508457.08",
+      "volume": "5510020.30",
+      "volume_fp": "5510020.30",
       "volume_24h": "2338008.75",
       "volume_24h_fp": "2338008.75",
-      "open_interest": "4979860.53",
-      "open_interest_fp": "4979860.53",
+      "open_interest": "4981204.47",
+      "open_interest_fp": "4981204.47",
       "yes_bid": "0.3300",
       "yes_ask": "0.3400",
       "rules_primary": "If Josh Hokit  wins the Ciryl Gane vs Josh Hokit professional MMA fight originally scheduled for Nov 14, 2026, then the market resolves to Yes.",
