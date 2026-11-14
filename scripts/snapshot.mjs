@@ -189,6 +189,16 @@ function pickLimitless(m) {
     expiration: Number.isFinite(expMs) ? new Date(expMs).toISOString() : (m.expirationDate ?? null),
     yesTokenId: tokens.yes ?? m.yesTokenId ?? null,
     noTokenId: tokens.no ?? m.noTokenId ?? null,
+    marketType: m.marketType ?? null,
+    outcomes: m.marketType === "group" && Array.isArray(m.markets)
+      ? m.markets.slice(0, 30).map((x) => ({
+          slug: x.slug ?? null,
+          title: x.title ?? null,
+          yesTokenId: x.tokens?.yes ?? null,
+          noTokenId: x.tokens?.no ?? null,
+          volumeFormatted: x.volumeFormatted ?? null,
+        }))
+      : null,
   };
 }
 
