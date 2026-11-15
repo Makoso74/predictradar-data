@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T04:10:31.400Z",
+  "generatedAt": "2026-11-15T04:10:47.161Z",
   "sources": {
     "kalshi": {
       "ok": true,
-      "fetchedAt": "2026-11-15T04:10:31.404Z",
+      "fetchedAt": "2026-11-15T04:10:47.166Z",
       "count": 16,
       "httpStatus": 200
     },
     "limitless": {
       "ok": true,
-      "fetchedAt": "2026-11-15T04:10:32.346Z",
+      "fetchedAt": "2026-11-15T04:10:47.681Z",
       "count": 150,
       "httpStatus": 200,
       "truncated": true
     },
     "predictit": {
       "ok": true,
-      "fetchedAt": "2026-11-15T04:10:32.792Z",
+      "fetchedAt": "2026-11-15T04:10:52.450Z",
       "count": 148,
       "httpStatus": 200
     }
@@ -37,7 +37,7 @@
       "open_interest": "339404.11",
       "open_interest_fp": "339404.11",
       "yes_bid": "0.6000",
-      "yes_ask": "0.6300",
+      "yes_ask": "0.6100",
       "rules_primary": "If Robert Pattinson is cast as the next James Bond before Jan 1, 2030, then the market resolves to Yes.",
       "rules_secondary": "This is for the next film in the James Bond series, which goes back to Dr. No (1962); spin-offs and unauthorized productions are not included."
     },
@@ -264,12 +264,12 @@
       "close_time": "2026-11-17T21:25:00Z",
       "expected_expiration_time": "2026-11-16T00:25:00Z",
       "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "volume": "1053764.73",
-      "volume_fp": "1053764.73",
+      "volume": "1054009.18",
+      "volume_fp": "1054009.18",
       "volume_24h": "300950.03",
       "volume_24h_fp": "300950.03",
-      "open_interest": "894367.06",
-      "open_interest_fp": "894367.06",
+      "open_interest": "894611.51",
+      "open_interest_fp": "894611.51",
       "yes_bid": "0.6500",
       "yes_ask": "0.6600",
       "rules_primary": "If San Francisco wins the San Francisco vs Dallas Pro Football game originally scheduled for Nov 15, 2026, then the market resolves to Yes.",
@@ -300,12 +300,12 @@
       "close_time": "2026-11-17T03:30:00Z",
       "expected_expiration_time": "2026-11-15T08:30:00Z",
       "event_ticker": "KXUFCFIGHT-26NOV14GANHOK",
-      "volume": "10983827.59",
-      "volume_fp": "10983827.59",
+      "volume": "10988192.34",
+      "volume_fp": "10988192.34",
       "volume_24h": "7253113.64",
       "volume_24h_fp": "7253113.64",
-      "open_interest": "10144855.90",
-      "open_interest_fp": "10144855.90",
+      "open_interest": "10149220.65",
+      "open_interest_fp": "10149220.65",
       "yes_bid": "0.3200",
       "yes_ask": "0.3300",
       "rules_primary": "If Josh Hokit  wins the Ciryl Gane vs Josh Hokit professional MMA fight originally scheduled for Nov 14, 2026, then the market resolves to Yes.",
