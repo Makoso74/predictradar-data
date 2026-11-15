@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T14:47:27.750Z",
+  "generatedAt": "2026-11-15T14:48:19.349Z",
   "sources": {
     "kalshi": {
       "ok": true,
-      "fetchedAt": "2026-11-15T14:47:27.757Z",
+      "fetchedAt": "2026-11-15T14:48:19.357Z",
       "count": 57,
       "httpStatus": 200,
       "book": {
         "ok": true,
-        "fetchedAt": "2026-11-15T14:47:31.337Z",
+        "fetchedAt": "2026-11-15T14:48:22.985Z",
         "count": 57,
         "levelsMax": 5,
         "units": "price: USD per contract (pays $1) as string; size: contracts as string; yesBids/noBids best first; yesAsk = 1 - best noBid, noAsk = 1 - best yesBid; snapshot price, not live"
@@ -23,36 +23,36 @@
     },
     "limitless": {
       "ok": true,
-      "fetchedAt": "2026-11-15T14:47:31.545Z",
+      "fetchedAt": "2026-11-15T14:48:23.300Z",
       "count": 150,
       "httpStatus": 200,
       "truncated": true
     },
     "predictit": {
       "ok": true,
-      "fetchedAt": "2026-11-15T14:47:32.005Z",
+      "fetchedAt": "2026-11-15T14:48:23.501Z",
       "count": 148,
       "httpStatus": 200
     },
     "hyperliquid": {
       "ok": true,
-      "fetchedAt": "2026-11-15T14:47:27.781Z",
+      "fetchedAt": "2026-11-15T14:48:19.502Z",
       "count": 271,
       "httpStatus": 200,
       "feeScale": "1.0"
     },
     "predictfun": {
       "ok": true,
-      "fetchedAt": "2026-11-15T14:47:27.783Z",
+      "fetchedAt": "2026-11-15T14:48:19.504Z",
       "count": 30,
       "httpStatus": 200,
       "queries": 12,
-      "candidates": 705,
+      "candidates": 669,
       "via": "kairos"
     },
     "opinion": {
       "ok": true,
-      "fetchedAt": "2026-11-15T14:47:27.784Z",
+      "fetchedAt": "2026-11-15T14:48:19.505Z",
       "count": 40,
       "httpStatus": 200,
       "books": 120,
@@ -69,8 +69,8 @@
       "close_time": "2030-01-01T15:00:00Z",
       "expected_expiration_time": "2030-01-01T15:00:00Z",
       "event_ticker": "KXBOND-30",
-      "volume": "570282.96",
-      "volume_fp": "570282.96",
+      "volume": "570286.10",
+      "volume_fp": "570286.10",
       "volume_24h": "41893.25",
       "volume_24h_fp": "41893.25",
       "open_interest": "351607.29",
@@ -107,7 +107,7 @@
         "noBids": [
           [
             "0.3800",
-            "60.58"
+            "57.44"
           ],
           [
             "0.3700",
@@ -128,7 +128,7 @@
         ],
         "yesAsk": {
           "price": "0.6200",
-          "size": "60.58"
+          "size": "57.44"
         },
         "noAsk": {
           "price": "0.4000",
@@ -147,12 +147,12 @@
       "close_time": "2026-11-15T15:00:00Z",
       "expected_expiration_time": "2026-11-15T15:05:00Z",
       "event_ticker": "KXBTCD-26NOV1510",
-      "volume": "94067.89",
-      "volume_fp": "94067.89",
+      "volume": "94576.88",
+      "volume_fp": "94576.88",
       "volume_24h": "79211.35",
       "volume_24h_fp": "79211.35",
-      "open_interest": "20586.59",
-      "open_interest_fp": "20586.59",
+      "open_interest": "21009.98",
+      "open_interest_fp": "21009.98",
       "yes_bid": "0.0700",
       "yes_ask": "0.0800",
       "no_bid": "0.9200",
@@ -163,58 +163,58 @@
         "yesBids": [
           [
             "0.0700",
-            "1064.39"
+            "8.00"
           ],
           [
             "0.0600",
-            "1356.00"
+            "1244.23"
           ],
           [
             "0.0500",
-            "1502.12"
+            "2456.12"
           ],
           [
             "0.0400",
-            "2103.00"
+            "2068.00"
           ],
           [
             "0.0300",
-            "1893.33"
+            "2487.33"
           ]
         ],
         "noBids": [
           [
             "0.9200",
-            "2087.77"
+            "2481.57"
           ],
           [
             "0.9100",
-            "2343.01"
+            "2511.01"
           ],
           [
             "0.9000",
-            "1718.00"
+            "1628.00"
           ],
           [
             "0.8900",
-            "1377.00"
+            "2181.00"
           ],
           [
             "0.8800",
-            "1335.00"
+            "1568.00"
           ]
         ],
         "yesAsk": {
           "price": "0.0800",
-          "size": "2087.77"
+          "size": "2481.57"
         },
         "noAsk": {
           "price": "0.9300",
-          "size": "1064.39"
+          "size": "8.00"
         },
         "levels": {
           "yes": 7,
-          "no": 74
+          "no": 73
         }
       }
     },
@@ -225,65 +225,61 @@
       "close_time": "2026-11-15T15:00:00Z",
       "expected_expiration_time": "2026-11-15T15:05:00Z",
       "event_ticker": "KXBTCD-26NOV1510",
-      "volume": "94434.20",
-      "volume_fp": "94434.20",
+      "volume": "98873.71",
+      "volume_fp": "98873.71",
       "volume_24h": "82157.18",
       "volume_24h_fp": "82157.18",
-      "open_interest": "21073.23",
-      "open_interest_fp": "21073.23",
-      "yes_bid": "0.0300",
-      "yes_ask": "0.0400",
-      "no_bid": "0.9600",
-      "no_ask": "0.9700",
+      "open_interest": "25246.74",
+      "open_interest_fp": "25246.74",
+      "yes_bid": "0.0200",
+      "yes_ask": "0.0300",
+      "no_bid": "0.9700",
+      "no_ask": "0.9800",
       "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 10 AM EST is above 65099.99 at 10 AM EST on Nov 15, 2026, then the market resolves to Yes.",
       "rules_secondary": "Not all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.",
       "book": {
         "yesBids": [
           [
-            "0.0300",
-            "1209.89"
-          ],
-          [
             "0.0200",
-            "4823.01"
+            "2995.00"
           ],
           [
             "0.0100",
-            "4729.47"
+            "5491.45"
           ]
         ],
         "noBids": [
           [
+            "0.9700",
+            "690.00"
+          ],
+          [
             "0.9600",
-            "3785.37"
+            "1204.01"
           ],
           [
             "0.9500",
-            "4711.25"
+            "1712.00"
           ],
           [
             "0.9400",
-            "1517.62"
+            "1796.00"
           ],
           [
             "0.9300",
-            "1494.58"
-          ],
-          [
-            "0.9200",
-            "1257.00"
+            "941.78"
           ]
         ],
         "yesAsk": {
-          "price": "0.0400",
-          "size": "3785.37"
+          "price": "0.0300",
+          "size": "690.00"
         },
         "noAsk": {
-          "price": "0.9700",
-          "size": "1209.89"
+          "price": "0.9800",
+          "size": "2995.00"
         },
         "levels": {
-          "yes": 3,
+          "yes": 2,
           "no": 77
         }
       }
@@ -295,12 +291,12 @@
       "close_time": "2026-11-15T15:00:00Z",
       "expected_expiration_time": "2026-11-15T15:05:00Z",
       "event_ticker": "KXBTCD-26NOV1510",
-      "volume": "74043.33",
-      "volume_fp": "74043.33",
+      "volume": "74884.32",
+      "volume_fp": "74884.32",
       "volume_24h": "70753.51",
       "volume_24h_fp": "70753.51",
-      "open_interest": "14302.26",
-      "open_interest_fp": "14302.26",
+      "open_interest": "14528.47",
+      "open_interest_fp": "14528.47",
       "yes_bid": "0.0100",
       "yes_ask": "0.0200",
       "no_bid": "0.9800",
@@ -311,42 +307,42 @@
         "yesBids": [
           [
             "0.0100",
-            "4534.93"
+            "1936.99"
           ]
         ],
         "noBids": [
           [
             "0.9800",
-            "4241.03"
+            "7807.19"
           ],
           [
             "0.9700",
-            "3406.75"
+            "4601.75"
           ],
           [
             "0.9600",
-            "540.25"
+            "1459.25"
           ],
           [
             "0.9500",
-            "30.00"
+            "1688.00"
           ],
           [
-            "0.9300",
-            "50.00"
+            "0.9400",
+            "859.00"
           ]
         ],
         "yesAsk": {
           "price": "0.0200",
-          "size": "4241.03"
+          "size": "7807.19"
         },
         "noAsk": {
           "price": "0.9900",
-          "size": "4534.93"
+          "size": "1936.99"
         },
         "levels": {
           "yes": 1,
-          "no": 51
+          "no": 64
         }
       }
     },
@@ -374,15 +370,15 @@
         "noBids": [
           [
             "0.9900",
-            "4300.00"
+            "2275.00"
           ],
           [
             "0.9800",
-            "9523.74"
+            "7468.74"
           ],
           [
             "0.9700",
-            "3200.00"
+            "990.00"
           ],
           [
             "0.9600",
@@ -395,7 +391,7 @@
         ],
         "yesAsk": {
           "price": "0.0100",
-          "size": "4300.00"
+          "size": "2275.00"
         },
         "noAsk": null,
         "levels": {
@@ -653,7 +649,7 @@
           ],
           [
             "0.7600",
-            "39.00"
+            "43.63"
           ],
           [
             "0.7500",
@@ -727,7 +723,7 @@
           ],
           [
             "0.0500",
-            "12.00"
+            "47.58"
           ],
           [
             "0.0400",
@@ -1097,74 +1093,74 @@
       "close_time": "2026-11-15T15:00:00Z",
       "expected_expiration_time": "2026-11-15T15:05:00Z",
       "event_ticker": "KXETHD-26NOV1510",
-      "volume": "4107.36",
-      "volume_fp": "4107.36",
+      "volume": "4149.36",
+      "volume_fp": "4149.36",
       "volume_24h": "3488.55",
       "volume_24h_fp": "3488.55",
-      "open_interest": "1483.18",
-      "open_interest_fp": "1483.18",
+      "open_interest": "1524.18",
+      "open_interest_fp": "1524.18",
       "yes_bid": "0.0500",
-      "yes_ask": "0.0900",
-      "no_bid": "0.9100",
+      "yes_ask": "0.0600",
+      "no_bid": "0.9400",
       "no_ask": "0.9500",
       "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ethereum Real-Time Index (ERTI) before 10 AM EST is above 1814.99 at 10 AM EST on Nov 15, 2026, then the market resolves to Yes.",
       "rules_secondary": "Not all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.",
       "book": {
         "yesBids": [
           [
-            "0.0600",
-            "30.00"
-          ],
-          [
             "0.0500",
-            "1100.00"
+            "1.00"
           ],
           [
             "0.0400",
-            "1101.00"
+            "1100.00"
           ],
           [
             "0.0300",
-            "1236.63"
+            "1146.63"
           ],
           [
             "0.0200",
-            "750.00"
+            "1721.00"
+          ],
+          [
+            "0.0100",
+            "1127.00"
           ]
         ],
         "noBids": [
           [
+            "0.9400",
+            "36.00"
+          ],
+          [
+            "0.9300",
+            "0.02"
+          ],
+          [
+            "0.9200",
+            "1868.00"
+          ],
+          [
             "0.9100",
-            "1600.00"
+            "1230.00"
           ],
           [
             "0.9000",
-            "1100.00"
-          ],
-          [
-            "0.8900",
             "1295.00"
-          ],
-          [
-            "0.8800",
-            "125.00"
-          ],
-          [
-            "0.8700",
-            "125.00"
           ]
         ],
         "yesAsk": {
-          "price": "0.0900",
-          "size": "1600.00"
+          "price": "0.0600",
+          "size": "36.00"
         },
         "noAsk": {
-          "price": "0.9400",
-          "size": "30.00"
+          "price": "0.9500",
+          "size": "1.00"
         },
         "levels": {
-          "yes": 6,
-          "no": 50
+          "yes": 5,
+          "no": 54
         }
       }
     },
@@ -1181,31 +1177,27 @@
       "volume_24h_fp": "3809.25",
       "open_interest": "1212.83",
       "open_interest_fp": "1212.83",
-      "yes_bid": "0.0200",
+      "yes_bid": "0.0100",
       "yes_ask": "0.0300",
       "no_bid": "0.9700",
-      "no_ask": "0.9800",
+      "no_ask": "0.9900",
       "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ethereum Real-Time Index (ERTI) before 10 AM EST is above 1819.99 at 10 AM EST on Nov 15, 2026, then the market resolves to Yes.",
       "rules_secondary": "Not all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.",
       "book": {
         "yesBids": [
           [
-            "0.0200",
-            "44.00"
-          ],
-          [
             "0.0100",
-            "40.45"
+            "40.44"
           ]
         ],
         "noBids": [
           [
             "0.9700",
-            "1600.00"
+            "1144.00"
           ],
           [
             "0.9600",
-            "1250.00"
+            "1862.00"
           ],
           [
             "0.9500",
@@ -1222,15 +1214,15 @@
         ],
         "yesAsk": {
           "price": "0.0300",
-          "size": "1600.00"
+          "size": "1144.00"
         },
         "noAsk": {
-          "price": "0.9800",
-          "size": "44.00"
+          "price": "0.9900",
+          "size": "40.44"
         },
         "levels": {
-          "yes": 2,
-          "no": 52
+          "yes": 1,
+          "no": 51
         }
       }
     },
@@ -1641,11 +1633,11 @@
         "yesBids": [
           [
             "0.0300",
-            "60488.48"
+            "55988.48"
           ],
           [
             "0.0200",
-            "131067.00"
+            "128152.00"
           ],
           [
             "0.0100",
@@ -1655,7 +1647,7 @@
         "noBids": [
           [
             "0.9600",
-            "134903.99"
+            "135403.99"
           ],
           [
             "0.9500",
@@ -1676,11 +1668,11 @@
         ],
         "yesAsk": {
           "price": "0.0400",
-          "size": "134903.99"
+          "size": "135403.99"
         },
         "noAsk": {
           "price": "0.9700",
-          "size": "60488.48"
+          "size": "55988.48"
         },
         "levels": {
           "yes": 3,
@@ -1927,25 +1919,21 @@
       "volume_24h_fp": "398.91",
       "open_interest": "401.04",
       "open_interest_fp": "401.04",
-      "yes_bid": "0.5600",
+      "yes_bid": "0.5700",
       "yes_ask": "0.9900",
       "no_bid": "0.0100",
-      "no_ask": "0.4400",
+      "no_ask": "0.4300",
       "rules_primary": "If the S&P 500 index value on Nov 16, 2026 at 10am EST is above 7429.9999, then the market resolves to Yes.",
       "rules_secondary": "The market will close on November 16, 2026. The market will expire at the sooner of the first release of the data, or one week after November 16, 2026.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
       "book": {
         "yesBids": [
           [
             "0.5700",
-            "50.00"
+            "35.50"
           ],
           [
             "0.5600",
             "9.19"
-          ],
-          [
-            "0.5500",
-            "38.00"
           ],
           [
             "0.5400",
@@ -1954,6 +1942,10 @@
           [
             "0.2000",
             "4.00"
+          ],
+          [
+            "0.1600",
+            "1665.50"
           ]
         ],
         "noBids": [
@@ -1968,10 +1960,10 @@
         },
         "noAsk": {
           "price": "0.4300",
-          "size": "50.00"
+          "size": "35.50"
         },
         "levels": {
-          "yes": 9,
+          "yes": 8,
           "no": 1
         }
       }
@@ -2111,12 +2103,12 @@
       "close_time": "2026-11-17T23:00:00Z",
       "expected_expiration_time": "2026-11-16T02:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV15DALBOS",
-      "volume": "55363.25",
-      "volume_fp": "55363.25",
+      "volume": "55374.25",
+      "volume_fp": "55374.25",
       "volume_24h": "47175.82",
       "volume_24h_fp": "47175.82",
-      "open_interest": "51043.53",
-      "open_interest_fp": "51043.53",
+      "open_interest": "51054.53",
+      "open_interest_fp": "51054.53",
       "yes_bid": "0.1300",
       "yes_ask": "0.1500",
       "no_bid": "0.8500",
@@ -2127,11 +2119,11 @@
         "yesBids": [
           [
             "0.1300",
-            "5537.66"
+            "5512.66"
           ],
           [
             "0.1200",
-            "64307.38"
+            "64281.38"
           ],
           [
             "0.1100",
@@ -2149,32 +2141,32 @@
         "noBids": [
           [
             "0.8500",
-            "92424.40"
+            "90659.40"
           ],
           [
             "0.8400",
-            "51061.30"
+            "49311.30"
           ],
           [
             "0.8300",
-            "32940.00"
+            "27913.00"
           ],
           [
             "0.8200",
-            "70915.00"
+            "6606.00"
           ],
           [
             "0.8100",
-            "66310.00"
+            "2001.00"
           ]
         ],
         "yesAsk": {
           "price": "0.1500",
-          "size": "92424.40"
+          "size": "90659.40"
         },
         "noAsk": {
           "price": "0.8700",
-          "size": "5537.66"
+          "size": "5512.66"
         },
         "levels": {
           "yes": 13,
@@ -2189,12 +2181,12 @@
       "close_time": "2026-11-17T18:00:00Z",
       "expected_expiration_time": "2026-11-15T21:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV15INDPHI",
-      "volume": "98170.22",
-      "volume_fp": "98170.22",
+      "volume": "98255.22",
+      "volume_fp": "98255.22",
       "volume_24h": "91690.37",
       "volume_24h_fp": "91690.37",
-      "open_interest": "77580.34",
-      "open_interest_fp": "77580.34",
+      "open_interest": "77665.34",
+      "open_interest_fp": "77665.34",
       "yes_bid": "0.2700",
       "yes_ask": "0.2800",
       "no_bid": "0.7200",
@@ -2205,7 +2197,7 @@
         "yesBids": [
           [
             "0.2700",
-            "32605.83"
+            "33885.83"
           ],
           [
             "0.2600",
@@ -2227,7 +2219,7 @@
         "noBids": [
           [
             "0.7200",
-            "211152.56"
+            "211067.56"
           ],
           [
             "0.7100",
@@ -2235,24 +2227,24 @@
           ],
           [
             "0.7000",
-            "116125.47"
+            "95227.47"
           ],
           [
             "0.6900",
-            "27159.18"
+            "28659.18"
           ],
           [
             "0.6800",
-            "24621.50"
+            "25371.50"
           ]
         ],
         "yesAsk": {
           "price": "0.2800",
-          "size": "211152.56"
+          "size": "211067.56"
         },
         "noAsk": {
           "price": "0.7300",
-          "size": "32605.83"
+          "size": "33885.83"
         },
         "levels": {
           "yes": 26,
@@ -2267,12 +2259,12 @@
       "close_time": "2026-11-17T18:00:00Z",
       "expected_expiration_time": "2026-11-15T21:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV15INDPHI",
-      "volume": "216026.28",
-      "volume_fp": "216026.28",
+      "volume": "216041.32",
+      "volume_fp": "216041.32",
       "volume_24h": "207881.13",
       "volume_24h_fp": "207881.13",
-      "open_interest": "189037.04",
-      "open_interest_fp": "189037.04",
+      "open_interest": "189052.08",
+      "open_interest_fp": "189052.08",
       "yes_bid": "0.7200",
       "yes_ask": "0.7300",
       "no_bid": "0.2700",
@@ -2291,11 +2283,11 @@
           ],
           [
             "0.7000",
-            "4157.95"
+            "4156.81"
           ],
           [
             "0.6900",
-            "26842.33"
+            "26867.04"
           ],
           [
             "0.6800",
@@ -2305,15 +2297,15 @@
         "noBids": [
           [
             "0.2700",
-            "225639.83"
+            "227624.79"
           ],
           [
             "0.2600",
-            "258319.73"
+            "259319.73"
           ],
           [
             "0.2500",
-            "86477.00"
+            "86977.00"
           ],
           [
             "0.2400",
@@ -2326,7 +2318,7 @@
         ],
         "yesAsk": {
           "price": "0.7300",
-          "size": "225639.83"
+          "size": "227624.79"
         },
         "noAsk": {
           "price": "0.2800",
@@ -2345,12 +2337,12 @@
       "close_time": "2026-11-17T21:00:00Z",
       "expected_expiration_time": "2026-11-16T00:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV15LALPHX",
-      "volume": "200045.97",
-      "volume_fp": "200045.97",
+      "volume": "200061.93",
+      "volume_fp": "200061.93",
       "volume_24h": "150398.17",
       "volume_24h_fp": "150398.17",
-      "open_interest": "163834.99",
-      "open_interest_fp": "163834.99",
+      "open_interest": "163835.49",
+      "open_interest_fp": "163835.49",
       "yes_bid": "0.5800",
       "yes_ask": "0.5900",
       "no_bid": "0.4100",
@@ -2361,19 +2353,19 @@
         "yesBids": [
           [
             "0.5800",
-            "1230.10"
+            "1222.37"
           ],
           [
             "0.5700",
-            "13558.66"
+            "15309.06"
           ],
           [
             "0.5600",
-            "23324.33"
+            "24236.33"
           ],
           [
             "0.5500",
-            "37007.15"
+            "37416.75"
           ],
           [
             "0.5400",
@@ -2383,19 +2375,19 @@
         "noBids": [
           [
             "0.4100",
-            "309892.64"
+            "309810.28"
           ],
           [
             "0.4000",
-            "116472.26"
+            "117469.64"
           ],
           [
             "0.3900",
-            "139637.32"
+            "142724.32"
           ],
           [
             "0.3800",
-            "15112.60"
+            "11076.60"
           ],
           [
             "0.3700",
@@ -2404,11 +2396,11 @@
         ],
         "yesAsk": {
           "price": "0.5900",
-          "size": "309892.64"
+          "size": "309810.28"
         },
         "noAsk": {
           "price": "0.4200",
-          "size": "1230.10"
+          "size": "1222.37"
         },
         "levels": {
           "yes": 56,
@@ -2423,12 +2415,12 @@
       "close_time": "2026-11-17T23:00:00Z",
       "expected_expiration_time": "2026-11-16T02:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV15NYKTOR",
-      "volume": "57670.00",
-      "volume_fp": "57670.00",
+      "volume": "57683.87",
+      "volume_fp": "57683.87",
       "volume_24h": "56045.20",
       "volume_24h_fp": "56045.20",
-      "open_interest": "57027.45",
-      "open_interest_fp": "57027.45",
+      "open_interest": "57041.32",
+      "open_interest_fp": "57041.32",
       "yes_bid": "0.3700",
       "yes_ask": "0.3800",
       "no_bid": "0.6200",
@@ -2443,7 +2435,7 @@
           ],
           [
             "0.3600",
-            "26800.14"
+            "27878.94"
           ],
           [
             "0.3500",
@@ -2461,7 +2453,7 @@
         "noBids": [
           [
             "0.6200",
-            "40230.63"
+            "40216.76"
           ],
           [
             "0.6100",
@@ -2482,7 +2474,7 @@
         ],
         "yesAsk": {
           "price": "0.3800",
-          "size": "40230.63"
+          "size": "40216.76"
         },
         "noAsk": {
           "price": "0.6300",
@@ -2517,15 +2509,15 @@
         "yesBids": [
           [
             "0.8000",
-            "19570.40"
+            "19060.80"
           ],
           [
             "0.7900",
-            "10784.58"
+            "10884.58"
           ],
           [
             "0.7800",
-            "19744.35"
+            "20385.74"
           ],
           [
             "0.7700",
@@ -2539,15 +2531,15 @@
         "noBids": [
           [
             "0.1900",
-            "69841.56"
+            "59841.56"
           ],
           [
             "0.1800",
-            "66239.90"
+            "56239.90"
           ],
           [
             "0.1700",
-            "74032.38"
+            "60172.38"
           ],
           [
             "0.1600",
@@ -2560,11 +2552,11 @@
         ],
         "yesAsk": {
           "price": "0.8100",
-          "size": "69841.56"
+          "size": "59841.56"
         },
         "noAsk": {
           "price": "0.2000",
-          "size": "19570.40"
+          "size": "19060.80"
         },
         "levels": {
           "yes": 78,
@@ -2579,12 +2571,12 @@
       "close_time": "2026-11-17T22:00:00Z",
       "expected_expiration_time": "2026-11-16T01:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV15SASUTA",
-      "volume": "63381.07",
-      "volume_fp": "63381.07",
+      "volume": "63413.48",
+      "volume_fp": "63413.48",
       "volume_24h": "53322.94",
       "volume_24h_fp": "53322.94",
-      "open_interest": "50291.57",
-      "open_interest_fp": "50291.57",
+      "open_interest": "50318.58",
+      "open_interest_fp": "50318.58",
       "yes_bid": "0.9100",
       "yes_ask": "0.9200",
       "no_bid": "0.0800",
@@ -2595,19 +2587,19 @@
         "yesBids": [
           [
             "0.9100",
-            "4311.03"
+            "4309.63"
           ],
           [
             "0.9000",
-            "9230.32"
+            "9184.32"
           ],
           [
             "0.8900",
-            "40329.26"
+            "38051.26"
           ],
           [
             "0.8800",
-            "10862.69"
+            "10962.69"
           ],
           [
             "0.8700",
@@ -2617,7 +2609,7 @@
         "noBids": [
           [
             "0.0800",
-            "411705.60"
+            "411658.99"
           ],
           [
             "0.0700",
@@ -2638,11 +2630,11 @@
         ],
         "yesAsk": {
           "price": "0.9200",
-          "size": "411705.60"
+          "size": "411658.99"
         },
         "noAsk": {
           "price": "0.0900",
-          "size": "4311.03"
+          "size": "4309.63"
         },
         "levels": {
           "yes": 89,
@@ -2695,19 +2687,19 @@
         "noBids": [
           [
             "0.9100",
-            "112803.82"
+            "1658.60"
           ],
           [
             "0.9000",
-            "285591.14"
+            "255588.14"
           ],
           [
             "0.8900",
-            "145305.77"
+            "113045.23"
           ],
           [
             "0.8800",
-            "101455.45"
+            "71455.45"
           ],
           [
             "0.8700",
@@ -2716,7 +2708,7 @@
         ],
         "yesAsk": {
           "price": "0.0900",
-          "size": "112803.82"
+          "size": "1658.60"
         },
         "noAsk": {
           "price": "0.9200",
@@ -2759,7 +2751,7 @@
           ],
           [
             "0.4600",
-            "248.69"
+            "237.69"
           ],
           [
             "0.4500",
@@ -2773,15 +2765,15 @@
         "noBids": [
           [
             "0.5100",
-            "5.26"
+            "88.26"
           ],
           [
             "0.5000",
-            "4753.00"
+            "5153.00"
           ],
           [
             "0.4900",
-            "1702.39"
+            "1175.00"
           ],
           [
             "0.4800",
@@ -2794,7 +2786,7 @@
         ],
         "yesAsk": {
           "price": "0.4900",
-          "size": "5.26"
+          "size": "88.26"
         },
         "noAsk": {
           "price": "0.5200",
@@ -2802,7 +2794,7 @@
         },
         "levels": {
           "yes": 45,
-          "no": 42
+          "no": 43
         }
       }
     },
@@ -2927,47 +2919,47 @@
       "volume_24h_fp": "2322.98",
       "open_interest": "2337.64",
       "open_interest_fp": "2337.64",
-      "yes_bid": "0.1600",
+      "yes_bid": "0.1500",
       "yes_ask": "0.2400",
       "no_bid": "0.7600",
-      "no_ask": "0.8400",
+      "no_ask": "0.8500",
       "rules_primary": "If Washington St. wins the Washington St. vs Texas St. college football game originally scheduled for Nov 21, 2026, then the market resolves to Yes.",
       "rules_secondary": "If the game is postponed but begins within 48 hours of its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is cancelled or not started within 48 hours of its originally scheduled start, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NCAA. All trademarks, logos, and brand names are the property of their respective owners.",
       "book": {
         "yesBids": [
           [
-            "0.1600",
-            "9.00"
+            "0.1500",
+            "10.00"
           ],
           [
-            "0.1500",
-            "15.00"
+            "0.1100",
+            "16.00"
           ],
           [
             "0.1000",
-            "13.00"
+            "21.00"
           ],
           [
             "0.0900",
-            "1.00"
+            "36.00"
           ],
           [
             "0.0800",
-            "20.00"
+            "51.00"
           ]
         ],
         "noBids": [
           [
             "0.7600",
-            "80.18"
+            "90.18"
           ],
           [
             "0.7200",
-            "70.00"
+            "80.00"
           ],
           [
             "0.7100",
-            "32.00"
+            "30.00"
           ],
           [
             "0.4200",
@@ -2980,11 +2972,11 @@
         ],
         "yesAsk": {
           "price": "0.2400",
-          "size": "80.18"
+          "size": "90.18"
         },
         "noAsk": {
-          "price": "0.8400",
-          "size": "9.00"
+          "price": "0.8500",
+          "size": "10.00"
         },
         "levels": {
           "yes": 11,
@@ -2999,12 +2991,12 @@
       "close_time": "2026-11-17T18:00:00Z",
       "expected_expiration_time": "2026-11-15T21:00:00Z",
       "event_ticker": "KXNFLGAME-26NOV15BUFNYJ",
-      "volume": "818922.87",
-      "volume_fp": "818922.87",
+      "volume": "819357.57",
+      "volume_fp": "819357.57",
       "volume_24h": "345245.53",
       "volume_24h_fp": "345245.53",
-      "open_interest": "686613.50",
-      "open_interest_fp": "686613.50",
+      "open_interest": "686987.30",
+      "open_interest_fp": "686987.30",
       "yes_bid": "0.7900",
       "yes_ask": "0.8000",
       "no_bid": "0.2000",
@@ -3015,7 +3007,7 @@
         "yesBids": [
           [
             "0.7900",
-            "543420.63"
+            "541719.18"
           ],
           [
             "0.7800",
@@ -3027,7 +3019,7 @@
           ],
           [
             "0.7600",
-            "105199.43"
+            "106399.43"
           ],
           [
             "0.7500",
@@ -3037,7 +3029,7 @@
         "noBids": [
           [
             "0.2000",
-            "2352550.36"
+            "2352117.76"
           ],
           [
             "0.1900",
@@ -3058,11 +3050,11 @@
         ],
         "yesAsk": {
           "price": "0.8000",
-          "size": "2352550.36"
+          "size": "2352117.76"
         },
         "noAsk": {
           "price": "0.2100",
-          "size": "543420.63"
+          "size": "541719.18"
         },
         "levels": {
           "yes": 63,
@@ -3077,12 +3069,12 @@
       "close_time": "2026-11-17T18:00:00Z",
       "expected_expiration_time": "2026-11-15T21:00:00Z",
       "event_ticker": "KXNFLGAME-26NOV15JACTEN",
-      "volume": "827781.67",
-      "volume_fp": "827781.67",
+      "volume": "828112.56",
+      "volume_fp": "828112.56",
       "volume_24h": "586653.67",
       "volume_24h_fp": "586653.67",
-      "open_interest": "778580.03",
-      "open_interest_fp": "778580.03",
+      "open_interest": "778878.62",
+      "open_interest_fp": "778878.62",
       "yes_bid": "0.8300",
       "yes_ask": "0.8400",
       "no_bid": "0.1600",
@@ -3093,7 +3085,7 @@
         "yesBids": [
           [
             "0.8300",
-            "557501.33"
+            "557483.48"
           ],
           [
             "0.8200",
@@ -3115,19 +3107,19 @@
         "noBids": [
           [
             "0.1600",
-            "195215.28"
+            "178826.81"
           ],
           [
             "0.1500",
-            "643866.80"
+            "648881.80"
           ],
           [
             "0.1400",
-            "855797.37"
+            "863626.37"
           ],
           [
             "0.1300",
-            "506842.34"
+            "510713.34"
           ],
           [
             "0.1200",
@@ -3136,11 +3128,11 @@
         ],
         "yesAsk": {
           "price": "0.8400",
-          "size": "195215.28"
+          "size": "178826.81"
         },
         "noAsk": {
           "price": "0.1700",
-          "size": "557501.33"
+          "size": "557483.48"
         },
         "levels": {
           "yes": 66,
@@ -3155,12 +3147,12 @@
       "close_time": "2026-11-17T18:00:00Z",
       "expected_expiration_time": "2026-11-15T21:00:00Z",
       "event_ticker": "KXNFLGAME-26NOV15KCATL",
-      "volume": "599361.23",
-      "volume_fp": "599361.23",
+      "volume": "600254.12",
+      "volume_fp": "600254.12",
       "volume_24h": "324727.17",
       "volume_24h_fp": "324727.17",
-      "open_interest": "547348.82",
-      "open_interest_fp": "547348.82",
+      "open_interest": "548241.71",
+      "open_interest_fp": "548241.71",
       "yes_bid": "0.6200",
       "yes_ask": "0.6300",
       "no_bid": "0.3700",
@@ -3171,7 +3163,7 @@
         "yesBids": [
           [
             "0.6200",
-            "249151.44"
+            "249191.44"
           ],
           [
             "0.6100",
@@ -3193,7 +3185,7 @@
         "noBids": [
           [
             "0.3700",
-            "1481599.53"
+            "1480705.10"
           ],
           [
             "0.3600",
@@ -3214,11 +3206,11 @@
         ],
         "yesAsk": {
           "price": "0.6300",
-          "size": "1481599.53"
+          "size": "1480705.10"
         },
         "noAsk": {
           "price": "0.3800",
-          "size": "249151.44"
+          "size": "249191.44"
         },
         "levels": {
           "yes": 56,
@@ -3233,12 +3225,12 @@
       "close_time": "2026-11-17T18:00:00Z",
       "expected_expiration_time": "2026-11-15T21:00:00Z",
       "event_ticker": "KXNFLGAME-26NOV15MINGB",
-      "volume": "1099760.72",
-      "volume_fp": "1099760.72",
+      "volume": "1099898.11",
+      "volume_fp": "1099898.11",
       "volume_24h": "322548.97",
       "volume_24h_fp": "322548.97",
-      "open_interest": "992903.61",
-      "open_interest_fp": "992903.61",
+      "open_interest": "993018.78",
+      "open_interest_fp": "993018.78",
       "yes_bid": "0.5700",
       "yes_ask": "0.5800",
       "no_bid": "0.4200",
@@ -3249,11 +3241,11 @@
         "yesBids": [
           [
             "0.5700",
-            "138510.69"
+            "138488.47"
           ],
           [
             "0.5600",
-            "382307.90"
+            "382299.90"
           ],
           [
             "0.5500",
@@ -3271,7 +3263,7 @@
         "noBids": [
           [
             "0.4200",
-            "2289504.73"
+            "2289389.56"
           ],
           [
             "0.4100",
@@ -3279,7 +3271,7 @@
           ],
           [
             "0.4000",
-            "1513351.53"
+            "1513339.53"
           ],
           [
             "0.3900",
@@ -3292,11 +3284,11 @@
         ],
         "yesAsk": {
           "price": "0.5800",
-          "size": "2289504.73"
+          "size": "2289389.56"
         },
         "noAsk": {
           "price": "0.4300",
-          "size": "138510.69"
+          "size": "138488.47"
         },
         "levels": {
           "yes": 55,
@@ -3311,12 +3303,12 @@
       "close_time": "2026-11-17T18:00:00Z",
       "expected_expiration_time": "2026-11-15T21:00:00Z",
       "event_ticker": "KXNFLGAME-26NOV15MINGB",
-      "volume": "1066415.48",
-      "volume_fp": "1066415.48",
+      "volume": "1066963.46",
+      "volume_fp": "1066963.46",
       "volume_24h": "390303.27",
       "volume_24h_fp": "390303.27",
-      "open_interest": "974132.47",
-      "open_interest_fp": "974132.47",
+      "open_interest": "974680.45",
+      "open_interest_fp": "974680.45",
       "yes_bid": "0.4200",
       "yes_ask": "0.4300",
       "no_bid": "0.5700",
@@ -3335,7 +3327,7 @@
           ],
           [
             "0.4000",
-            "145110.49"
+            "145098.49"
           ],
           [
             "0.3900",
@@ -3349,11 +3341,11 @@
         "noBids": [
           [
             "0.5700",
-            "1118149.70"
+            "1117615.13"
           ],
           [
             "0.5600",
-            "1291972.05"
+            "1291964.05"
           ],
           [
             "0.5500",
@@ -3361,7 +3353,7 @@
           ],
           [
             "0.5400",
-            "32963.21"
+            "41322.21"
           ],
           [
             "0.5300",
@@ -3370,7 +3362,7 @@
         ],
         "yesAsk": {
           "price": "0.4300",
-          "size": "1118149.70"
+          "size": "1117615.13"
         },
         "noAsk": {
           "price": "0.5800",
@@ -3389,12 +3381,12 @@
       "close_time": "2026-11-17T14:30:00Z",
       "expected_expiration_time": "2026-11-15T17:30:00Z",
       "event_ticker": "KXNFLGAME-26NOV15NEDET",
-      "volume": "4165851.79",
-      "volume_fp": "4165851.79",
+      "volume": "4193300.41",
+      "volume_fp": "4193300.41",
       "volume_24h": "3607313.92",
       "volume_24h_fp": "3607313.92",
-      "open_interest": "3952281.33",
-      "open_interest_fp": "3952281.33",
+      "open_interest": "3979256.51",
+      "open_interest_fp": "3979256.51",
       "yes_bid": "0.5600",
       "yes_ask": "0.5700",
       "no_bid": "0.4300",
@@ -3405,54 +3397,54 @@
         "yesBids": [
           [
             "0.5600",
-            "88247.04"
+            "13254.93"
           ],
           [
             "0.5500",
-            "141278.23"
+            "16076.20"
           ],
           [
             "0.5400",
-            "22487.12"
+            "33561.01"
           ],
           [
             "0.5300",
-            "65735.00"
+            "57506.00"
           ],
           [
             "0.5200",
-            "47331.63"
+            "11054.97"
           ]
         ],
         "noBids": [
           [
             "0.4300",
-            "285038.99"
+            "191678.25"
           ],
           [
             "0.4200",
-            "111367.90"
+            "62705.21"
           ],
           [
             "0.4100",
-            "78691.01"
+            "96279.36"
           ],
           [
             "0.4000",
-            "42998.93"
+            "10306.93"
           ],
           [
             "0.3900",
-            "53524.56"
+            "2605.56"
           ]
         ],
         "yesAsk": {
           "price": "0.5700",
-          "size": "285038.99"
+          "size": "191678.25"
         },
         "noAsk": {
           "price": "0.4400",
-          "size": "88247.04"
+          "size": "13254.93"
         },
         "levels": {
           "yes": 56,
@@ -3467,74 +3459,74 @@
       "close_time": "2026-11-17T14:30:00Z",
       "expected_expiration_time": "2026-11-15T17:30:00Z",
       "event_ticker": "KXNFLGAME-26NOV15NEDET",
-      "volume": "1580775.04",
-      "volume_fp": "1580775.04",
+      "volume": "1615358.44",
+      "volume_fp": "1615358.44",
       "volume_24h": "1256177.54",
       "volume_24h_fp": "1256177.54",
-      "open_interest": "1497288.11",
-      "open_interest_fp": "1497288.11",
-      "yes_bid": "0.4200",
-      "yes_ask": "0.4300",
-      "no_bid": "0.5700",
-      "no_ask": "0.5800",
+      "open_interest": "1524042.56",
+      "open_interest_fp": "1524042.56",
+      "yes_bid": "0.4300",
+      "yes_ask": "0.4400",
+      "no_bid": "0.5600",
+      "no_ask": "0.5700",
       "rules_primary": "If New England wins the New England vs Detroit Pro Football game originally scheduled for Nov 15, 2026, then the market resolves to Yes.",
       "rules_secondary": "The following market refers to the team who wins the New England vs Detroit Pro Football game originally scheduled for Nov 15, 2026. If the game ends in a tie, the market will resolve to $0.50 for each team. If the game is postponed but begins within 48 hours from its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is not started within 48 hours, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
       "book": {
         "yesBids": [
           [
+            "0.4300",
+            "86947.47"
+          ],
+          [
             "0.4200",
-            "209109.53"
+            "3073.54"
           ],
           [
             "0.4100",
-            "39759.05"
+            "51550.00"
           ],
           [
             "0.4000",
-            "31816.56"
+            "5988.00"
           ],
           [
             "0.3900",
-            "53434.00"
-          ],
-          [
-            "0.3800",
-            "1381.63"
+            "1354.56"
           ]
         ],
         "noBids": [
           [
-            "0.5700",
-            "8625.15"
-          ],
-          [
             "0.5600",
-            "171132.89"
+            "39315.20"
           ],
           [
             "0.5500",
-            "154310.84"
+            "39665.01"
           ],
           [
             "0.5400",
-            "114442.47"
+            "85054.00"
           ],
           [
             "0.5300",
-            "68847.00"
+            "58606.00"
+          ],
+          [
+            "0.5200",
+            "11015.00"
           ]
         ],
         "yesAsk": {
-          "price": "0.4300",
-          "size": "8625.15"
+          "price": "0.4400",
+          "size": "39315.20"
         },
         "noAsk": {
-          "price": "0.5800",
-          "size": "209109.53"
+          "price": "0.5700",
+          "size": "86947.47"
         },
         "levels": {
-          "yes": 42,
-          "no": 57
+          "yes": 43,
+          "no": 56
         }
       }
     },
@@ -3545,12 +3537,12 @@
       "close_time": "2026-11-17T21:25:00Z",
       "expected_expiration_time": "2026-11-16T00:25:00Z",
       "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "volume": "1369224.31",
-      "volume_fp": "1369224.31",
+      "volume": "1369774.33",
+      "volume_fp": "1369774.33",
       "volume_24h": "545367.61",
       "volume_24h_fp": "545367.61",
-      "open_interest": "1193119.60",
-      "open_interest_fp": "1193119.60",
+      "open_interest": "1193651.88",
+      "open_interest_fp": "1193651.88",
       "yes_bid": "0.6500",
       "yes_ask": "0.6600",
       "no_bid": "0.3400",
@@ -3561,7 +3553,7 @@
         "yesBids": [
           [
             "0.6500",
-            "450424.45"
+            "450415.58"
           ],
           [
             "0.6400",
@@ -3583,15 +3575,15 @@
         "noBids": [
           [
             "0.3400",
-            "3739939.51"
+            "3749010.55"
           ],
           [
             "0.3300",
-            "1515664.87"
+            "1526221.87"
           ],
           [
             "0.3200",
-            "1560533.74"
+            "1549822.74"
           ],
           [
             "0.3100",
@@ -3604,11 +3596,11 @@
         ],
         "yesAsk": {
           "price": "0.6600",
-          "size": "3739939.51"
+          "size": "3749010.55"
         },
         "noAsk": {
           "price": "0.3500",
-          "size": "450424.45"
+          "size": "450415.58"
         },
         "levels": {
           "yes": 58,
@@ -3643,11 +3635,11 @@
           ],
           [
             "0.5600",
-            "17686.99"
+            "17666.99"
           ],
           [
             "0.5500",
-            "45585.49"
+            "45565.49"
           ],
           [
             "0.5400",
@@ -3755,7 +3747,7 @@
           ],
           [
             "0.3900",
-            "49979.57"
+            "49918.57"
           ]
         ],
         "yesAsk": {
@@ -3795,7 +3787,7 @@
         "yesBids": [
           [
             "0.4300",
-            "11734.60"
+            "11757.60"
           ],
           [
             "0.4200",
@@ -3811,7 +3803,7 @@
           ],
           [
             "0.3900",
-            "15261.00"
+            "15236.00"
           ]
         ],
         "noBids": [
@@ -3833,7 +3825,7 @@
           ],
           [
             "0.5200",
-            "37187.00"
+            "37206.00"
           ]
         ],
         "yesAsk": {
@@ -3842,7 +3834,7 @@
         },
         "noAsk": {
           "price": "0.5700",
-          "size": "11734.60"
+          "size": "11757.60"
         },
         "levels": {
           "yes": 36,
@@ -3899,7 +3891,7 @@
           ],
           [
             "0.3800",
-            "43596.18"
+            "43697.37"
           ],
           [
             "0.3700",
@@ -4185,19 +4177,19 @@
           ],
           [
             "0.5800",
-            "438.70"
+            "218.70"
           ],
           [
             "0.5700",
-            "650.21"
+            "594.21"
           ],
           [
             "0.5600",
-            "581.00"
+            "220.00"
           ],
           [
             "0.5500",
-            "393.00"
+            "1261.00"
           ]
         ],
         "noBids": [
@@ -4869,8 +4861,8 @@
       "slug": "btc-up-or-down-5-min-1794753900",
       "title": "BTC Up or Down - 5 Min",
       "status": "FUNDED",
-      "volume": "0",
-      "volumeFormatted": "0.000000",
+      "volume": "1075000",
+      "volumeFormatted": "1.075000",
       "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 14:50 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 14:45 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 14:45 UTC was $64607.502759314300000000.</p>",
       "expirationTimestamp": 1794754200000,
       "expiration": "2026-11-15T14:50:00.000Z",
@@ -8334,7 +8326,7 @@
       "name": "Who will win the 2028 Republican presidential nomination?",
       "shortName": "Republican presidential nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8152/Who-will-win-the-2028-Republican-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 14,
       "status": "Open",
@@ -8542,7 +8534,7 @@
       "name": "Who will win the 2028 Democratic presidential nomination?",
       "shortName": "Democratic presidential nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8153/Who-will-win-the-2028-Democratic-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 17,
       "status": "Open",
@@ -8792,7 +8784,7 @@
       "name": "Who will win the 2028 US presidential election?",
       "shortName": "2028 US presidential election winner?",
       "url": "https://www.predictit.org/markets/detail/8171/Who-will-win-the-2028-US-presidential-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 14,
       "status": "Open",
@@ -9000,7 +8992,7 @@
       "name": "Which party will win the 2028 US presidential election?",
       "shortName": "Which party wins the presidency in 2028?",
       "url": "https://www.predictit.org/markets/detail/8181/Which-party-will-win-the-2028-US-presidential-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -9040,7 +9032,7 @@
       "name": "Which party will win the 2026 election for governor of Kansas?",
       "shortName": "Kansas governor party winner?",
       "url": "https://www.predictit.org/markets/detail/8214/Which-party-will-win-the-2026-election-for-governor-of-Kansas",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -9080,7 +9072,7 @@
       "name": "Who will win the 2026 election for governor of Alaska?",
       "shortName": "Alaska governor winner?",
       "url": "https://www.predictit.org/markets/detail/8245/Who-will-win-the-2026-election-for-governor-of-Alaska",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 8,
       "status": "Open",
@@ -9204,7 +9196,7 @@
       "name": "Who will be the next Supreme Court nominee?",
       "shortName": "Next SCOTUS nominee?",
       "url": "https://www.predictit.org/markets/detail/8246/Who-will-be-the-next-Supreme-Court-nominee",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -9342,7 +9334,7 @@
       "name": "Which party will win the 2026 US Senate election in Alaska?",
       "shortName": "Alaska Senate party winner?",
       "url": "https://www.predictit.org/markets/detail/8271/Which-party-will-win-the-2026-US-Senate-election-in-Alaska",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 3,
       "status": "Open",
@@ -9396,7 +9388,7 @@
       "name": "Will Mike Johnson remain Speaker of the House through the 119th Congress?",
       "shortName": "Johnson remains Speaker through 119th?",
       "url": "https://www.predictit.org/markets/detail/8345/Will-Mike-Johnson-remain-Speaker-of-the-House-through-the-119th-Congress",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9422,7 +9414,7 @@
       "name": "Will Chuck Schumer remain the Democratic Leader through the 119th Congress?",
       "shortName": "Schumer remains leader through 119th?",
       "url": "https://www.predictit.org/markets/detail/8349/Will-Chuck-Schumer-remain-the-Democratic-Leader-through-the-119th-Congress",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9448,7 +9440,7 @@
       "name": "Who will win the 2028 Republican presidential primary in New Hampshire?",
       "shortName": "2028 NH Primary Winner?",
       "url": "https://www.predictit.org/markets/detail/8357/Who-will-win-the-2028-Republican-presidential-primary-in-New-Hampshire",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -9586,7 +9578,7 @@
       "name": "Which office will AOC announce a run for by the end of 2027?",
       "shortName": "AOC runs for POTUS or Senate?",
       "url": "https://www.predictit.org/markets/detail/8363/Which-office-will-AOC-announce-a-run-for-by-the-end-of-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -9626,7 +9618,7 @@
       "name": "Will the House pass any articles of impeachment by the end of 2026?",
       "shortName": "Any impeachment articles before 2027?",
       "url": "https://www.predictit.org/markets/detail/8442/Will-the-House-pass-any-articles-of-impeachment-by-the-end-of-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9652,7 +9644,7 @@
       "name": "Will Trump leave office early?",
       "shortName": "Trump leaves early?",
       "url": "https://www.predictit.org/markets/detail/8457/Will-Trump-leave-office-early",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9678,7 +9670,7 @@
       "name": "When will the House impeach Trump again?",
       "shortName": "When will the House impeach Trump?",
       "url": "https://www.predictit.org/markets/detail/8461/When-will-the-House-impeach-Trump-again",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 6,
       "status": "Open",
@@ -9774,7 +9766,7 @@
       "name": "How many vetoes will Trump issue in 2026?",
       "shortName": "How many Trump vetoes in 2026?",
       "url": "https://www.predictit.org/markets/detail/8479/How-many-vetoes-will-Trump-issue-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 5,
       "status": "Open",
@@ -9856,7 +9848,7 @@
       "name": "Will Congress override a veto in 2026?",
       "shortName": "Veto overridden in 2026?",
       "url": "https://www.predictit.org/markets/detail/8480/Will-Congress-override-a-veto-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9882,7 +9874,7 @@
       "name": "Will Congress confirm a Supreme Court justice in 2026?",
       "shortName": "SCOTUS justice confirmed in 2026?",
       "url": "https://www.predictit.org/markets/detail/8485/Will-Congress-confirm-a-Supreme-Court-justice-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9908,7 +9900,7 @@
       "name": "Will Trump visit Greenland in 2026?",
       "shortName": "Trump visits Greenland?",
       "url": "https://www.predictit.org/markets/detail/8486/Will-Trump-visit-Greenland-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9934,7 +9926,7 @@
       "name": "Will any country announce that it is leaving NATO in 2026?",
       "shortName": "Country leaves NATO in 2026?",
       "url": "https://www.predictit.org/markets/detail/8488/Will-any-country-announce-that-it-is-leaving-NATO-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9960,7 +9952,7 @@
       "name": "Will the US purchase and annex any land in Greenland in 2026?",
       "shortName": "US purchases some of Greenland?",
       "url": "https://www.predictit.org/markets/detail/8491/Will-the-US-purchase-and-annex-any-land-in-Greenland-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -9986,7 +9978,7 @@
       "name": "Will the US purchase Greenland in 2026?",
       "shortName": "US purchases all of Greenland?",
       "url": "https://www.predictit.org/markets/detail/8493/Will-the-US-purchase-Greenland-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10012,7 +10004,7 @@
       "name": "Will Greenland hold an independence referendum in 2026?",
       "shortName": "Greenland holds independence vote?",
       "url": "https://www.predictit.org/markets/detail/8494/Will-Greenland-hold-an-independence-referendum-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10038,7 +10030,7 @@
       "name": "How many tie-breaking Senate votes will JD Vance cast in 2026?",
       "shortName": "Vance tie-breakers in 2026?",
       "url": "https://www.predictit.org/markets/detail/8521/How-many-tie-breaking-Senate-votes-will-JD-Vance-cast-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -10190,7 +10182,7 @@
       "name": "Which of these 10 Asian leaders will leave office next?",
       "shortName": "Next Asian leader out?",
       "url": "https://www.predictit.org/markets/detail/8533/Which-of-these-10-Asian-leaders-will-leave-office-next",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -10342,7 +10334,7 @@
       "name": "Will Stephen Miller leave office in 2026?",
       "shortName": "Stephen Miller out in 2026?",
       "url": "https://www.predictit.org/markets/detail/8540/Will-Stephen-Miller-leave-office-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10368,7 +10360,7 @@
       "name": "Will Trump pardon Elon Musk in 2026?",
       "shortName": "Elon Musk pardon in 2026?",
       "url": "https://www.predictit.org/markets/detail/8549/Will-Trump-pardon-Elon-Musk-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10394,7 +10386,7 @@
       "name": "Will Trump pardon Nicolás Maduro or commute his sentence in 2026?",
       "shortName": "Maduro pardon or commutation in 2026?",
       "url": "https://www.predictit.org/markets/detail/8559/Will-Trump-pardon-Nicolás-Maduro-or-commute-his-sentence-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10420,7 +10412,7 @@
       "name": "Will Jon Ossoff announce a run for President before 2028?",
       "shortName": "Ossoff announces for president by 2028?",
       "url": "https://www.predictit.org/markets/detail/8570/Will-Jon-Ossoff-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10446,7 +10438,7 @@
       "name": "Who will replace Christine Lagarde at the European Central Bank?",
       "shortName": "Next ECB president?",
       "url": "https://www.predictit.org/markets/detail/8587/Who-will-replace-Christine-Lagarde-at-the-European-Central-Bank",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 4,
       "status": "Open",
@@ -10514,7 +10506,7 @@
       "name": "Will California pass a wealth tax referendum in 2026?",
       "shortName": "CA passes wealth tax referendum?",
       "url": "https://www.predictit.org/markets/detail/8588/Will-California-pass-a-wealth-tax-referendum-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10540,7 +10532,7 @@
       "name": "Will Prince Andrew testify publicly before Congress in 2026?",
       "shortName": "Prince Andrew congressional testimony?",
       "url": "https://www.predictit.org/markets/detail/8591/Will-Prince-Andrew-testify-publicly-before-Congress-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10566,7 +10558,7 @@
       "name": "Will Stephen A. Smith announce a run for president before 2028?",
       "shortName": "Stephen A. Smith runs for POTUS by 2028?",
       "url": "https://www.predictit.org/markets/detail/8599/Will-Stephen-A-Smith-announce-a-run-for-president-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10592,7 +10584,7 @@
       "name": "Will Rubio and Vance both announce a run for President before 2028?",
       "shortName": "Rubio and Vance both run for president?",
       "url": "https://www.predictit.org/markets/detail/8640/Will-Rubio-and-Vance-both-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10618,7 +10610,7 @@
       "name": "Who will be the Prime Minister of Israel after the 2026 election?",
       "shortName": "Next Israeli prime minister?",
       "url": "https://www.predictit.org/markets/detail/8643/Who-will-be-the-Prime-Minister-of-Israel-after-the-2026-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -10756,7 +10748,7 @@
       "name": "Will Rubio visit Cuba in 2026?",
       "shortName": "Rubio visits Cuba in 2026?",
       "url": "https://www.predictit.org/markets/detail/8648/Will-Rubio-visit-Cuba-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10782,7 +10774,7 @@
       "name": "Which of these Democratic candidates will announce a 2028 POTUS run first?",
       "shortName": "First Dem POTUS announcement?",
       "url": "https://www.predictit.org/markets/detail/8656/Which-of-these-Democratic-candidates-will-announce-a-2028-POTUS-run-first",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -10934,7 +10926,7 @@
       "name": "Will a law restricting sports trades on prediction markets be enacted in 2026?",
       "shortName": "Sports banned on prediction markets?",
       "url": "https://www.predictit.org/markets/detail/8660/Will-a-law-restricting-sports-trades-on-prediction-markets-be-enacted-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10960,7 +10952,7 @@
       "name": "Will Pete Buttigieg announce a run for President before 2028?",
       "shortName": "Buttigieg announces for POTUS by 2028?",
       "url": "https://www.predictit.org/markets/detail/8669/Will-Pete-Buttigieg-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -10986,7 +10978,7 @@
       "name": "Will Tucker Carlson announce a run for President before 2028?",
       "shortName": "Carlson announces for POTUS by 2028?",
       "url": "https://www.predictit.org/markets/detail/8688/Will-Tucker-Carlson-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11012,7 +11004,7 @@
       "name": "Will Pete Hegseth leave office in 2026?",
       "shortName": "Pete Hegseth out in 2026?",
       "url": "https://www.predictit.org/markets/detail/8697/Will-Pete-Hegseth-leave-office-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11038,7 +11030,7 @@
       "name": "Will the US announce in 2026 it is closing a military base in Germany or Spain?",
       "shortName": "US military leaves Germany or Spain?",
       "url": "https://www.predictit.org/markets/detail/8701/Will-the-US-announce-in-2026-it-is-closing-a-military-base-in-Germany-or-Spain",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11064,7 +11056,7 @@
       "name": "Will the Pope excommunicate JD Vance before 2028?",
       "shortName": "Vance gets excommunicated?",
       "url": "https://www.predictit.org/markets/detail/8705/Will-the-Pope-excommunicate-JD-Vance-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11090,7 +11082,7 @@
       "name": "Will Trump meet with Pope Leo in 2026?",
       "shortName": "Trump meets Pope Leo in 2026?",
       "url": "https://www.predictit.org/markets/detail/8707/Will-Trump-meet-with-Pope-Leo-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11116,7 +11108,7 @@
       "name": "Will the Ninth Circuit allow Kalshi's sports contracts in 2026?",
       "shortName": "Kalshi wins at Ninth Circuit?",
       "url": "https://www.predictit.org/markets/detail/8720/Will-the-Ninth-Circuit-allow-Kalshi's-sports-contracts-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11142,7 +11134,7 @@
       "name": "Who will win the next French presidential election?",
       "shortName": "Next French president?",
       "url": "https://www.predictit.org/markets/detail/8766/Who-will-win-the-next-French-presidential-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -11280,7 +11272,7 @@
       "name": "Will any additional country announce that it is leaving OPEC in 2026?",
       "shortName": "Another OPEC departure in 2026?",
       "url": "https://www.predictit.org/markets/detail/8767/Will-any-additional-country-announce-that-it-is-leaving-OPEC-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11306,7 +11298,7 @@
       "name": "Will the National Popular Vote Interstate Compact go into effect by July 2028?",
       "shortName": "Nat. Popular Vote Compact by July 2028?",
       "url": "https://www.predictit.org/markets/detail/8784/Will-the-National-Popular-Vote-Interstate-Compact-go-into-effect-by-July-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11332,7 +11324,7 @@
       "name": "Will the House pass an anti-gerrymandering bill by the end of 2027?",
       "shortName": "House gerrymandering bill by end 2027?",
       "url": "https://www.predictit.org/markets/detail/8795/Will-the-House-pass-an-anti-gerrymandering-bill-by-the-end-of-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11358,7 +11350,7 @@
       "name": "Who will win the 2028 Democratic vice presidential nomination?",
       "shortName": "Democratic VP nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8799/Who-will-win-the-2028-Democratic-vice-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -11510,7 +11502,7 @@
       "name": "Who will win the 2028 Republican vice presidential nomination?",
       "shortName": "Republican VP nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8800/Who-will-win-the-2028-Republican-vice-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 8,
       "status": "Open",
@@ -11634,7 +11626,7 @@
       "name": "Will crypto regulation (Clarity Act) be enacted in 2026?",
       "shortName": "Crypto regulation in 2026?",
       "url": "https://www.predictit.org/markets/detail/8804/Will-crypto-regulation-(Clarity-Act)-be-enacted-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11660,7 +11652,7 @@
       "name": "Will Trump's Anti-Weaponization Fund begin payouts this year?",
       "shortName": "Anti-Weaponization payouts this year?",
       "url": "https://www.predictit.org/markets/detail/8818/Will-Trump's-Anti-Weaponization-Fund-begin-payouts-this-year",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11686,7 +11678,7 @@
       "name": "Will data center legislation (GRID Act) be enacted in 2026?",
       "shortName": "Data center restrictions in 2026?",
       "url": "https://www.predictit.org/markets/detail/8820/Will-data-center-legislation-(GRID-Act)-be-enacted-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11712,7 +11704,7 @@
       "name": "Will Cuba's leader leave office by year-end?",
       "shortName": "Cuba leader out by Dec. 31?",
       "url": "https://www.predictit.org/markets/detail/8838/Will-Cuba's-leader-leave-office-by-year-end",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -11738,7 +11730,7 @@
       "name": "Who will be elected Greater Manchester mayor in 2026?",
       "shortName": "Manchester mayoral election winner?",
       "url": "https://www.predictit.org/markets/detail/8846/Who-will-be-elected-Greater-Manchester-mayor-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 4,
       "status": "Open",
@@ -11806,7 +11798,7 @@
       "name": "Who will be the next Cabinet member to leave office?",
       "shortName": "Next Cabinet member to leave?",
       "url": "https://www.predictit.org/markets/detail/8850/Who-will-be-the-next-Cabinet-member-to-leave-office",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 18,
       "status": "Open",
@@ -12070,7 +12062,7 @@
       "name": "Will the Pope visit Cuba in 2026?",
       "shortName": "Pope visits Cuba in 2026?",
       "url": "https://www.predictit.org/markets/detail/8853/Will-the-Pope-visit-Cuba-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12096,7 +12088,7 @@
       "name": "What will be the national vote margin in the 2026 House midterms?",
       "shortName": "House midterms national MOV?",
       "url": "https://www.predictit.org/markets/detail/8856/What-will-be-the-national-vote-margin-in-the-2026-House-midterms",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 8,
       "status": "Open",
@@ -12220,7 +12212,7 @@
       "name": "Will any US federal judge be impeached in 2026?",
       "shortName": "Will a judge be impeached in 2026?",
       "url": "https://www.predictit.org/markets/detail/8870/Will-any-US-federal-judge-be-impeached-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12246,7 +12238,7 @@
       "name": "Will the Senate eliminate the legislative filibuster in 2026?",
       "shortName": "Filibuster eliminated in 2026?",
       "url": "https://www.predictit.org/markets/detail/8874/Will-the-Senate-eliminate-the-legislative-filibuster-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12272,7 +12264,7 @@
       "name": "Will there be another Senate vacancy in 2026?",
       "shortName": "Another Senate vacancy in 2026?",
       "url": "https://www.predictit.org/markets/detail/8877/Will-there-be-another-Senate-vacancy-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12298,7 +12290,7 @@
       "name": "Will both Raphael Warnock and Jon Ossoff remain US senators through year-end?",
       "shortName": "Warnock and Ossoff in office thru 12/31?",
       "url": "https://www.predictit.org/markets/detail/8879/Will-both-Raphael-Warnock-and-Jon-Ossoff-remain-US-senators-through-year-end",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12324,7 +12316,7 @@
       "name": "Will permanent daylight saving time be enacted in 2026?",
       "shortName": "Permanent daylight saving by Dec. 31?",
       "url": "https://www.predictit.org/markets/detail/8881/Will-permanent-daylight-saving-time-be-enacted-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12350,7 +12342,7 @@
       "name": "Which of these 10 European leaders will leave office next?",
       "shortName": "Next European leader out?",
       "url": "https://www.predictit.org/markets/detail/8890/Which-of-these-10-European-leaders-will-leave-office-next",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -12502,7 +12494,7 @@
       "name": "Who will be selected the next Secretary-General of the United Nations?",
       "shortName": "Next Secretary-General of the UN?",
       "url": "https://www.predictit.org/markets/detail/8899/Who-will-be-selected-the-next-Secretary-General-of-the-United-Nations",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 5,
       "status": "Open",
@@ -12584,7 +12576,7 @@
       "name": "Will the House censure or reprimand Chuck Edwards in 2026?",
       "shortName": "House censures Chuck Edwards in 2026?",
       "url": "https://www.predictit.org/markets/detail/8908/Will-the-House-censure-or-reprimand-Chuck-Edwards-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12610,7 +12602,7 @@
       "name": "Will a woman be elected US president in 2028?",
       "shortName": "Woman president elected in 2028?",
       "url": "https://www.predictit.org/markets/detail/8911/Will-a-woman-be-elected-US-president-in-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12636,7 +12628,7 @@
       "name": "Will a woman be elected US vice president in 2028?",
       "shortName": "Woman VP elected in 2028?",
       "url": "https://www.predictit.org/markets/detail/8912/Will-a-woman-be-elected-US-vice-president-in-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12662,7 +12654,7 @@
       "name": "Will a woman win the 2028 Democratic presidential nomination?",
       "shortName": "Female Dem presidential nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8914/Will-a-woman-win-the-2028-Democratic-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12688,7 +12680,7 @@
       "name": "Will a woman win the 2028 Republican vice presidential nomination?",
       "shortName": "Female GOP VP nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8915/Will-a-woman-win-the-2028-Republican-vice-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12714,7 +12706,7 @@
       "name": "Will a woman win the 2028 Democratic vice presidential nomination?",
       "shortName": "Female Dem VP nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8916/Will-a-woman-win-the-2028-Democratic-vice-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12740,7 +12732,7 @@
       "name": "Will a woman win the 2028 Republican presidential nomination?",
       "shortName": "Female GOP presidential nominee in 2028?",
       "url": "https://www.predictit.org/markets/detail/8918/Will-a-woman-win-the-2028-Republican-presidential-nomination",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12766,7 +12758,7 @@
       "name": "Will Katie Wilson resign as Seattle mayor in 2026?",
       "shortName": "Katie Wilson out in 2026?",
       "url": "https://www.predictit.org/markets/detail/8922/Will-Katie-Wilson-resign-as-Seattle-mayor-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12792,7 +12784,7 @@
       "name": "Will Mitch McConnell resign in 2026?",
       "shortName": "McConnell resigns in 2026?",
       "url": "https://www.predictit.org/markets/detail/8926/Will-Mitch-McConnell-resign-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12818,7 +12810,7 @@
       "name": "Which 2026 Senate race will be the closest?",
       "shortName": "Closest Senate race in 2026?",
       "url": "https://www.predictit.org/markets/detail/8939/Which-2026-Senate-race-will-be-the-closest",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -12886,7 +12878,7 @@
           "status": "Open",
           "dateEnd": "NA",
           "displayOrder": 0,
-          "lastTradePrice": 0.13,
+          "lastTradePrice": 0.14,
           "bestBuyYesCost": 0.18,
           "bestBuyNoCost": 0.86,
           "bestSellYesCost": 0.14,
@@ -12956,7 +12948,7 @@
       "name": "Will Canada expel the US ambassador in 2026?",
       "shortName": "Canada expels US ambassador in 2026?",
       "url": "https://www.predictit.org/markets/detail/8940/Will-Canada-expel-the-US-ambassador-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -12982,7 +12974,7 @@
       "name": "Will Heidi Overton be confirmed as FDA Commissioner in 2026?",
       "shortName": "Overton confirmed for FDA in 2026?",
       "url": "https://www.predictit.org/markets/detail/8943/Will-Heidi-Overton-be-confirmed-as-FDA-Commissioner-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13008,7 +13000,7 @@
       "name": "How many articles of impeachment of Trump will the House pass in 2027?",
       "shortName": "How many impeachment articles in 2027?",
       "url": "https://www.predictit.org/markets/detail/8952/How-many-articles-of-impeachment-of-Trump-will-the-House-pass-in-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 6,
       "status": "Open",
@@ -13104,7 +13096,7 @@
       "name": "Which 2026 race will be the tipping point for Senate control?",
       "shortName": "Senate tipping point state in 2026?",
       "url": "https://www.predictit.org/markets/detail/8955/Which-2026-race-will-be-the-tipping-point-for-Senate-control",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 5,
       "status": "Open",
@@ -13186,7 +13178,7 @@
       "name": "Will Supreme Court grant certiorari in a sports prediction market case in 2026?",
       "shortName": "SCOTUS takes up sports markets in 2026?",
       "url": "https://www.predictit.org/markets/detail/8957/Will-Supreme-Court-grant-certiorari-in-a-sports-prediction-market-case-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13212,7 +13204,7 @@
       "name": "Will Fetterman leave the Democratic Party by June 30?",
       "shortName": "Fetterman leaves Dems by June 30?",
       "url": "https://www.predictit.org/markets/detail/8964/Will-Fetterman-leave-the-Democratic-Party-by-June-30",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13238,7 +13230,7 @@
       "name": "Will the House pass the AI Kill Switch bill in 2026?",
       "shortName": "House passes AI Kill Switch in 2026?",
       "url": "https://www.predictit.org/markets/detail/8966/Will-the-House-pass-the-AI-Kill-Switch-bill-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13264,7 +13256,7 @@
       "name": "Who will be the next Senate-confirmed Army Secretary?",
       "shortName": "Next confirmed Army Secretary?",
       "url": "https://www.predictit.org/markets/detail/8970/Who-will-be-the-next-Senate-confirmed-Army-Secretary",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 5,
       "status": "Open",
@@ -13346,7 +13338,7 @@
       "name": "Which party will win the 2026 US House race in Michigan's 10th District?",
       "shortName": "MI-10 House race winner?",
       "url": "https://www.predictit.org/markets/detail/8981/Which-party-will-win-the-2026-US-House-race-in-Michigan's-10th-District",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -13386,7 +13378,7 @@
       "name": "Will Canada become an EU Associate Member by year-end 2027?",
       "shortName": "Canada EU Associate Member by 12/31/27?",
       "url": "https://www.predictit.org/markets/detail/8983/Will-Canada-become-an-EU-Associate-Member-by-year-end-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13412,7 +13404,7 @@
       "name": "Will the Protect College Sports Act be enacted in 2026?",
       "shortName": "Protect College Sports enacted in 2026?",
       "url": "https://www.predictit.org/markets/detail/8985/Will-the-Protect-College-Sports-Act-be-enacted-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13438,7 +13430,7 @@
       "name": "Will Senate Judiciary Committee vote to subpoena Donald Trump, Jr. in 2026?",
       "shortName": "Judiciary Cmte subpoena Don Jr. in 2026?",
       "url": "https://www.predictit.org/markets/detail/8989/Will-Senate-Judiciary-Committee-vote-to-subpoena-Donald-Trump,-Jr-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13464,7 +13456,7 @@
       "name": "What will be the margin of victory in the 2026 Texas Senate race?",
       "shortName": "Texas Senate race MOV?",
       "url": "https://www.predictit.org/markets/detail/9022/What-will-be-the-margin-of-victory-in-the-2026-Texas-Senate-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -13602,7 +13594,7 @@
       "name": "What will be the margin of victory in the 2026 Michigan Senate race?",
       "shortName": "Michigan Senate race MOV?",
       "url": "https://www.predictit.org/markets/detail/9024/What-will-be-the-margin-of-victory-in-the-2026-Michigan-Senate-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -13740,7 +13732,7 @@
       "name": "Larger margin of victory: Texas Senate or Maine Senate?",
       "shortName": "Larger MOV: Texas or Maine Senate?",
       "url": "https://www.predictit.org/markets/detail/9025/Larger-margin-of-victory--Texas-Senate-or-Maine-Senate",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -13780,7 +13772,7 @@
       "name": "Will James Talarico outperform the polls?",
       "shortName": "Will Talarico outperform the polls?",
       "url": "https://www.predictit.org/markets/detail/9027/Will-James-Talarico-outperform-the-polls",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -13806,7 +13798,7 @@
       "name": "Who will be the next White House press secretary?",
       "shortName": "Next WH press secretary?",
       "url": "https://www.predictit.org/markets/detail/9029/Who-will-be-the-next-White-House-press-secretary",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 12,
       "status": "Open",
@@ -13986,7 +13978,7 @@
       "name": "Will Alaska elect a Senator and Governor from different parties?",
       "shortName": "AK: Senate & Gov from different parties?",
       "url": "https://www.predictit.org/markets/detail/9033/Will-Alaska-elect-a-Senator-and-Governor-from-different-parties",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -14012,7 +14004,7 @@
       "name": "What will be the margin of victory in the 2026 Maine Senate race?",
       "shortName": "Maine Senate race MOV?",
       "url": "https://www.predictit.org/markets/detail/9034/What-will-be-the-margin-of-victory-in-the-2026-Maine-Senate-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -14164,7 +14156,7 @@
       "name": "Larger margin of victory: Texas Senate or Texas Governor?",
       "shortName": "Larger MOV: Texas Senate or Governor?",
       "url": "https://www.predictit.org/markets/detail/9035/Larger-margin-of-victory--Texas-Senate-or-Texas-Governor",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -14204,7 +14196,7 @@
       "name": "Larger margin of victory: Georgia Governor or Nevada Governor?",
       "shortName": "Larger MOV: Georgia or Nevada Governor?",
       "url": "https://www.predictit.org/markets/detail/9036/Larger-margin-of-victory--Georgia-Governor-or-Nevada-Governor",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -14244,7 +14236,7 @@
       "name": "How many Senate races will be won by less than 1%?",
       "shortName": "How many Senate MOVs less than 1%?",
       "url": "https://www.predictit.org/markets/detail/9037/How-many-Senate-races-will-be-won-by-less-than-1",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 7,
       "status": "Open",
@@ -14354,7 +14346,7 @@
       "name": "What will be the margin in the Los Angeles mayoral general election?",
       "shortName": "LA mayor margin of victory?",
       "url": "https://www.predictit.org/markets/detail/9039/What-will-be-the-margin-in-the-Los-Angeles-mayoral-general-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -14506,7 +14498,7 @@
       "name": "What will be the margin of victory in the 2026 Ohio Governor race?",
       "shortName": "Ohio governor race MOV?",
       "url": "https://www.predictit.org/markets/detail/9040/What-will-be-the-margin-of-victory-in-the-2026-Ohio-Governor-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 8,
       "status": "Open",
@@ -14630,7 +14622,7 @@
       "name": "Will House Democrats outperform the polls?",
       "shortName": "Will Democrats outperform the polls?",
       "url": "https://www.predictit.org/markets/detail/9041/Will-House-Democrats-outperform-the-polls",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -14656,7 +14648,7 @@
       "name": "How many votes in the 2026 U.S. House elections?",
       "shortName": "2026 U.S. House turnout",
       "url": "https://www.predictit.org/markets/detail/9042/How-many-votes-in-the-2026-US-House-elections",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -14794,7 +14786,7 @@
       "name": "Will Talarico or Paxton win Denton County?",
       "shortName": "Denton County Vote Winner?",
       "url": "https://www.predictit.org/markets/detail/9043/Will-Talarico-or-Paxton-win-Denton-County",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -14834,7 +14826,7 @@
       "name": "How many Senate seats will Democrats control after the 2026 midterms?",
       "shortName": "Dem Senate seats after 2026 midterms?",
       "url": "https://www.predictit.org/markets/detail/9046/How-many-Senate-seats-will-Democrats-control-after-the-2026-midterms",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -14986,7 +14978,7 @@
       "name": "Who will win the 2026 Spain snap election?",
       "shortName": "2026 Spanish snap election winner?",
       "url": "https://www.predictit.org/markets/detail/9047/Who-will-win-the-2026-Spain-snap-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 6,
       "status": "Open",
@@ -15082,7 +15074,7 @@
       "name": "Larger margin of victory: Ohio Senate or Ohio Governor?",
       "shortName": "Larger MOV: Ohio Senate or Governor?",
       "url": "https://www.predictit.org/markets/detail/9051/Larger-margin-of-victory--Ohio-Senate-or-Ohio-Governor",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -15122,7 +15114,7 @@
       "name": "Who will win the 2026 Bulgarian presidential election?",
       "shortName": "Bulgaria presidential election winner?",
       "url": "https://www.predictit.org/markets/detail/9054/Who-will-win-the-2026-Bulgarian-presidential-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -15162,7 +15154,7 @@
       "name": "What will be the margin of victory in the 2026 Florida Governor race?",
       "shortName": "Florida governor race MOV?",
       "url": "https://www.predictit.org/markets/detail/9058/What-will-be-the-margin-of-victory-in-the-2026-Florida-Governor-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 8,
       "status": "Open",
@@ -15286,7 +15278,7 @@
       "name": "Will there be a Supreme Court vacancy in 2026?",
       "shortName": "SCOTUS vacancy in 2026?",
       "url": "https://www.predictit.org/markets/detail/9060/Will-there-be-a-Supreme-Court-vacancy-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -15312,7 +15304,7 @@
       "name": "What will be the margin of victory in the 2026 South Carolina Senate race?",
       "shortName": "South Carolina Senate race MOV?",
       "url": "https://www.predictit.org/markets/detail/9061/What-will-be-the-margin-of-victory-in-the-2026-South-Carolina-Senate-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 8,
       "status": "Open",
@@ -15436,7 +15428,7 @@
       "name": "What will be the margin of victory in the 2026 Kansas Senate race?",
       "shortName": "Kansas senate race MOV?",
       "url": "https://www.predictit.org/markets/detail/9062/What-will-be-the-margin-of-victory-in-the-2026-Kansas-Senate-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -15574,7 +15566,7 @@
       "name": "What will be the early vote turnout margin in Florida in 2026?",
       "shortName": "Florida early vote party margin?",
       "url": "https://www.predictit.org/markets/detail/9066/What-will-be-the-early-vote-turnout-margin-in-Florida-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -15712,7 +15704,7 @@
       "name": "Will Susan Collins outperform the polls?",
       "shortName": "Will Collins outperform the polls?",
       "url": "https://www.predictit.org/markets/detail/9067/Will-Susan-Collins-outperform-the-polls",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -15738,7 +15730,7 @@
       "name": "Will Haley Stevens leave the Democratic Party by Dec 31?",
       "shortName": "Stevens leaves Dems by Dec 31?",
       "url": "https://www.predictit.org/markets/detail/9070/Will-Haley-Stevens-leave-the-Democratic-Party-by-Dec-31",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -15764,7 +15756,7 @@
       "name": "Which 2026 Governor race will be the closest?",
       "shortName": "Closest Governor race in 2026?",
       "url": "https://www.predictit.org/markets/detail/9074/Which-2026-Governor-race-will-be-the-closest",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -15916,7 +15908,7 @@
       "name": "Which party will win the 2026 US House race in North Carolina's 3rd District?",
       "shortName": "NC-03 House race winner?",
       "url": "https://www.predictit.org/markets/detail/9079/Which-party-will-win-the-2026-US-House-race-in-North-Carolina's-3rd-District",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -15956,7 +15948,7 @@
       "name": "Which party will win the 2026 US House race in California's 23rd District?",
       "shortName": "CA-23 House race winner?",
       "url": "https://www.predictit.org/markets/detail/9081/Which-party-will-win-the-2026-US-House-race-in-California's-23rd-District",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -15996,7 +15988,7 @@
       "name": "Will there be a Supreme Court vacancy in 2027?",
       "shortName": "SCOTUS vacancy in 2027?",
       "url": "https://www.predictit.org/markets/detail/9085/Will-there-be-a-Supreme-Court-vacancy-in-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -16022,7 +16014,7 @@
       "name": "Will Congress confirm a new Supreme Court justice in 2027?",
       "shortName": "SCOTUS justice confirmed in 2027?",
       "url": "https://www.predictit.org/markets/detail/9086/Will-Congress-confirm-a-new-Supreme-Court-justice-in-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -16048,7 +16040,7 @@
       "name": "Will Pete Hegseth leave office in 2027?",
       "shortName": "Pete Hegseth out in 2027?",
       "url": "https://www.predictit.org/markets/detail/9088/Will-Pete-Hegseth-leave-office-in-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -16074,7 +16066,7 @@
       "name": "Will Marco Rubio leave office in 2026?",
       "shortName": "Marco Rubio out in 2026?",
       "url": "https://www.predictit.org/markets/detail/9089/Will-Marco-Rubio-leave-office-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -16100,7 +16092,7 @@
       "name": "Who will be the next Speaker of the House?",
       "shortName": "First Speaker in the next Congress?",
       "url": "https://www.predictit.org/markets/detail/9090/Who-will-be-the-next-Speaker-of-the-House",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 5,
       "status": "Open",
@@ -16182,7 +16174,7 @@
       "name": "How many House seats will Democrats win in the 2026 midterm election? (higher)",
       "shortName": "Democratic House Seats won in midterms?",
       "url": "https://www.predictit.org/markets/detail/9091/How-many-House-seats-will-Democrats-win-in-the-2026-midterm-election-(higher)",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 6,
       "status": "Open",
@@ -16278,7 +16270,7 @@
       "name": "Who will be the next House Minority Leader?",
       "shortName": "House Minority Leader in next Congress?",
       "url": "https://www.predictit.org/markets/detail/9092/Who-will-be-the-next-House-Minority-Leader",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 4,
       "status": "Open",
@@ -16346,7 +16338,7 @@
       "name": "Will Pete Hegseth be impeached in 2026?",
       "shortName": "Will Pete Hegseth be impeached in 2026?",
       "url": "https://www.predictit.org/markets/detail/9093/Will-Pete-Hegseth-be-impeached-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -16372,7 +16364,7 @@
       "name": "Which party will win the US House in 2028?",
       "shortName": "2028 US House winner?",
       "url": "https://www.predictit.org/markets/detail/9094/Which-party-will-win-the-US-House-in-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16412,7 +16404,7 @@
       "name": "Which party will control the US Senate after 2028?",
       "shortName": "2028 U.S. Senate winner?",
       "url": "https://www.predictit.org/markets/detail/9095/Which-party-will-control-the-US-Senate-after-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16452,7 +16444,7 @@
       "name": "Will Peltola win an outright majority in the Alaska Senate race?",
       "shortName": "Peltola 1st round majority in Alaska?",
       "url": "https://www.predictit.org/markets/detail/9096/Will-Peltola-win-an-outright-majority-in-the-Alaska-Senate-race",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -16478,7 +16470,7 @@
       "name": "Which party will win the 2027 Kentucky governor election?",
       "shortName": "Kentucky governor party winner?",
       "url": "https://www.predictit.org/markets/detail/9098/Which-party-will-win-the-2027-Kentucky-governor-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16518,7 +16510,7 @@
       "name": "Which party will win the 2027 Mississippi governor election?",
       "shortName": "Mississippi governor party winner?",
       "url": "https://www.predictit.org/markets/detail/9099/Which-party-will-win-the-2027-Mississippi-governor-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16558,7 +16550,7 @@
       "name": "Which party will win the 2027 Louisiana governor election?",
       "shortName": "Louisiana governor party winner?",
       "url": "https://www.predictit.org/markets/detail/9100/Which-party-will-win-the-2027-Louisiana-governor-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16598,7 +16590,7 @@
       "name": "Which party will win the 2026 US House race in Louisiana's 6th District?",
       "shortName": "LA-06 House race winner?",
       "url": "https://www.predictit.org/markets/detail/9101/Which-party-will-win-the-2026-US-House-race-in-Louisiana's-6th-District",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16638,7 +16630,7 @@
       "name": "Who will win the 2027 Wisconsin Supreme Court election?",
       "shortName": "2027 WI Supreme Court election winner?",
       "url": "https://www.predictit.org/markets/detail/9102/Who-will-win-the-2027-Wisconsin-Supreme-Court-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16678,7 +16670,7 @@
       "name": "Will Stephen Miller leave office before 2028?",
       "shortName": "Stephen Miller out before 2028?",
       "url": "https://www.predictit.org/markets/detail/9103/Will-Stephen-Miller-leave-office-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -16704,7 +16696,7 @@
       "name": "Who will win the 2026 US House race in Alaska?",
       "shortName": "AK-AL House race winner?",
       "url": "https://www.predictit.org/markets/detail/9104/Who-will-win-the-2026-US-House-race-in-Alaska",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16744,7 +16736,7 @@
       "name": "2027 Governor races: how many of LA, KY, MS will Democrats win?",
       "shortName": "2027 Dem governor races won?",
       "url": "https://www.predictit.org/markets/detail/9105/2027-Governor-races--how-many-of-LA,-KY,-MS-will-Democrats-win",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 4,
       "status": "Open",
@@ -16812,7 +16804,7 @@
       "name": "Who will be the Prime Minister of New Zealand after the 2026 election?",
       "shortName": "Next New Zealand prime minister?",
       "url": "https://www.predictit.org/markets/detail/9106/Who-will-be-the-Prime-Minister-of-New-Zealand-after-the-2026-election",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -16852,7 +16844,7 @@
       "name": "Who will be the next Senate Majority Leader?",
       "shortName": "Senate Majority Leader in next Congress?",
       "url": "https://www.predictit.org/markets/detail/9107/Who-will-be-the-next-Senate-Majority-Leader",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 3,
       "status": "Open",
@@ -16906,7 +16898,7 @@
       "name": "Who will be the next Senate Minority Leader?",
       "shortName": "Senate Minority Leader in next Congress?",
       "url": "https://www.predictit.org/markets/detail/9108/Who-will-be-the-next-Senate-Minority-Leader",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 4,
       "status": "Open",
@@ -16974,7 +16966,7 @@
       "name": "Will the government shut down by Dec.12?",
       "shortName": "Government shutdown by Dec. 12?",
       "url": "https://www.predictit.org/markets/detail/9109/Will-the-government-shut-down-by-Dec12",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -17000,7 +16992,7 @@
       "name": "2026 Louisiana's 5th District US House race winner?",
       "shortName": "LA-05 House race winner?",
       "url": "https://www.predictit.org/markets/detail/9110/2026-Louisiana's-5th-District-US-House-race-winner",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 2,
       "status": "Open",
@@ -17040,7 +17032,7 @@
       "name": "Will Jensen Huang testify publicly before Congress before 2028?",
       "shortName": "Jensen Huang congressional testimony?",
       "url": "https://www.predictit.org/markets/detail/9111/Will-Jensen-Huang-testify-publicly-before-Congress-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -17066,7 +17058,7 @@
       "name": "Who will be elected Chicago mayor in 2027?",
       "shortName": "Chicago mayoral election winner?",
       "url": "https://www.predictit.org/markets/detail/9112/Who-will-be-elected-Chicago-mayor-in-2027",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -17218,7 +17210,7 @@
       "name": "What will President Trump's RCP job approval rating be on Nov. 18?",
       "shortName": "Trump's RCP approval on Nov. 18?",
       "url": "https://www.predictit.org/markets/detail/9113/What-will-President-Trump's-RCP-job-approval-rating-be-on-Nov-18",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -17356,7 +17348,7 @@
       "name": "2027 Chicago mayoral election first round winner?",
       "shortName": "Chicago mayor first round winner?",
       "url": "https://www.predictit.org/markets/detail/9114/2027-Chicago-mayoral-election-first-round-winner",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 10,
       "status": "Open",
@@ -17508,7 +17500,7 @@
       "name": "Will Howard Lutnick leave office in 2026?",
       "shortName": "Howard Lutnick out in 2026?",
       "url": "https://www.predictit.org/markets/detail/9115/Will-Howard-Lutnick-leave-office-in-2026",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -17534,7 +17526,7 @@
       "name": "Will Howard Lutnick leave office before 2028?",
       "shortName": "Howard Lutnick out before 2028?",
       "url": "https://www.predictit.org/markets/detail/9116/Will-Howard-Lutnick-leave-office-before-2028",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 1,
       "status": "Open",
@@ -17560,7 +17552,7 @@
       "name": "Trump's DDHQ job approval rating on Nov. 20?",
       "shortName": "Trump's DDHQ job approval on Nov. 20?",
       "url": "https://www.predictit.org/markets/detail/9117/Trump's-DDHQ-job-approval-rating-on-Nov-20",
-      "timeStamp": "2026-11-15T09:47:01.5937236",
+      "timeStamp": "2026-11-15T09:48:01.9844181",
       "timeStampZone": "America/New_York",
       "contractsTotal": 9,
       "status": "Open",
@@ -17742,10 +17734,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 521106,
+      "volume24hUsd": 521690,
       "markPxYes": "0.74681",
       "markPxNo": "0.25319",
-      "circulatingSupplyYes": "44595.0"
+      "circulatingSupplyYes": "44677.0"
     },
     {
       "outcome": 1474,
@@ -17924,7 +17916,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 289134,
+      "volume24hUsd": 289642,
       "markPxYes": "0.22137",
       "markPxNo": "0.77863",
       "circulatingSupplyYes": "47188.0"
@@ -18028,7 +18020,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 1130,
+      "volume24hUsd": 1150,
       "markPxYes": "0.053935",
       "markPxNo": "0.946065",
       "circulatingSupplyYes": "44509.0"
@@ -18470,7 +18462,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 23416,
+      "volume24hUsd": 23438,
       "markPxYes": "0.082285",
       "markPxNo": "0.917715",
       "circulatingSupplyYes": "10063.0"
@@ -18600,9 +18592,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 534459,
-      "markPxYes": "0.220475",
-      "markPxNo": "0.779525",
+      "volume24hUsd": 534466,
+      "markPxYes": "0.22047",
+      "markPxNo": "0.77953",
       "circulatingSupplyYes": "19326.0"
     },
     {
@@ -18626,10 +18618,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 409177,
+      "volume24hUsd": 409653,
       "markPxYes": "0.07014",
       "markPxNo": "0.92986",
-      "circulatingSupplyYes": "23853.0"
+      "circulatingSupplyYes": "23746.0"
     },
     {
       "outcome": 11495,
@@ -18679,8 +18671,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 31367,
-      "markPxYes": "0.05699",
-      "markPxNo": "0.94301",
+      "markPxYes": "0.05687",
+      "markPxNo": "0.94313",
       "circulatingSupplyYes": "15303.0"
     },
     {
@@ -19094,10 +19086,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 177749,
-      "markPxYes": "0.06956",
-      "markPxNo": "0.93044",
-      "circulatingSupplyYes": "120967.0"
+      "volume24hUsd": 177928,
+      "markPxYes": "0.072155",
+      "markPxNo": "0.927845",
+      "circulatingSupplyYes": "121108.0"
     },
     {
       "outcome": 22093,
@@ -19329,8 +19321,8 @@
       "venue": "txyz",
       "deployerFeeScale": null,
       "volume24hUsd": 5001,
-      "markPxYes": "0.141335",
-      "markPxNo": "0.858665",
+      "markPxYes": "0.13909",
+      "markPxNo": "0.86091",
       "circulatingSupplyYes": "10994.0"
     },
     {
@@ -19536,10 +19528,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 578451,
-      "markPxYes": "0.567",
-      "markPxNo": "0.433",
-      "circulatingSupplyYes": "33730.0"
+      "volume24hUsd": 578503,
+      "markPxYes": "0.564505",
+      "markPxNo": "0.435495",
+      "circulatingSupplyYes": "33704.0"
     },
     {
       "outcome": 30126,
@@ -19640,7 +19632,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 595980,
+      "volume24hUsd": 596572,
       "markPxYes": "0.332395",
       "markPxNo": "0.667605",
       "circulatingSupplyYes": "15018.0"
@@ -19978,7 +19970,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 528902,
+      "volume24hUsd": 529128,
       "markPxYes": "0.50651",
       "markPxNo": "0.49349",
       "circulatingSupplyYes": "33682.0"
@@ -20004,7 +19996,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 502841,
+      "volume24hUsd": 503345,
       "markPxYes": "0.207935",
       "markPxNo": "0.792065",
       "circulatingSupplyYes": "21913.0"
@@ -20030,10 +20022,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 233089,
+      "volume24hUsd": 233137,
       "markPxYes": "0.3695",
       "markPxNo": "0.6305",
-      "circulatingSupplyYes": "23198.0"
+      "circulatingSupplyYes": "23150.0"
     },
     {
       "outcome": 30153,
@@ -20056,9 +20048,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 437251,
-      "markPxYes": "0.16706",
-      "markPxNo": "0.83294",
+      "volume24hUsd": 437279,
+      "markPxYes": "0.167065",
+      "markPxNo": "0.832935",
       "circulatingSupplyYes": "15362.0"
     },
     {
@@ -20108,7 +20100,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 544296,
+      "volume24hUsd": 544993,
       "markPxYes": "0.28545",
       "markPxNo": "0.71455",
       "circulatingSupplyYes": "24898.0"
@@ -20134,10 +20126,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 503157,
+      "volume24hUsd": 503901,
       "markPxYes": "0.195885",
       "markPxNo": "0.804115",
-      "circulatingSupplyYes": "11146.0"
+      "circulatingSupplyYes": "11111.0"
     },
     {
       "outcome": 30158,
@@ -20187,8 +20179,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 205256,
-      "markPxYes": "0.63925",
-      "markPxNo": "0.36075",
+      "markPxYes": "0.639115",
+      "markPxNo": "0.360885",
       "circulatingSupplyYes": "8909.0"
     },
     {
@@ -20238,10 +20230,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 240131,
-      "markPxYes": "0.71877",
-      "markPxNo": "0.28123",
-      "circulatingSupplyYes": "10564.0"
+      "volume24hUsd": 240203,
+      "markPxYes": "0.72001",
+      "markPxNo": "0.27999",
+      "circulatingSupplyYes": "10588.0"
     },
     {
       "outcome": 30183,
@@ -20264,7 +20256,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 368281,
+      "volume24hUsd": 369319,
       "markPxYes": "0.417125",
       "markPxNo": "0.582875",
       "circulatingSupplyYes": "13594.0"
@@ -20291,8 +20283,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 393519,
-      "markPxYes": "0.49714",
-      "markPxNo": "0.50286",
+      "markPxYes": "0.49724",
+      "markPxNo": "0.50276",
       "circulatingSupplyYes": "10997.0"
     },
     {
@@ -20317,8 +20309,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 85034,
-      "markPxYes": "0.091385",
-      "markPxNo": "0.908615",
+      "markPxYes": "0.091165",
+      "markPxNo": "0.908835",
       "circulatingSupplyYes": "2997.0"
     },
     {
@@ -20342,10 +20334,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 323206,
+      "volume24hUsd": 323216,
       "markPxYes": "0.86007",
       "markPxNo": "0.13993",
-      "circulatingSupplyYes": "12057.0"
+      "circulatingSupplyYes": "12047.0"
     },
     {
       "outcome": 30190,
@@ -20369,8 +20361,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 85892,
-      "markPxYes": "0.3047",
-      "markPxNo": "0.6953",
+      "markPxYes": "0.304695",
+      "markPxNo": "0.695305",
       "circulatingSupplyYes": "33460.0"
     },
     {
@@ -20394,7 +20386,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 413653,
+      "volume24hUsd": 413726,
       "markPxYes": "0.380275",
       "markPxNo": "0.619725",
       "circulatingSupplyYes": "3688.0"
@@ -20421,8 +20413,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.58098",
-      "markPxNo": "0.41902",
+      "markPxYes": "0.57596",
+      "markPxNo": "0.42404",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -20447,8 +20439,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.29254",
-      "markPxNo": "0.70746",
+      "markPxYes": "0.28742",
+      "markPxNo": "0.71258",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -20499,8 +20491,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.56372",
-      "markPxNo": "0.43628",
+      "markPxYes": "0.5689",
+      "markPxNo": "0.4311",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -20525,8 +20517,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 112,
-      "markPxYes": "0.27109",
-      "markPxNo": "0.72891",
+      "markPxYes": "0.27347",
+      "markPxNo": "0.72653",
       "circulatingSupplyYes": "319.0"
     },
     {
@@ -20654,9 +20646,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 356607,
-      "markPxYes": "0.832365",
-      "markPxNo": "0.167635",
+      "volume24hUsd": 356655,
+      "markPxYes": "0.83362",
+      "markPxNo": "0.16638",
       "circulatingSupplyYes": "20653.0"
     },
     {
@@ -20707,8 +20699,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 77682,
-      "markPxYes": "0.059605",
-      "markPxNo": "0.940395",
+      "markPxYes": "0.059585",
+      "markPxNo": "0.940415",
       "circulatingSupplyYes": "13393.0"
     },
     {
@@ -20810,10 +20802,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 303882,
-      "markPxYes": "0.26435",
-      "markPxNo": "0.73565",
-      "circulatingSupplyYes": "10861.0"
+      "volume24hUsd": 304362,
+      "markPxYes": "0.264345",
+      "markPxNo": "0.735655",
+      "circulatingSupplyYes": "10880.0"
     },
     {
       "outcome": 32849,
@@ -20837,8 +20829,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.39085",
-      "markPxNo": "0.60915",
+      "markPxYes": "0.38544",
+      "markPxNo": "0.61456",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -20992,10 +20984,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 268013,
-      "markPxYes": "0.37546",
-      "markPxNo": "0.62454",
-      "circulatingSupplyYes": "8839.0"
+      "volume24hUsd": 268967,
+      "markPxYes": "0.375545",
+      "markPxNo": "0.624455",
+      "circulatingSupplyYes": "8870.0"
     },
     {
       "outcome": 33713,
@@ -21018,7 +21010,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 185457,
+      "volume24hUsd": 186237,
       "markPxYes": "0.24076",
       "markPxNo": "0.75924",
       "circulatingSupplyYes": "5178.0"
@@ -21070,10 +21062,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 313761,
-      "markPxYes": "0.190475",
-      "markPxNo": "0.809525",
-      "circulatingSupplyYes": "7805.0"
+      "volume24hUsd": 314499,
+      "markPxYes": "0.19047",
+      "markPxNo": "0.80953",
+      "circulatingSupplyYes": "7766.0"
     },
     {
       "outcome": 33722,
@@ -21122,10 +21114,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 205280,
+      "volume24hUsd": 205806,
       "markPxYes": "0.42736",
       "markPxNo": "0.57264",
-      "circulatingSupplyYes": "10983.0"
+      "circulatingSupplyYes": "10985.0"
     },
     {
       "outcome": 33724,
@@ -21149,8 +21141,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 77298,
-      "markPxYes": "0.25327",
-      "markPxNo": "0.74673",
+      "markPxYes": "0.253475",
+      "markPxNo": "0.746525",
       "circulatingSupplyYes": "5065.0"
     },
     {
@@ -21175,8 +21167,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 69533,
-      "markPxYes": "0.320395",
-      "markPxNo": "0.679605",
+      "markPxYes": "0.320455",
+      "markPxNo": "0.679545",
       "circulatingSupplyYes": "11341.0"
     },
     {
@@ -21253,8 +21245,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 222,
-      "markPxYes": "0.30797",
-      "markPxNo": "0.69203",
+      "markPxYes": "0.2861",
+      "markPxNo": "0.7139",
       "circulatingSupplyYes": "222.0"
     },
     {
@@ -21746,9 +21738,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 108450,
-      "markPxYes": "0.65025",
-      "markPxNo": "0.34975",
+      "volume24hUsd": 108738,
+      "markPxYes": "0.650295",
+      "markPxNo": "0.349705",
       "circulatingSupplyYes": "3873.0"
     },
     {
@@ -21773,8 +21765,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 53109,
-      "markPxYes": "0.21317",
-      "markPxNo": "0.78683",
+      "markPxYes": "0.21309",
+      "markPxNo": "0.78691",
       "circulatingSupplyYes": "2170.0"
     },
     {
@@ -21850,10 +21842,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 245916,
-      "markPxYes": "0.50987",
-      "markPxNo": "0.49013",
-      "circulatingSupplyYes": "5990.0"
+      "volume24hUsd": 246324,
+      "markPxYes": "0.50993",
+      "markPxNo": "0.49007",
+      "circulatingSupplyYes": "6058.0"
     },
     {
       "outcome": 34475,
@@ -21877,8 +21869,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 67825,
-      "markPxYes": "0.22475",
-      "markPxNo": "0.77525",
+      "markPxYes": "0.22482",
+      "markPxNo": "0.77518",
       "circulatingSupplyYes": "4069.0"
     },
     {
@@ -21903,8 +21895,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 82505,
-      "markPxYes": "0.26431",
-      "markPxNo": "0.73569",
+      "markPxYes": "0.26414",
+      "markPxNo": "0.73586",
       "circulatingSupplyYes": "4152.0"
     },
     {
@@ -21981,8 +21973,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 57033,
-      "markPxYes": "0.19226",
-      "markPxNo": "0.80774",
+      "markPxYes": "0.192265",
+      "markPxNo": "0.807735",
       "circulatingSupplyYes": "3559.0"
     },
     {
@@ -22188,10 +22180,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 47234,
-      "markPxYes": "0.2541",
-      "markPxNo": "0.7459",
-      "circulatingSupplyYes": "2907.0"
+      "volume24hUsd": 47246,
+      "markPxYes": "0.25414",
+      "markPxNo": "0.74586",
+      "circulatingSupplyYes": "2901.0"
     },
     {
       "outcome": 34489,
@@ -22292,10 +22284,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 167153,
-      "markPxYes": "0.746",
-      "markPxNo": "0.254",
-      "circulatingSupplyYes": "2776.0"
+      "volume24hUsd": 167905,
+      "markPxYes": "0.74582",
+      "markPxNo": "0.25418",
+      "circulatingSupplyYes": "2834.0"
     },
     {
       "outcome": 34495,
@@ -22318,7 +22310,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 142351,
+      "volume24hUsd": 142493,
       "markPxYes": "0.32441",
       "markPxNo": "0.67559",
       "circulatingSupplyYes": "1538.0"
@@ -22423,8 +22415,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.50412",
-      "markPxNo": "0.49588",
+      "markPxYes": "0.50157",
+      "markPxNo": "0.49843",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -22553,8 +22545,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.28015",
-      "markPxNo": "0.71985",
+      "markPxYes": "0.28359",
+      "markPxNo": "0.71641",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -22683,8 +22675,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 212890,
-      "markPxYes": "0.678415",
-      "markPxNo": "0.321585",
+      "markPxYes": "0.678405",
+      "markPxNo": "0.321595",
       "circulatingSupplyYes": "7127.0"
     },
     {
@@ -22761,8 +22753,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 61503,
-      "markPxYes": "0.25391",
-      "markPxNo": "0.74609",
+      "markPxYes": "0.25395",
+      "markPxNo": "0.74605",
       "circulatingSupplyYes": "2544.0"
     },
     {
@@ -22787,8 +22779,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 75543,
-      "markPxYes": "0.23994",
-      "markPxNo": "0.76006",
+      "markPxYes": "0.2399",
+      "markPxNo": "0.7601",
       "circulatingSupplyYes": "2875.0"
     },
     {
@@ -22865,8 +22857,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 67855,
-      "markPxYes": "0.24178",
-      "markPxNo": "0.75822",
+      "markPxYes": "0.24174",
+      "markPxNo": "0.75826",
       "circulatingSupplyYes": "6080.0"
     },
     {
@@ -22891,8 +22883,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 224807,
-      "markPxYes": "0.36077",
-      "markPxNo": "0.63923",
+      "markPxYes": "0.360755",
+      "markPxNo": "0.639245",
       "circulatingSupplyYes": "9194.0"
     },
     {
@@ -22943,8 +22935,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 100206,
-      "markPxYes": "0.42175",
-      "markPxNo": "0.57825",
+      "markPxYes": "0.42182",
+      "markPxNo": "0.57818",
       "circulatingSupplyYes": "6570.0"
     },
     {
@@ -22969,8 +22961,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 54718,
-      "markPxYes": "0.26098",
-      "markPxNo": "0.73902",
+      "markPxYes": "0.2612",
+      "markPxNo": "0.7388",
       "circulatingSupplyYes": "4938.0"
     },
     {
@@ -23099,8 +23091,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 127074,
-      "markPxYes": "0.2446",
-      "markPxNo": "0.7554",
+      "markPxYes": "0.24456",
+      "markPxNo": "0.75544",
       "circulatingSupplyYes": "2185.0"
     },
     {
@@ -23151,8 +23143,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 65576,
-      "markPxYes": "0.215395",
-      "markPxNo": "0.784605",
+      "markPxYes": "0.21544",
+      "markPxNo": "0.78456",
       "circulatingSupplyYes": "2451.0"
     },
     {
@@ -23202,9 +23194,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 89306,
-      "markPxYes": "0.55075",
-      "markPxNo": "0.44925",
+      "volume24hUsd": 89802,
+      "markPxYes": "0.55073",
+      "markPxNo": "0.44927",
       "circulatingSupplyYes": "3003.0"
     },
     {
@@ -23307,8 +23299,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 68035,
-      "markPxYes": "0.55344",
-      "markPxNo": "0.44656",
+      "markPxYes": "0.55335",
+      "markPxNo": "0.44665",
       "circulatingSupplyYes": "1677.0"
     },
     {
@@ -23593,8 +23585,8 @@
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 245,
-      "markPxYes": "0.223865",
-      "markPxNo": "0.776135",
+      "markPxYes": "0.23392",
+      "markPxNo": "0.76608",
       "circulatingSupplyYes": "153.0"
     },
     {
@@ -23619,8 +23611,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 600,
-      "markPxYes": "0.54145",
-      "markPxNo": "0.45855",
+      "markPxYes": "0.55",
+      "markPxNo": "0.45",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -23852,10 +23844,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 3440,
-      "markPxYes": "0.77999",
-      "markPxNo": "0.22001",
-      "circulatingSupplyYes": "891.0"
+      "volume24hUsd": 3518,
+      "markPxYes": "0.77198",
+      "markPxNo": "0.22802",
+      "circulatingSupplyYes": "969.0"
     },
     {
       "outcome": 35922,
@@ -23931,8 +23923,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 11903,
-      "markPxYes": "0.7",
-      "markPxNo": "0.3",
+      "markPxYes": "0.69",
+      "markPxNo": "0.31",
       "circulatingSupplyYes": "763.0"
     },
     {
@@ -23957,8 +23949,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 6474,
-      "markPxYes": "0.638",
-      "markPxNo": "0.362",
+      "markPxYes": "0.646",
+      "markPxNo": "0.354",
       "circulatingSupplyYes": "782.0"
     },
     {
@@ -23983,8 +23975,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 3962,
-      "markPxYes": "0.72049",
-      "markPxNo": "0.27951",
+      "markPxYes": "0.720485",
+      "markPxNo": "0.279515",
       "circulatingSupplyYes": "765.0"
     },
     {
@@ -24087,8 +24079,8 @@
       "venue": null,
       "deployerFeeScale": null,
       "volume24hUsd": 53762,
-      "markPxYes": "0.61413",
-      "markPxNo": "0.38587",
+      "markPxYes": "0.61693",
+      "markPxNo": "0.38307",
       "circulatingSupplyYes": "86969.0"
     },
     {
@@ -24139,8 +24131,8 @@
       "venue": null,
       "deployerFeeScale": null,
       "volume24hUsd": 4379,
-      "markPxYes": "0.581225",
-      "markPxNo": "0.418775",
+      "markPxYes": "0.584355",
+      "markPxNo": "0.415645",
       "circulatingSupplyYes": "4121.0"
     },
     {
@@ -24165,8 +24157,8 @@
       "venue": null,
       "deployerFeeScale": null,
       "volume24hUsd": 2458,
-      "markPxYes": "0.755",
-      "markPxNo": "0.245",
+      "markPxYes": "0.74999",
+      "markPxNo": "0.25001",
       "circulatingSupplyYes": "2469.0"
     },
     {
@@ -24451,8 +24443,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.22",
-      "markPxNo": "0.78",
+      "markPxYes": "0.5",
+      "markPxNo": "0.5",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24564,7 +24556,7 @@
       "coinYes": "#366270",
       "coinNo": "#366271",
       "template": "binaryPrice",
-      "title": null,
+      "title": "ETH above $1,798 at 2026-11-15 15:00 UTC?",
       "outcomeLabel": null,
       "image": null,
       "sides": [
@@ -24573,16 +24565,16 @@
       ],
       "description": "perp:ETH|priceDescription:the Hyperliquid ETH perp trade, 1-minute candle|seconds:180|threshold:1798|time:20261115-1500",
       "questionId": null,
-      "kairosEventId": null,
-      "category": null,
-      "endAt": "2026-11-15T15:00:00.000Z",
+      "kairosEventId": "36627",
+      "category": "Crypto",
+      "endAt": "2026-11-15T15:00:00Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 0,
-      "markPxYes": "0.73102",
-      "markPxNo": "0.26898",
+      "markPxYes": "0.73166",
+      "markPxNo": "0.26834",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24590,7 +24582,7 @@
       "coinYes": "#366280",
       "coinNo": "#366281",
       "template": "binaryPrice",
-      "title": null,
+      "title": "BTC above $64,650 at 2026-11-15 15:00 UTC?",
       "outcomeLabel": null,
       "image": null,
       "sides": [
@@ -24599,16 +24591,16 @@
       ],
       "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:64650|time:20261115-1500",
       "questionId": null,
-      "kairosEventId": null,
-      "category": null,
-      "endAt": "2026-11-15T15:00:00.000Z",
+      "kairosEventId": "36628",
+      "category": "Crypto",
+      "endAt": "2026-11-15T15:00:00Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 0,
-      "markPxYes": "0.65",
-      "markPxNo": "0.35",
+      "markPxYes": "0.66",
+      "markPxNo": "0.34",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24616,7 +24608,7 @@
       "coinYes": "#366290",
       "coinNo": "#366291",
       "template": "binaryPrice",
-      "title": null,
+      "title": "BTC above $64,630 at 2026-11-15 14:50 UTC?",
       "outcomeLabel": null,
       "image": null,
       "sides": [
@@ -24625,16 +24617,16 @@
       ],
       "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:64630|time:20261115-1450",
       "questionId": null,
-      "kairosEventId": null,
-      "category": null,
-      "endAt": "2026-11-15T14:50:00.000Z",
+      "kairosEventId": "36629",
+      "category": "Crypto",
+      "endAt": "2026-11-15T14:50:00Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 0,
-      "markPxYes": "0.82",
-      "markPxNo": "0.18",
+      "markPxYes": "0.88",
+      "markPxNo": "0.12",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24642,7 +24634,7 @@
       "coinYes": "#366300",
       "coinNo": "#366301",
       "template": "binaryPrice",
-      "title": null,
+      "title": "HYPE above $66.945 at 2026-11-15 15:00 UTC?",
       "outcomeLabel": null,
       "image": null,
       "sides": [
@@ -24651,24 +24643,24 @@
       ],
       "description": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:66.945|time:20261115-1500",
       "questionId": null,
-      "kairosEventId": null,
-      "category": null,
-      "endAt": "2026-11-15T15:00:00.000Z",
+      "kairosEventId": "36630",
+      "category": "Crypto",
+      "endAt": "2026-11-15T15:00:00Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 0,
-      "markPxYes": "0.8",
-      "markPxNo": "0.2",
-      "circulatingSupplyYes": "0.0"
+      "volume24hUsd": 117,
+      "markPxYes": "0.81",
+      "markPxNo": "0.19",
+      "circulatingSupplyYes": "117.0"
     },
     {
       "outcome": 36631,
       "coinYes": "#366310",
       "coinNo": "#366311",
       "template": "binaryPrice",
-      "title": null,
+      "title": "BTC above $64,621 at 2026-11-15 15:00 UTC?",
       "outcomeLabel": null,
       "image": null,
       "sides": [
@@ -24677,16 +24669,16 @@
       ],
       "description": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:64621|time:20261115-1500",
       "questionId": null,
-      "kairosEventId": null,
-      "category": null,
-      "endAt": "2026-11-15T15:00:00.000Z",
+      "kairosEventId": "36631",
+      "category": "Crypto",
+      "endAt": "2026-11-15T15:00:00Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 33,
-      "markPxYes": "0.70001",
-      "markPxNo": "0.29999",
+      "markPxYes": "0.715",
+      "markPxNo": "0.285",
       "circulatingSupplyYes": "33.0"
     },
     {
@@ -24694,7 +24686,7 @@
       "coinYes": "#366320",
       "coinNo": "#366321",
       "template": "binaryPrice",
-      "title": null,
+      "title": "ETH above $1,799.5 at 2026-11-15 15:00 UTC?",
       "outcomeLabel": null,
       "image": null,
       "sides": [
@@ -24703,16 +24695,16 @@
       ],
       "description": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:1799.5|time:20261115-1500",
       "questionId": null,
-      "kairosEventId": null,
-      "category": null,
-      "endAt": "2026-11-15T15:00:00.000Z",
+      "kairosEventId": "36632",
+      "category": "Crypto",
+      "endAt": "2026-11-15T15:00:00Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.733",
-      "markPxNo": "0.267",
+      "markPxYes": "0.723",
+      "markPxNo": "0.277",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24720,7 +24712,7 @@
       "coinYes": "#366330",
       "coinNo": "#366331",
       "template": "binaryPriceExternal",
-      "title": null,
+      "title": "BTC above $64,607.5 on 2026-11-15 15:00 UTC?",
       "outcomeLabel": null,
       "image": null,
       "sides": [
@@ -24729,9 +24721,9 @@
       ],
       "description": "feed:https://data.chain.link/streams/btc-usd-twap-60s-streams|instrument:BTC/USD|priceDescription:BTC/USD|seconds:60|shortName:BTC|threshold:64607.5|time:20261115-1500",
       "questionId": null,
-      "kairosEventId": null,
+      "kairosEventId": "36633",
       "category": null,
-      "endAt": "2026-11-15T15:00:00.000Z",
+      "endAt": "2026-11-15T15:00:00Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "fox",
@@ -24743,50 +24735,6 @@
     }
   ],
   "predictfun": [
-    {
-      "id": "4536624",
-      "wsTopic": "predictOrderbook/4536624",
-      "title": "Bitcoin Up or Down on November 15?",
-      "eventTitle": "Bitcoin Up or Down on November 15?",
-      "eventSlug": "bitcoin-up-or-down-on-november-15-2026",
-      "url": "https://predict.fun/market/bitcoin-up-or-down-on-november-15-2026",
-      "category": "Crypto",
-      "outcomes": [
-        "Up",
-        "Down"
-      ],
-      "outcomeLabel": null,
-      "expiresAt": null,
-      "dateHint": null,
-      "volume24hUsd": 163909.42,
-      "volume1hUsd": 19138.59,
-      "liquidityUsd": 20463.52,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": false
-    },
-    {
-      "id": "4536623",
-      "wsTopic": "predictOrderbook/4536623",
-      "title": "Ethereum Up or Down on November 15?",
-      "eventTitle": "Ethereum Up or Down on November 15?",
-      "eventSlug": "ethereum-up-or-down-on-november-15-2026",
-      "url": "https://predict.fun/market/ethereum-up-or-down-on-november-15-2026",
-      "category": "Crypto",
-      "outcomes": [
-        "Up",
-        "Down"
-      ],
-      "outcomeLabel": null,
-      "expiresAt": null,
-      "dateHint": null,
-      "volume24hUsd": 66311.03,
-      "volume1hUsd": 3942.51,
-      "liquidityUsd": 40389.5,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": false
-    },
     {
       "id": "4161102",
       "wsTopic": "predictOrderbook/4161102",
@@ -24803,55 +24751,11 @@
       "expiresAt": null,
       "dateHint": "2026-11-15",
       "volume24hUsd": 34588.39,
-      "volume1hUsd": 1765.27,
-      "liquidityUsd": 66165.13,
+      "volume1hUsd": 1755.89,
+      "liquidityUsd": 67247.05,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
-    },
-    {
-      "id": "4160172",
-      "wsTopic": "predictOrderbook/4160172",
-      "title": "Will Finland win on 2026-11-15?",
-      "eventTitle": "Finland vs. San Marino",
-      "eventSlug": "unl-fin-smr-2026-11-15",
-      "url": "https://predict.fun/market/unl-fin-smr-2026-11-15",
-      "category": "Sports",
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "outcomeLabel": "FIN",
-      "expiresAt": null,
-      "dateHint": "2026-11-15",
-      "volume24hUsd": 34396.12,
-      "volume1hUsd": 2391.22,
-      "liquidityUsd": 168008.67,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": true
-    },
-    {
-      "id": "4160193",
-      "wsTopic": "predictOrderbook/4160193",
-      "title": "Will Montenegro win on 2026-11-15?",
-      "eventTitle": "Cyprus vs. Montenegro",
-      "eventSlug": "unl-cyp-mon-2026-11-15",
-      "url": "https://predict.fun/market/unl-cyp-mon-2026-11-15",
-      "category": "Sports",
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "outcomeLabel": "MON",
-      "expiresAt": null,
-      "dateHint": "2026-11-15",
-      "volume24hUsd": 34033.56,
-      "volume1hUsd": 23200.26,
-      "liquidityUsd": 40982.6,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": true
     },
     {
       "id": "4101697",
@@ -24869,55 +24773,33 @@
       "expiresAt": null,
       "dateHint": "2026-11-15",
       "volume24hUsd": 31840.16,
-      "volume1hUsd": 2683.78,
+      "volume1hUsd": 2682.41,
       "liquidityUsd": 808391.75,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
     },
     {
-      "id": "4160316",
-      "wsTopic": "predictOrderbook/4160316",
-      "title": "Will Spain win on 2026-11-15?",
-      "eventTitle": "Spain vs. England",
-      "eventSlug": "unl-esp-eng-2026-11-15",
-      "url": "https://predict.fun/market/unl-esp-eng-2026-11-15",
+      "id": "4101701",
+      "wsTopic": "predictOrderbook/4101701",
+      "title": "Mavericks vs. Celtics",
+      "eventTitle": "NBA: Mavericks vs. Celtics",
+      "eventSlug": "nba-dal-bos-2026-11-15",
+      "url": "https://predict.fun/market/nba-dal-bos-2026-11-15",
       "category": "Sports",
       "outcomes": [
-        "Yes",
-        "No"
+        "DAL",
+        "BOS"
       ],
-      "outcomeLabel": "ESP",
+      "outcomeLabel": "Mavericks vs. Celtics",
       "expiresAt": null,
       "dateHint": "2026-11-15",
-      "volume24hUsd": 28440.46,
-      "volume1hUsd": 4019.95,
-      "liquidityUsd": 587103.72,
+      "volume24hUsd": 25613.1,
+      "volume1hUsd": 630.66,
+      "liquidityUsd": 638058.61,
       "tickSize": 0.01,
       "feeRateBps": 200,
-      "negRisk": true
-    },
-    {
-      "id": "4160043",
-      "wsTopic": "predictOrderbook/4160043",
-      "title": "Will Armenia win on 2026-11-15?",
-      "eventTitle": "Latvia vs. Armenia",
-      "eventSlug": "unl-lat-arm-2026-11-15",
-      "url": "https://predict.fun/market/unl-lat-arm-2026-11-15",
-      "category": "Sports",
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "outcomeLabel": "ARM",
-      "expiresAt": null,
-      "dateHint": "2026-11-15",
-      "volume24hUsd": 26046.83,
-      "volume1hUsd": 11768.09,
-      "liquidityUsd": 58297.46,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": true
+      "negRisk": false
     },
     {
       "id": "4160808",
@@ -24936,7 +24818,7 @@
       "dateHint": "2026-11-15",
       "volume24hUsd": 24918.28,
       "volume1hUsd": 2731.26,
-      "liquidityUsd": 66255.45,
+      "liquidityUsd": 66841.65,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -24956,53 +24838,9 @@
       "outcomeLabel": "Patriots vs. Lions",
       "expiresAt": null,
       "dateHint": "2026-11-15",
-      "volume24hUsd": 20885.72,
-      "volume1hUsd": 1143.36,
-      "liquidityUsd": 99418.54,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": false
-    },
-    {
-      "id": "4160167",
-      "wsTopic": "predictOrderbook/4160167",
-      "title": "Will Italy win on 2026-11-15?",
-      "eventTitle": "Belgium vs. Italy",
-      "eventSlug": "unl-bel-ita-2026-11-15",
-      "url": "https://predict.fun/market/unl-bel-ita-2026-11-15",
-      "category": "Sports",
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "outcomeLabel": "ITA",
-      "expiresAt": null,
-      "dateHint": "2026-11-15",
-      "volume24hUsd": 20431.17,
-      "volume1hUsd": 3005.96,
-      "liquidityUsd": 236932.27,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": true
-    },
-    {
-      "id": "4533793",
-      "wsTopic": "predictOrderbook/4533793",
-      "title": "Bitcoin Up or Down - November 15, 9AM ET",
-      "eventTitle": "Bitcoin Up or Down - November 15, 9AM ET",
-      "eventSlug": "bitcoin-up-or-down-november-15-2026-9am-et",
-      "url": "https://predict.fun/market/bitcoin-up-or-down-november-15-2026-9am-et",
-      "category": "Crypto",
-      "outcomes": [
-        "Up",
-        "Down"
-      ],
-      "outcomeLabel": null,
-      "expiresAt": null,
-      "dateHint": null,
-      "volume24hUsd": 17500.82,
-      "volume1hUsd": 17500.82,
-      "liquidityUsd": 10424.75,
+      "volume24hUsd": 20908.45,
+      "volume1hUsd": 1166.09,
+      "liquidityUsd": 121506.41,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25022,9 +24860,9 @@
       "outcomeLabel": "Lakers vs. Suns",
       "expiresAt": null,
       "dateHint": "2026-11-15",
-      "volume24hUsd": 16696.59,
-      "volume1hUsd": 759.7,
-      "liquidityUsd": 750437.26,
+      "volume24hUsd": 16875.46,
+      "volume1hUsd": 938.57,
+      "liquidityUsd": 754720.6,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25046,32 +24884,10 @@
       "dateHint": "2026-11-15",
       "volume24hUsd": 14271.2,
       "volume1hUsd": 5391.44,
-      "liquidityUsd": 26971.28,
+      "liquidityUsd": 26263.57,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
-    },
-    {
-      "id": "249684",
-      "wsTopic": "predictOrderbook/249684",
-      "title": "Will Polymarket not migrate in 2026?",
-      "eventTitle": "What chain will Polymarket migrate to in 2026?",
-      "eventSlug": "what-chain-will-polymarket-migrate-to-in-2026",
-      "url": "https://predict.fun/market/what-chain-will-polymarket-migrate-to-in-2026",
-      "category": "Crypto",
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "outcomeLabel": "No migration in 2026",
-      "expiresAt": null,
-      "dateHint": null,
-      "volume24hUsd": 13940.27,
-      "volume1hUsd": 42.49,
-      "liquidityUsd": 142138.21,
-      "tickSize": 0.001,
-      "feeRateBps": 200,
-      "negRisk": true
     },
     {
       "id": "4563934",
@@ -25134,7 +24950,7 @@
       "dateHint": "2026-11-15",
       "volume24hUsd": 11448.68,
       "volume1hUsd": 152,
-      "liquidityUsd": 119934.86,
+      "liquidityUsd": 119986.94,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": true
@@ -25156,7 +24972,7 @@
       "dateHint": "2026-11-15",
       "volume24hUsd": 10494.23,
       "volume1hUsd": 8.55,
-      "liquidityUsd": 102734.12,
+      "liquidityUsd": 102733.93,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25176,9 +24992,9 @@
       "outcomeLabel": "Map 2 Winner",
       "expiresAt": null,
       "dateHint": "2026-11-15",
-      "volume24hUsd": 10031.55,
-      "volume1hUsd": 5585.71,
-      "liquidityUsd": 30030.18,
+      "volume24hUsd": 10181.56,
+      "volume1hUsd": 5735.72,
+      "liquidityUsd": 29679.05,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25250,28 +25066,6 @@
       "negRisk": false
     },
     {
-      "id": "4160240",
-      "wsTopic": "predictOrderbook/4160240",
-      "title": "Will Croatia win on 2026-11-15?",
-      "eventTitle": "Croatia vs. Czechia",
-      "eventSlug": "unl-hrv-cze-2026-11-15",
-      "url": "https://predict.fun/market/unl-hrv-cze-2026-11-15",
-      "category": "Sports",
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "outcomeLabel": "HRV",
-      "expiresAt": null,
-      "dateHint": "2026-11-15",
-      "volume24hUsd": 7475.46,
-      "volume1hUsd": 685.31,
-      "liquidityUsd": 200000.11,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": true
-    },
-    {
       "id": "4101696",
       "wsTopic": "predictOrderbook/4101696",
       "title": "Spurs vs. Jazz",
@@ -25288,7 +25082,7 @@
       "dateHint": "2026-11-15",
       "volume24hUsd": 6829.72,
       "volume1hUsd": 1449.7,
-      "liquidityUsd": 687843.84,
+      "liquidityUsd": 644299.84,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25332,7 +25126,7 @@
       "dateHint": "2026-11-15",
       "volume24hUsd": 6534.03,
       "volume1hUsd": 241.8,
-      "liquidityUsd": 15000.85,
+      "liquidityUsd": 15359.85,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25382,26 +25176,224 @@
       "negRisk": true
     },
     {
-      "id": "4565012",
-      "wsTopic": "predictOrderbook/4565012",
-      "title": "Dota 2: Froglings vs LEGION - Game 1 Winner",
-      "eventTitle": "Dota 2: Froglings vs LEGION (BO3) - 1win Essence Playoffs",
-      "eventSlug": "dota2-frogli-legion1-2026-11-15",
-      "url": "https://predict.fun/market/dota2-frogli-legion1-2026-11-15",
-      "category": "Esports",
+      "id": "4559708",
+      "wsTopic": "predictOrderbook/4559708",
+      "title": "Spread: Spurs (-16.5)",
+      "eventTitle": "NBA: Spurs vs. Jazz",
+      "eventSlug": "nba-sas-uta-2026-11-15",
+      "url": "https://predict.fun/market/nba-sas-uta-2026-11-15",
+      "category": "Sports",
       "outcomes": [
-        "FROGLI",
-        "LEGION"
+        "SAS",
+        "UTA"
       ],
-      "outcomeLabel": "Game 1 Winner",
+      "outcomeLabel": "Spread -16.5",
       "expiresAt": null,
       "dateHint": "2026-11-15",
-      "volume24hUsd": 5463.91,
-      "volume1hUsd": 5463.91,
-      "liquidityUsd": 27760.94,
+      "volume24hUsd": 5355.96,
+      "volume1hUsd": 19.23,
+      "liquidityUsd": 87259.11,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
+    },
+    {
+      "id": "4560290",
+      "wsTopic": "predictOrderbook/4560290",
+      "title": "Counter-Strike: Omega vs Iberian Soul (BO3) - CCT Europe Playoffs",
+      "eventTitle": "Counter-Strike: Omega vs Iberian Soul (BO3) - CCT Europe Playoffs",
+      "eventSlug": "cs2-omega1-is-2026-11-15",
+      "url": "https://predict.fun/market/cs2-omega1-is-2026-11-15",
+      "category": "Esports",
+      "outcomes": [
+        "Omega",
+        "IS"
+      ],
+      "outcomeLabel": "Match Winner",
+      "expiresAt": null,
+      "dateHint": "2026-11-15",
+      "volume24hUsd": 5208.85,
+      "volume1hUsd": 4239.1,
+      "liquidityUsd": 58671.24,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": false
+    },
+    {
+      "id": "3867114",
+      "wsTopic": "predictOrderbook/3867114",
+      "title": "Will Zoran Janković win the 2026 Ljubljana mayoral election?",
+      "eventTitle": "Ljubljana Mayoral Election Winner",
+      "eventSlug": "ljubljana-mayoral-election-winner-2026",
+      "url": "https://predict.fun/market/ljubljana-mayoral-election-winner-2026",
+      "category": "Politics",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomeLabel": "Zoran Janković",
+      "expiresAt": null,
+      "dateHint": null,
+      "volume24hUsd": 5016.03,
+      "volume1hUsd": 1790.74,
+      "liquidityUsd": 7404.09,
+      "tickSize": 0.001,
+      "feeRateBps": 200,
+      "negRisk": true
+    },
+    {
+      "id": "4161279",
+      "wsTopic": "predictOrderbook/4161279",
+      "title": "Latvia vs. Armenia: O/U 2.5",
+      "eventTitle": "Latvia vs. Armenia - More Markets",
+      "eventSlug": "unl-lat-arm-2026-11-15-more-markets",
+      "url": "https://predict.fun/market/unl-lat-arm-2026-11-15-more-markets",
+      "category": "Sports",
+      "outcomes": [
+        "Over 2.5",
+        "Under 2.5"
+      ],
+      "outcomeLabel": "O/U 2.5",
+      "expiresAt": null,
+      "dateHint": "2026-11-15",
+      "volume24hUsd": 4860.14,
+      "volume1hUsd": 1990.15,
+      "liquidityUsd": 44837.81,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": false
+    },
+    {
+      "id": "4160781",
+      "wsTopic": "predictOrderbook/4160781",
+      "title": "Belgium vs. Italy: O/U 2.5",
+      "eventTitle": "Belgium vs. Italy - More Markets",
+      "eventSlug": "unl-bel-ita-2026-11-15-more-markets",
+      "url": "https://predict.fun/market/unl-bel-ita-2026-11-15-more-markets",
+      "category": "Sports",
+      "outcomes": [
+        "Over 2.5",
+        "Under 2.5"
+      ],
+      "outcomeLabel": "O/U 2.5",
+      "expiresAt": null,
+      "dateHint": "2026-11-15",
+      "volume24hUsd": 4813.69,
+      "volume1hUsd": 1745.08,
+      "liquidityUsd": 175361.69,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": false
+    },
+    {
+      "id": "4160192",
+      "wsTopic": "predictOrderbook/4160192",
+      "title": "Will Cyprus vs. Montenegro end in a draw?",
+      "eventTitle": "Cyprus vs. Montenegro",
+      "eventSlug": "unl-cyp-mon-2026-11-15",
+      "url": "https://predict.fun/market/unl-cyp-mon-2026-11-15",
+      "category": "Sports",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomeLabel": "Draw",
+      "expiresAt": null,
+      "dateHint": "2026-11-15",
+      "volume24hUsd": 4402.77,
+      "volume1hUsd": 2093.49,
+      "liquidityUsd": 54608.9,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": true
+    },
+    {
+      "id": "26936",
+      "wsTopic": "predictOrderbook/26936",
+      "title": "Will the Buffalo Bills win the 2027 NFL league championship?",
+      "eventTitle": "NFL Champion 2027",
+      "eventSlug": "big-game-champion-2027",
+      "url": "https://predict.fun/market/big-game-champion-2027",
+      "category": "Sports",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomeLabel": "Buffalo Bills",
+      "expiresAt": null,
+      "dateHint": null,
+      "volume24hUsd": 3822.94,
+      "volume1hUsd": 0,
+      "liquidityUsd": 126479.44,
+      "tickSize": 0.001,
+      "feeRateBps": 200,
+      "negRisk": true
+    },
+    {
+      "id": "4101703",
+      "wsTopic": "predictOrderbook/4101703",
+      "title": "Rockets vs. Wizards",
+      "eventTitle": "NBA: Rockets vs. Wizards",
+      "eventSlug": "nba-hou-was-2026-11-15",
+      "url": "https://predict.fun/market/nba-hou-was-2026-11-15",
+      "category": "Sports",
+      "outcomes": [
+        "HOU",
+        "WAS"
+      ],
+      "outcomeLabel": "Rockets vs. Wizards",
+      "expiresAt": null,
+      "dateHint": "2026-11-15",
+      "volume24hUsd": 3381.41,
+      "volume1hUsd": 534.48,
+      "liquidityUsd": 618157,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": false
+    },
+    {
+      "id": "4160320",
+      "wsTopic": "predictOrderbook/4160320",
+      "title": "Will Spain vs. England end in a draw?",
+      "eventTitle": "Spain vs. England",
+      "eventSlug": "unl-esp-eng-2026-11-15",
+      "url": "https://predict.fun/market/unl-esp-eng-2026-11-15",
+      "category": "Sports",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomeLabel": "Draw",
+      "expiresAt": null,
+      "dateHint": "2026-11-15",
+      "volume24hUsd": 3089.89,
+      "volume1hUsd": 64.3,
+      "liquidityUsd": 511154.75,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": true
+    },
+    {
+      "id": "4160159",
+      "wsTopic": "predictOrderbook/4160159",
+      "title": "Latvia vs. Armenia: Draw at halftime?",
+      "eventTitle": "Latvia vs. Armenia - Halftime Result",
+      "eventSlug": "unl-lat-arm-2026-11-15-halftime-result",
+      "url": "https://predict.fun/market/unl-lat-arm-2026-11-15-halftime-result",
+      "category": "Sports",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomeLabel": "Draw",
+      "expiresAt": null,
+      "dateHint": "2026-11-15",
+      "volume24hUsd": 3037.79,
+      "volume1hUsd": 2963.04,
+      "liquidityUsd": 37609.06,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": true
     }
   ],
   "opinion": [
@@ -25435,7 +25427,7 @@
               "17.22"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:29.939Z"
+            "at": "2026-11-15T14:48:21.474Z"
           }
         },
         {
@@ -25453,7 +25445,7 @@
               "0.01",
               "1372.01"
             ],
-            "at": "2026-11-15T14:47:40.489Z"
+            "at": "2026-11-15T14:48:32.105Z"
           }
         },
         {
@@ -25471,7 +25463,7 @@
               "0.057",
               "1146.48"
             ],
-            "at": "2026-11-15T14:47:40.831Z"
+            "at": "2026-11-15T14:48:32.388Z"
           }
         },
         {
@@ -25489,7 +25481,7 @@
               "0.005",
               "3787.53"
             ],
-            "at": "2026-11-15T14:47:41.156Z"
+            "at": "2026-11-15T14:48:32.630Z"
           }
         },
         {
@@ -25507,7 +25499,7 @@
               "0.003",
               "945.07"
             ],
-            "at": "2026-11-15T14:47:41.437Z"
+            "at": "2026-11-15T14:48:32.985Z"
           }
         },
         {
@@ -25525,7 +25517,7 @@
               "0.05",
               "285.48"
             ],
-            "at": "2026-11-15T14:47:41.739Z"
+            "at": "2026-11-15T14:48:33.201Z"
           }
         },
         {
@@ -25543,7 +25535,7 @@
               "0.01",
               "17.77"
             ],
-            "at": "2026-11-15T14:47:42.074Z"
+            "at": "2026-11-15T14:48:33.453Z"
           }
         },
         {
@@ -25561,7 +25553,7 @@
               "0.001",
               "162.13"
             ],
-            "at": "2026-11-15T14:47:42.342Z"
+            "at": "2026-11-15T14:48:33.707Z"
           }
         }
       ]
@@ -25600,7 +25592,7 @@
               "0.001",
               "946.98"
             ],
-            "at": "2026-11-15T14:47:30.263Z"
+            "at": "2026-11-15T14:48:21.837Z"
           }
         },
         {
@@ -25618,7 +25610,7 @@
               "0.011",
               "23.2"
             ],
-            "at": "2026-11-15T14:47:42.593Z"
+            "at": "2026-11-15T14:48:33.995Z"
           }
         },
         {
@@ -25636,7 +25628,7 @@
               "0.01",
               "191.83551515151512"
             ],
-            "at": "2026-11-15T14:47:42.864Z"
+            "at": "2026-11-15T14:48:34.227Z"
           }
         },
         {
@@ -25654,7 +25646,7 @@
               "0.05",
               "0.74"
             ],
-            "at": "2026-11-15T14:47:43.111Z"
+            "at": "2026-11-15T14:48:34.502Z"
           }
         },
         {
@@ -25672,7 +25664,7 @@
               "0.002",
               "2500"
             ],
-            "at": "2026-11-15T14:47:43.379Z"
+            "at": "2026-11-15T14:48:34.786Z"
           }
         },
         {
@@ -25690,7 +25682,7 @@
               "0.07",
               "14.649999999999999"
             ],
-            "at": "2026-11-15T14:47:43.632Z"
+            "at": "2026-11-15T14:48:35.019Z"
           }
         },
         {
@@ -25708,7 +25700,7 @@
               "0.002",
               "8085.950000000001"
             ],
-            "at": "2026-11-15T14:47:43.927Z"
+            "at": "2026-11-15T14:48:35.259Z"
           }
         }
       ]
@@ -25741,7 +25733,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:30.501Z"
+            "at": "2026-11-15T14:48:22.067Z"
           }
         },
         {
@@ -25759,7 +25751,7 @@
               "0.05",
               "100"
             ],
-            "at": "2026-11-15T14:47:44.215Z"
+            "at": "2026-11-15T14:48:35.534Z"
           }
         }
       ]
@@ -25794,7 +25786,7 @@
               "7.57"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:30.756Z"
+            "at": "2026-11-15T14:48:22.390Z"
           }
         },
         {
@@ -25812,7 +25804,7 @@
               "0.003",
               "495.04"
             ],
-            "at": "2026-11-15T14:47:44.461Z"
+            "at": "2026-11-15T14:48:35.795Z"
           }
         },
         {
@@ -25830,7 +25822,7 @@
               "0.003",
               "394.91"
             ],
-            "at": "2026-11-15T14:47:44.732Z"
+            "at": "2026-11-15T14:48:36.081Z"
           }
         },
         {
@@ -25848,7 +25840,7 @@
               "0.01",
               "4.02"
             ],
-            "at": "2026-11-15T14:47:44.974Z"
+            "at": "2026-11-15T14:48:36.308Z"
           }
         },
         {
@@ -25866,7 +25858,7 @@
               "0.01",
               "23.12"
             ],
-            "at": "2026-11-15T14:47:45.234Z"
+            "at": "2026-11-15T14:48:36.568Z"
           }
         },
         {
@@ -25878,7 +25870,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:45.495Z"
+            "at": "2026-11-15T14:48:36.856Z"
           }
         },
         {
@@ -25896,7 +25888,7 @@
               "0.01",
               "281.55"
             ],
-            "at": "2026-11-15T14:47:45.752Z"
+            "at": "2026-11-15T14:48:37.121Z"
           }
         },
         {
@@ -25908,7 +25900,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:46.011Z"
+            "at": "2026-11-15T14:48:37.337Z"
           }
         }
       ]
@@ -25947,7 +25939,7 @@
               "0.05",
               "2819.32"
             ],
-            "at": "2026-11-15T14:47:31.047Z"
+            "at": "2026-11-15T14:48:22.639Z"
           }
         }
       ]
@@ -25986,7 +25978,7 @@
               "0.001",
               "997.74"
             ],
-            "at": "2026-11-15T14:47:31.276Z"
+            "at": "2026-11-15T14:48:22.883Z"
           }
         },
         {
@@ -26004,7 +25996,7 @@
               "0.256",
               "781.25"
             ],
-            "at": "2026-11-15T14:47:46.276Z"
+            "at": "2026-11-15T14:48:37.628Z"
           }
         },
         {
@@ -26022,7 +26014,7 @@
               "0.01",
               "100"
             ],
-            "at": "2026-11-15T14:47:46.544Z"
+            "at": "2026-11-15T14:48:37.879Z"
           }
         },
         {
@@ -26040,7 +26032,7 @@
               "0.001",
               "10.469029029029029"
             ],
-            "at": "2026-11-15T14:47:46.789Z"
+            "at": "2026-11-15T14:48:38.168Z"
           }
         },
         {
@@ -26058,7 +26050,7 @@
               "0.023",
               "1.5"
             ],
-            "at": "2026-11-15T14:47:47.061Z"
+            "at": "2026-11-15T14:48:38.415Z"
           }
         },
         {
@@ -26076,7 +26068,7 @@
               "0.01",
               "184"
             ],
-            "at": "2026-11-15T14:47:47.315Z"
+            "at": "2026-11-15T14:48:38.673Z"
           }
         },
         {
@@ -26094,7 +26086,7 @@
               "0.01",
               "100"
             ],
-            "at": "2026-11-15T14:47:47.585Z"
+            "at": "2026-11-15T14:48:38.909Z"
           }
         },
         {
@@ -26112,7 +26104,7 @@
               "0.045",
               "128.90099476439792"
             ],
-            "at": "2026-11-15T14:47:47.833Z"
+            "at": "2026-11-15T14:48:39.201Z"
           }
         }
       ]
@@ -26148,7 +26140,7 @@
               "0.01",
               "116.18"
             ],
-            "at": "2026-11-15T14:47:31.526Z"
+            "at": "2026-11-15T14:48:23.176Z"
           }
         },
         {
@@ -26166,7 +26158,7 @@
               "0.001",
               "300"
             ],
-            "at": "2026-11-15T14:47:48.093Z"
+            "at": "2026-11-15T14:48:39.464Z"
           }
         },
         {
@@ -26178,7 +26170,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:48.341Z"
+            "at": "2026-11-15T14:48:39.712Z"
           }
         },
         {
@@ -26196,7 +26188,7 @@
               "0.03",
               "2103.74"
             ],
-            "at": "2026-11-15T14:47:48.621Z"
+            "at": "2026-11-15T14:48:39.939Z"
           }
         },
         {
@@ -26214,7 +26206,7 @@
               "0.03",
               "1008.61"
             ],
-            "at": "2026-11-15T14:47:48.870Z"
+            "at": "2026-11-15T14:48:40.228Z"
           }
         }
       ]
@@ -26244,7 +26236,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:31.828Z"
+            "at": "2026-11-15T14:48:23.368Z"
           }
         }
       ]
@@ -26274,7 +26266,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:32.058Z"
+            "at": "2026-11-15T14:48:23.637Z"
           }
         },
         {
@@ -26286,7 +26278,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:49.156Z"
+            "at": "2026-11-15T14:48:40.474Z"
           }
         }
       ]
@@ -26325,7 +26317,7 @@
               "0.015",
               "1910.3577157360405"
             ],
-            "at": "2026-11-15T14:47:32.384Z"
+            "at": "2026-11-15T14:48:23.917Z"
           }
         }
       ]
@@ -26363,7 +26355,7 @@
               "0.121",
               "1.2317178612059163"
             ],
-            "at": "2026-11-15T14:47:32.632Z"
+            "at": "2026-11-15T14:48:24.187Z"
           }
         }
       ]
@@ -26393,7 +26385,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:32.875Z"
+            "at": "2026-11-15T14:48:24.428Z"
           }
         }
       ]
@@ -26428,7 +26420,7 @@
               "39.65"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:33.133Z"
+            "at": "2026-11-15T14:48:24.735Z"
           }
         }
       ]
@@ -26467,7 +26459,7 @@
               "0.1",
               "584.19"
             ],
-            "at": "2026-11-15T14:47:33.372Z"
+            "at": "2026-11-15T14:48:24.977Z"
           }
         }
       ]
@@ -26497,7 +26489,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:33.635Z"
+            "at": "2026-11-15T14:48:25.200Z"
           }
         }
       ]
@@ -26536,7 +26528,7 @@
               "0.01",
               "1.44"
             ],
-            "at": "2026-11-15T14:47:33.942Z"
+            "at": "2026-11-15T14:48:25.474Z"
           }
         }
       ]
@@ -26572,7 +26564,7 @@
               "115"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:34.164Z"
+            "at": "2026-11-15T14:48:25.752Z"
           }
         },
         {
@@ -26590,7 +26582,7 @@
               "0.06",
               "21.89999999999998"
             ],
-            "at": "2026-11-15T14:47:49.416Z"
+            "at": "2026-11-15T14:48:40.730Z"
           }
         },
         {
@@ -26608,7 +26600,7 @@
               "0.02",
               "1477.59"
             ],
-            "at": "2026-11-15T14:47:49.816Z"
+            "at": "2026-11-15T14:48:41.002Z"
           }
         },
         {
@@ -26626,7 +26618,7 @@
               "0.05",
               "0.1515789473684212"
             ],
-            "at": "2026-11-15T14:47:50.113Z"
+            "at": "2026-11-15T14:48:41.261Z"
           }
         },
         {
@@ -26641,7 +26633,7 @@
               "0.045",
               "1.20999999999998"
             ],
-            "at": "2026-11-15T14:47:50.353Z"
+            "at": "2026-11-15T14:48:41.515Z"
           }
         },
         {
@@ -26659,7 +26651,7 @@
               "0.05",
               "6.85000000000015"
             ],
-            "at": "2026-11-15T14:47:50.623Z"
+            "at": "2026-11-15T14:48:41.784Z"
           }
         }
       ]
@@ -26689,7 +26681,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:34.426Z"
+            "at": "2026-11-15T14:48:25.983Z"
           }
         }
       ]
@@ -26721,7 +26713,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:34.693Z"
+            "at": "2026-11-15T14:48:26.228Z"
           }
         },
         {
@@ -26733,7 +26725,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:50.867Z"
+            "at": "2026-11-15T14:48:42.029Z"
           }
         },
         {
@@ -26748,7 +26740,7 @@
               "0.08",
               "55.9"
             ],
-            "at": "2026-11-15T14:47:51.135Z"
+            "at": "2026-11-15T14:48:42.318Z"
           }
         },
         {
@@ -26760,7 +26752,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:51.381Z"
+            "at": "2026-11-15T14:48:42.557Z"
           }
         },
         {
@@ -26772,7 +26764,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:51.635Z"
+            "at": "2026-11-15T14:48:42.806Z"
           }
         },
         {
@@ -26784,7 +26776,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:51.923Z"
+            "at": "2026-11-15T14:48:43.075Z"
           }
         }
       ]
@@ -26807,7 +26799,7 @@
       "book": {
         "bestAsk": null,
         "bestBid": null,
-        "at": "2026-11-15T14:47:34.942Z"
+        "at": "2026-11-15T14:48:26.501Z"
       }
     },
     {
@@ -26837,7 +26829,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:35.203Z"
+            "at": "2026-11-15T14:48:26.749Z"
           }
         },
         {
@@ -26852,7 +26844,7 @@
               "0.01",
               "7.2"
             ],
-            "at": "2026-11-15T14:47:52.168Z"
+            "at": "2026-11-15T14:48:43.338Z"
           }
         },
         {
@@ -26870,7 +26862,7 @@
               "0.3",
               "60"
             ],
-            "at": "2026-11-15T14:47:52.413Z"
+            "at": "2026-11-15T14:48:43.604Z"
           }
         },
         {
@@ -26885,7 +26877,7 @@
               "0.0100000000003"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:52.670Z"
+            "at": "2026-11-15T14:48:43.847Z"
           }
         },
         {
@@ -26900,7 +26892,7 @@
               "0.01",
               "17.48"
             ],
-            "at": "2026-11-15T14:47:52.950Z"
+            "at": "2026-11-15T14:48:44.106Z"
           }
         },
         {
@@ -26915,7 +26907,7 @@
               "0.01",
               "40.65"
             ],
-            "at": "2026-11-15T14:47:53.197Z"
+            "at": "2026-11-15T14:48:44.374Z"
           }
         }
       ]
@@ -26945,7 +26937,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:35.467Z"
+            "at": "2026-11-15T14:48:27.030Z"
           }
         }
       ]
@@ -26980,7 +26972,7 @@
               "0.014",
               "5527.59"
             ],
-            "at": "2026-11-15T14:47:35.758Z"
+            "at": "2026-11-15T14:48:27.302Z"
           }
         },
         {
@@ -26992,7 +26984,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:53.448Z"
+            "at": "2026-11-15T14:48:44.629Z"
           }
         },
         {
@@ -27004,7 +26996,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:53.706Z"
+            "at": "2026-11-15T14:48:44.882Z"
           }
         },
         {
@@ -27019,7 +27011,7 @@
               "24.85"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:54.053Z"
+            "at": "2026-11-15T14:48:45.186Z"
           }
         },
         {
@@ -27034,7 +27026,7 @@
               "5.39"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:54.427Z"
+            "at": "2026-11-15T14:48:45.445Z"
           }
         },
         {
@@ -27052,7 +27044,7 @@
               "0.012",
               "7798.35"
             ],
-            "at": "2026-11-15T14:47:54.679Z"
+            "at": "2026-11-15T14:48:45.701Z"
           }
         },
         {
@@ -27067,7 +27059,7 @@
               "34.53"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:54.975Z"
+            "at": "2026-11-15T14:48:45.947Z"
           }
         },
         {
@@ -27082,7 +27074,7 @@
               "57.19"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:55.205Z"
+            "at": "2026-11-15T14:48:46.189Z"
           }
         }
       ]
@@ -27115,7 +27107,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:35.980Z"
+            "at": "2026-11-15T14:48:27.528Z"
           }
         },
         {
@@ -27133,7 +27125,7 @@
               "0.849",
               "6.401426091440683"
             ],
-            "at": "2026-11-15T14:47:55.465Z"
+            "at": "2026-11-15T14:48:46.460Z"
           }
         },
         {
@@ -27145,7 +27137,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:55.741Z"
+            "at": "2026-11-15T14:48:46.705Z"
           }
         },
         {
@@ -27157,7 +27149,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:55.994Z"
+            "at": "2026-11-15T14:48:46.964Z"
           }
         },
         {
@@ -27169,7 +27161,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:56.243Z"
+            "at": "2026-11-15T14:48:47.259Z"
           }
         }
       ]
@@ -27199,7 +27191,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:36.317Z"
+            "at": "2026-11-15T14:48:27.816Z"
           }
         },
         {
@@ -27211,7 +27203,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:56.499Z"
+            "at": "2026-11-15T14:48:47.497Z"
           }
         }
       ]
@@ -27250,7 +27242,7 @@
               "0.72",
               "60"
             ],
-            "at": "2026-11-15T14:47:36.586Z"
+            "at": "2026-11-15T14:48:28.115Z"
           }
         },
         {
@@ -27268,7 +27260,7 @@
               "0.993",
               "2.556589986468904"
             ],
-            "at": "2026-11-15T14:47:56.760Z"
+            "at": "2026-11-15T14:48:47.741Z"
           }
         },
         {
@@ -27283,7 +27275,7 @@
               "0.4",
               "2305.67"
             ],
-            "at": "2026-11-15T14:47:57.026Z"
+            "at": "2026-11-15T14:48:48.011Z"
           }
         },
         {
@@ -27301,7 +27293,7 @@
               "0.95",
               "0.28"
             ],
-            "at": "2026-11-15T14:47:57.287Z"
+            "at": "2026-11-15T14:48:48.270Z"
           }
         },
         {
@@ -27319,7 +27311,7 @@
               "0.951",
               "2995.29"
             ],
-            "at": "2026-11-15T14:47:57.536Z"
+            "at": "2026-11-15T14:48:48.547Z"
           }
         },
         {
@@ -27337,7 +27329,7 @@
               "0.751",
               "375"
             ],
-            "at": "2026-11-15T14:47:57.895Z"
+            "at": "2026-11-15T14:48:48.805Z"
           }
         }
       ]
@@ -27367,7 +27359,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:36.859Z"
+            "at": "2026-11-15T14:48:28.327Z"
           }
         },
         {
@@ -27379,7 +27371,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:58.112Z"
+            "at": "2026-11-15T14:48:49.074Z"
           }
         }
       ]
@@ -27409,7 +27401,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:37.072Z"
+            "at": "2026-11-15T14:48:28.584Z"
           }
         }
       ]
@@ -27447,7 +27439,7 @@
               "0.01",
               "197.4"
             ],
-            "at": "2026-11-15T14:47:37.364Z"
+            "at": "2026-11-15T14:48:28.857Z"
           }
         },
         {
@@ -27465,7 +27457,7 @@
               "0.01",
               "80.31"
             ],
-            "at": "2026-11-15T14:47:58.430Z"
+            "at": "2026-11-15T14:48:49.333Z"
           }
         },
         {
@@ -27480,7 +27472,7 @@
               "0.01",
               "100"
             ],
-            "at": "2026-11-15T14:47:58.709Z"
+            "at": "2026-11-15T14:48:49.599Z"
           }
         },
         {
@@ -27495,7 +27487,7 @@
               "178.77"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:58.922Z"
+            "at": "2026-11-15T14:48:49.836Z"
           }
         },
         {
@@ -27513,7 +27505,7 @@
               "0.26",
               "389.32"
             ],
-            "at": "2026-11-15T14:47:59.207Z"
+            "at": "2026-11-15T14:48:50.099Z"
           }
         },
         {
@@ -27531,7 +27523,7 @@
               "0.01",
               "13.91"
             ],
-            "at": "2026-11-15T14:47:59.471Z"
+            "at": "2026-11-15T14:48:50.354Z"
           }
         },
         {
@@ -27546,7 +27538,7 @@
               "16.94"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:59.712Z"
+            "at": "2026-11-15T14:48:50.631Z"
           }
         },
         {
@@ -27561,7 +27553,7 @@
               "74.66146496815287"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:47:59.997Z"
+            "at": "2026-11-15T14:48:50.871Z"
           }
         }
       ]
@@ -27591,7 +27583,7 @@
           "0.101",
           "590.1865294771969"
         ],
-        "at": "2026-11-15T14:47:37.614Z"
+        "at": "2026-11-15T14:48:29.102Z"
       }
     },
     {
@@ -27621,7 +27613,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:37.870Z"
+            "at": "2026-11-15T14:48:29.358Z"
           }
         }
       ]
@@ -27659,7 +27651,7 @@
               "0.02",
               "250"
             ],
-            "at": "2026-11-15T14:47:38.143Z"
+            "at": "2026-11-15T14:48:29.677Z"
           }
         },
         {
@@ -27677,7 +27669,7 @@
               "0.02",
               "250"
             ],
-            "at": "2026-11-15T14:48:00.249Z"
+            "at": "2026-11-15T14:48:51.133Z"
           }
         },
         {
@@ -27692,7 +27684,7 @@
               "28.600612870275793"
             ],
             "bestBid": null,
-            "at": "2026-11-15T14:48:00.502Z"
+            "at": "2026-11-15T14:48:51.395Z"
           }
         },
         {
@@ -27710,7 +27702,7 @@
               "0.02",
               "250"
             ],
-            "at": "2026-11-15T14:48:00.751Z"
+            "at": "2026-11-15T14:48:51.671Z"
           }
         },
         {
@@ -27728,7 +27720,7 @@
               "0.88",
               "51.10227272727273"
             ],
-            "at": "2026-11-15T14:48:01.058Z"
+            "at": "2026-11-15T14:48:51.923Z"
           }
         },
         {
@@ -27746,7 +27738,7 @@
               "0.02",
               "250"
             ],
-            "at": "2026-11-15T14:48:01.284Z"
+            "at": "2026-11-15T14:48:52.176Z"
           }
         },
         {
@@ -27764,7 +27756,7 @@
               "0.03",
               "44.333333333333336"
             ],
-            "at": "2026-11-15T14:48:01.553Z"
+            "at": "2026-11-15T14:48:52.432Z"
           }
         }
       ]
@@ -27796,7 +27788,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:38.386Z"
+            "at": "2026-11-15T14:48:29.873Z"
           }
         }
       ]
@@ -27834,7 +27826,7 @@
               "0.01",
               "510.25"
             ],
-            "at": "2026-11-15T14:47:38.652Z"
+            "at": "2026-11-15T14:48:30.335Z"
           }
         },
         {
@@ -27852,7 +27844,7 @@
               "0.03",
               "101.88"
             ],
-            "at": "2026-11-15T14:48:01.794Z"
+            "at": "2026-11-15T14:48:52.713Z"
           }
         },
         {
@@ -27898,7 +27890,7 @@
               "0.011",
               "454.54"
             ],
-            "at": "2026-11-15T14:47:38.894Z"
+            "at": "2026-11-15T14:48:30.552Z"
           }
         },
         {
@@ -27976,7 +27968,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-15T14:47:39.149Z"
+            "at": "2026-11-15T14:48:30.795Z"
           }
         }
       ]
@@ -28015,7 +28007,7 @@
               "0.01",
               "4.95"
             ],
-            "at": "2026-11-15T14:47:39.434Z"
+            "at": "2026-11-15T14:48:31.065Z"
           }
         }
       ]
@@ -28053,7 +28045,7 @@
               "0.042",
               "62.87"
             ],
-            "at": "2026-11-15T14:47:39.677Z"
+            "at": "2026-11-15T14:48:31.335Z"
           }
         },
         {
@@ -28100,7 +28092,7 @@
       "book": {
         "bestAsk": null,
         "bestBid": null,
-        "at": "2026-11-15T14:47:39.927Z"
+        "at": "2026-11-15T14:48:31.583Z"
       }
     },
     {
@@ -28137,7 +28129,7 @@
               "0.05",
               "5006.9"
             ],
-            "at": "2026-11-15T14:47:40.207Z"
+            "at": "2026-11-15T14:48:31.850Z"
           }
         }
       ]
