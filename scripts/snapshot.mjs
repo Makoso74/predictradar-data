@@ -396,12 +396,37 @@ async function fetchKalshi(prev) {
   };
 }
 
+const LIMITLESS_IMAGE_HOSTS = new Set([
+  "cdn.limitless.exchange",
+  "limitless.exchange",
+  "api.limitless.exchange",
+  "storage.googleapis.com",
+  "polymarket-upload.s3.us-east-2.amazonaws.com",
+  "media.api-sports.io",
+]);
+
+function limitlessImage(market) {
+  for (const value of [market.image, market.icon, market.imageUrl]) {
+    if (typeof value !== "string" || value.length > 2048) continue;
+    try {
+      const url = new URL(value);
+      if (url.protocol === "https:" && !url.username && !url.password &&
+          LIMITLESS_IMAGE_HOSTS.has(url.hostname)) return url.href;
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
+
 function pickLimitless(m) {
   const tokens = m.tokens || {};
   const expMs = Number(m.expirationTimestamp);
   return {
     slug: m.slug ?? null,
     title: m.title ?? null,
+    image: limitlessImage(m),
     status: m.status ?? null,
     volume: m.volume ?? null,
     volumeFormatted: m.volumeFormatted ?? null,
@@ -415,6 +440,7 @@ function pickLimitless(m) {
       ? m.markets.slice(0, 30).map((x) => ({
           slug: x.slug ?? null,
           title: x.title ?? null,
+          image: limitlessImage(x),
           yesTokenId: x.tokens?.yes ?? null,
           noTokenId: x.tokens?.no ?? null,
           volumeFormatted: x.volumeFormatted ?? null,
