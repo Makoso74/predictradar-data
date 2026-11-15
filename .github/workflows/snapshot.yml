@@ -1,57 +1,148 @@
 name: Snapshot
 
+# Every 5 min, one long job (~5.5 h, 66 rounds), then it re-dispatches itself.
+# Snapshot is published to branch `data` as ONE orphan commit (force-push):
+#   https://raw.githubusercontent.com/Makoso74/predictradar-data/data/snapshot.json
 on:
   schedule:
-    # Backup only: GitHub may delay or skip scheduled runs.
-    - cron: "7 */6 * * *"
+    # Safety net only: starts a loop if the self-restart chain broke.
+    # The guard job exits in seconds when a loop is already running or queued.
+    - cron: "7 * * * *"
   workflow_dispatch:
-
-concurrency:
-  group: snapshot
-  cancel-in-progress: false
 
 permissions:
   contents: write
   actions: write
 
 jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - name: Skip cron run if a loop is already active
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EVENT: ${{ github.event_name }}
+          SELF_ID: ${{ github.run_id }}
+        run: |
+          if [ "$EVENT" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          busy=$(gh run list --workflow snapshot.yml --limit 30 --json databaseId,status \
+            --jq "[.[] | select(.databaseId != $SELF_ID and (.status == \"in_progress\" or .status == \"queued\" or .status == \"pending\" or .status == \"waiting\" or .status == \"requested\"))] | length" \
+            || echo 0)
+          if [ "${busy:-0}" -gt 0 ]; then
+            echo "Another snapshot run is active ($busy), skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
   snapshot:
+    needs: guard
+    if: needs.guard.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 350
+    # Second line of defence: never two loops at once; a new run waits for the old one.
+    concurrency:
+      group: snapshot
+      cancel-in-progress: false
     steps:
       - name: Check out
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
-      - name: Snapshot loop (every 15 min, ~5.5 h)
+      - name: Snapshot loop (every 5 min, ~5.5 h)
+        timeout-minutes: 336
+        env:
+          INTERVAL_SEC: "300"        # 5 min between round starts
+          LOOP_SEC: "19800"          # 330 min -> 66 rounds
+          ROUND_TIMEOUT_SEC: "240"   # one round may not hang longer than 4 min
+          HEARTBEAT_SEC: "900"       # push to `data` at least every 15 min even if unchanged
+          LEGACY_MAIN: "true"        # transition for v10: also commit data/snapshot.json to main
+          LEGACY_SEC: "900"          # ...not more often than every 15 min
         run: |
+          set -u
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for i in $(seq 1 22); do
-            echo "=== Round $i at $(date -u +%H:%M:%S) UTC ==="
-            if node scripts/snapshot.mjs; then
-              mkdir -p data
-              git add data/snapshot.json
-              if git diff --staged --quiet; then
-                echo "No changes to commit"
+          OUT="$RUNNER_TEMP/snapshot.json"
+          export SNAPSHOT_OUT="$OUT"
+
+          # Previous snapshot = fallback for a failed source and the baseline for "changed?".
+          if git fetch --quiet --depth=1 origin data 2>/dev/null && git show FETCH_HEAD:snapshot.json > "$OUT" 2>/dev/null; then
+            echo "Seeded from branch data"
+          elif [ -f data/snapshot.json ]; then
+            cp data/snapshot.json "$OUT"; echo "Seeded from main data/snapshot.json"
+          else
+            rm -f "$OUT"; echo "No previous snapshot"
+          fi
+          last_fp=$(node scripts/snapshot.mjs --fingerprint "$OUT")
+          last_pub=0
+          last_legacy=0
+
+          publish() {
+            local blob tree commit
+            blob=$(git hash-object -w "$OUT") || return 1
+            tree=$(printf '100644 blob %s\tsnapshot.json\n' "$blob" | git mktree) || return 1
+            commit=$(git commit-tree "$tree" -m "Snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)") || return 1
+            git push --quiet --force origin "$commit:refs/heads/data"
+          }
+
+          legacy_main() {
+            git fetch --quiet --depth=1 origin main || return 1
+            git reset --quiet --mixed FETCH_HEAD || return 1
+            mkdir -p data && cp "$OUT" data/snapshot.json
+            git add data/snapshot.json
+            if git diff --staged --quiet; then return 0; fi
+            git commit --quiet -m "Update market snapshot (legacy mirror for v10)" || return 1
+            git push --quiet origin HEAD:main
+          }
+
+          start=$(date +%s)
+          round=0
+          while :; do
+            round=$((round + 1))
+            echo "::group::Round $round at $(date -u +%H:%M:%S) UTC"
+            if timeout "$ROUND_TIMEOUT_SEC" node scripts/snapshot.mjs; then
+              fp=$(node scripts/snapshot.mjs --fingerprint "$OUT")
+              now=$(date +%s)
+              if [ "$fp" != "$last_fp" ] || [ $((now - last_pub)) -ge "$HEARTBEAT_SEC" ]; then
+                if publish; then
+                  [ "$fp" != "$last_fp" ] && echo "Published: data changed" || echo "Published: heartbeat"
+                  last_fp=$fp; last_pub=$now
+                else
+                  echo "Push to data failed, will retry next round"
+                fi
               else
-                git commit -m "Update market snapshot" || true
-                git pull --rebase origin main || git rebase --abort || true
-                git push || echo "Push failed, will retry next round"
+                echo "Unchanged, not pushed"
+              fi
+              if [ "$LEGACY_MAIN" = "true" ] && [ $((now - last_legacy)) -ge "$LEGACY_SEC" ]; then
+                if legacy_main; then last_legacy=$now; echo "Legacy main mirror updated"; else echo "Legacy main push failed"; fi
               fi
             else
               echo "Snapshot failed, will retry next round"
             fi
-            if [ "$i" -lt 22 ]; then sleep 900; fi
+            echo "::endgroup::"
+            next=$((start + round * INTERVAL_SEC))
+            if [ $((next - start)) -ge "$LOOP_SEC" ]; then break; fi
+            wait_s=$((next - $(date +%s)))
+            if [ "$wait_s" -gt 0 ]; then sleep "$wait_s"; fi
           done
+          echo "Loop done after $round rounds"
 
       - name: Restart itself
         if: ${{ !cancelled() }}
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: gh workflow run snapshot.yml --ref main
-
