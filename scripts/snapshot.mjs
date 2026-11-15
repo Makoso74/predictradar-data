@@ -517,6 +517,35 @@ function hlTime(s) {
   return m ? `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:00.000Z` : null;
 }
 
+/** Shared "<prefix>: " of the outcome titles, else built from description fields. Also fills outcomeLabel. */
+function hlQuestionTitle(q, byOutcome) {
+  const ids = [q.fallbackOutcome, ...(q.namedOutcomes || [])].filter((o) => o != null);
+  const its = ids.map((o) => byOutcome.get(o)).filter(Boolean);
+  const titles = its.map((it) => it.title).filter(Boolean);
+  let prefix = null;
+  if (titles.length >= 2) {
+    let p = titles[0];
+    for (const t of titles) while (p && !t.startsWith(p)) p = p.slice(0, -1);
+    const cut = p.lastIndexOf(": ");
+    if (cut > 0) prefix = p.slice(0, cut);
+  }
+  if (prefix) {
+    for (const it of its) if (it.title && it.title.startsWith(prefix + ": ")) it.outcomeLabel = it.title.slice(prefix.length + 2);
+    return prefix;
+  }
+  const f = parseHlDescription(q.description);
+  const name = String(q.name || "").replace(/^template:/, "");
+  let t = null;
+  if (f.competition) t = [f.season, f.competition.trim(), name === "sportsTournamentWinner" ? "winner" : null].filter(Boolean).join(" ");
+  else if (f.institution) t = [f.institution, f.decisionLabel, "rate decision"].filter(Boolean).join(" ");
+  else if (f.underlying) {
+    const when = hlTime(f.expiry);
+    t = `${f.underlying} price range` + (when ? ` by ${when.slice(0, 10)} ${when.slice(11, 16)} UTC` : "");
+  }
+  if (t) for (const it of its) if (it.title && !it.outcomeLabel) it.outcomeLabel = it.title;
+  return t || null;
+}
+
 function hlTemplate(name, fields) {
   return String(name || "")
     .replace(/^template:/, "")
@@ -579,7 +608,8 @@ async function fetchHyperliquid(prev, deadline) {
       coinYes,
       coinNo,
       template: String(o.name || "").replace(/^template:/, ""),
-      title: k?.title || null,
+      title: k?.title ? String(k.title).replace(/\$\$/g, "$") : null, // Kairos doubles "$"
+      outcomeLabel: null, // filled below for outcomes inside a question
       sides: (o.sideSpecs || []).map((s) => hlTemplate(s.name, fields)),
       description: String(o.description || "").slice(0, HL_DESCRIPTION_MAX),
       questionId: questionOf.get(o.outcome) ?? null,
@@ -598,9 +628,11 @@ async function fetchHyperliquid(prev, deadline) {
   });
   items.sort((a, b) => a.outcome - b.outcome);
 
+  const byOutcome = new Map(items.map((it) => [it.outcome, it]));
   const questions = (meta.questions || [])
     .map((q) => ({
       question: q.question,
+      title: hlQuestionTitle(q, byOutcome),
       template: String(q.name || "").replace(/^template:/, ""),
       description: String(q.description || "").slice(0, HL_DESCRIPTION_MAX),
       fallbackOutcome: q.fallbackOutcome ?? null,
