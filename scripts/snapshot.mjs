@@ -238,19 +238,28 @@ function pickPredictIt(m) {
     .map((c) => ({
       id: c.id ?? null,
       name: c.name ?? null,
+      shortName: c.shortName ?? null,
       status: c.status ?? null,
+      // Raw string as PredictIt sends it: ISO without zone (America/New_York), "NA", "N/A" or prose.
+      dateEnd: c.dateEnd ?? null,
+      displayOrder: c.displayOrder ?? null,
       lastTradePrice: c.lastTradePrice ?? null,
       bestBuyYesCost: c.bestBuyYesCost ?? null,
       bestBuyNoCost: c.bestBuyNoCost ?? null,
       bestSellYesCost: c.bestSellYesCost ?? null,
       bestSellNoCost: c.bestSellNoCost ?? null,
+      lastClosePrice: c.lastClosePrice ?? null,
     }))
     .sort((a, b) => String(a.id).localeCompare(String(b.id), undefined, { numeric: true }));
   return {
     id: m.id ?? null,
     name: m.name ?? null,
+    shortName: m.shortName ?? null,
     url: m.url ?? null,
+    // Raw PredictIt time without zone; it is America/New_York, not UTC. Use fetchedAt/generatedAt for freshness.
     timeStamp: m.timeStamp ?? null,
+    timeStampZone: "America/New_York",
+    contractsTotal: (m.contracts || []).length,
     status: m.status ?? null,
     contracts,
   };
@@ -325,9 +334,15 @@ function shrink(snapshot) {
     notes.push("trimmed limitless to stay under size cap");
   }
   if (byteSize(snapshot) > TARGET_MAX_BYTES && snapshot.predictit.length) {
+    const order = (c) => (Number.isFinite(c.displayOrder) ? c.displayOrder : Number.MAX_SAFE_INTEGER);
     for (const m of snapshot.predictit) {
-      if (m.contracts && m.contracts.length > 6) m.contracts = m.contracts.slice(0, 6);
+      if (m.contracts && m.contracts.length > 6) {
+        // Keep the first 6 by PredictIt's displayOrder and mark the market as truncated.
+        m.contracts = [...m.contracts].sort((a, b) => order(a) - order(b)).slice(0, 6);
+        m.truncated = true;
+      }
     }
+    snapshot.sources.predictit.truncated = true;
     notes.push("trimmed predictit contracts");
   }
   if (notes.length) snapshot.sources.sizeNotes = notes;
