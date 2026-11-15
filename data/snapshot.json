@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T00:39:36.914Z",
+  "generatedAt": "2026-11-15T00:54:40.197Z",
   "sources": {
     "kalshi": {
       "ok": true,
-      "fetchedAt": "2026-11-15T00:39:36.917Z",
+      "fetchedAt": "2026-11-15T00:54:40.200Z",
       "count": 16,
       "httpStatus": 200
     },
     "limitless": {
       "ok": true,
-      "fetchedAt": "2026-11-15T00:39:37.802Z",
+      "fetchedAt": "2026-11-15T00:54:41.283Z",
       "count": 150,
       "httpStatus": 200,
       "truncated": true
     },
     "predictit": {
       "ok": true,
-      "fetchedAt": "2026-11-15T00:39:38.226Z",
+      "fetchedAt": "2026-11-15T00:54:41.793Z",
       "count": 148,
       "httpStatus": 200
     }
@@ -30,12 +30,12 @@
       "close_time": "2030-01-01T15:00:00Z",
       "expected_expiration_time": "2030-01-01T15:00:00Z",
       "event_ticker": "KXBOND-30",
-      "volume": "539891.87",
-      "volume_fp": "539891.87",
-      "volume_24h": "33099.40",
-      "volume_24h_fp": "33099.40",
-      "open_interest": "331646.38",
-      "open_interest_fp": "331646.38",
+      "volume": "539893.32",
+      "volume_fp": "539893.32",
+      "volume_24h": "33702.67",
+      "volume_24h_fp": "33702.67",
+      "open_interest": "331645.40",
+      "open_interest_fp": "331645.40",
       "yes_bid": "0.4800",
       "yes_ask": "0.4900",
       "rules_primary": "If Robert Pattinson is cast as the next James Bond before Jan 1, 2030, then the market resolves to Yes.",
@@ -50,8 +50,8 @@
       "event_ticker": "KXBTCD-26NOV1417",
       "volume": "185197.66",
       "volume_fp": "185197.66",
-      "volume_24h": "153863.57",
-      "volume_24h_fp": "153863.57",
+      "volume_24h": "151667.34",
+      "volume_24h_fp": "151667.34",
       "open_interest": "29271.11",
       "open_interest_fp": "29271.11",
       "yes_bid": "0.0000",
@@ -72,8 +72,8 @@
       "volume_24h_fp": "52893.81",
       "open_interest": "196185.88",
       "open_interest_fp": "196185.88",
-      "yes_bid": "0.0400",
-      "yes_ask": "0.0500",
+      "yes_bid": "0.0200",
+      "yes_ask": "0.0300",
       "rules_primary": "If the price of BTC after issuance and through 11:59 PM ET on Nov 30, 2026 is ever above $\n82500.00, then the market resolves to Yes.",
       "rules_secondary": "At each minute throughout the market duration, a settlement value is calculated using every minute-by-minute CF BRTI price for BTC. For each of these individual minute-by-minute checks, the top 20% and bottom 20% of the cumulative dataset are removed before calculating the average of the remaining values. If the trimmed mean associated with any single minute during the period is above the threshold, the market resolves to Yes. This methodology reduces the impact of extreme price spikes or drops. The measurement period runs from when the market is issued until the specified end time. If CF Benchmarks data is unavailable or incomplete at the expiration time, affected strikes resolve to No. For cryptocurrencies with multiple versions, the Exchange will specify which version or ticker is being tracked."
     },
@@ -86,8 +86,8 @@
       "event_ticker": "KXCPIYOY-26NOV",
       "volume": "80310.37",
       "volume_fp": "80310.37",
-      "volume_24h": "12531.38",
-      "volume_24h_fp": "12531.38",
+      "volume_24h": "75.27",
+      "volume_24h_fp": "75.27",
       "open_interest": "34974.43",
       "open_interest_fp": "34974.43",
       "yes_bid": "0.8200",
@@ -104,8 +104,8 @@
       "event_ticker": "KXEPLGAME-26NOV21MCIFUL",
       "volume": "67478.85",
       "volume_fp": "67478.85",
-      "volume_24h": "13258.74",
-      "volume_24h_fp": "13258.74",
+      "volume_24h": "13260.15",
+      "volume_24h_fp": "13260.15",
       "open_interest": "37229.24",
       "open_interest_fp": "37229.24",
       "yes_bid": "0.6900",
@@ -122,8 +122,8 @@
       "event_ticker": "KXETHD-26NOV1417",
       "volume": "65591.07",
       "volume_fp": "65591.07",
-      "volume_24h": "58093.55",
-      "volume_24h_fp": "58093.55",
+      "volume_24h": "57879.35",
+      "volume_24h_fp": "57879.35",
       "open_interest": "22741.44",
       "open_interest_fp": "22741.44",
       "yes_bid": "0.0000",
@@ -138,12 +138,12 @@
       "close_time": "2026-12-09T18:55:00Z",
       "expected_expiration_time": "2026-12-09T19:05:00Z",
       "event_ticker": "KXFED-26DEC",
-      "volume": "417181.36",
-      "volume_fp": "417181.36",
-      "volume_24h": "1851.54",
-      "volume_24h_fp": "1851.54",
-      "open_interest": "103054.98",
-      "open_interest_fp": "103054.98",
+      "volume": "417182.36",
+      "volume_fp": "417182.36",
+      "volume_24h": "1852.54",
+      "volume_24h_fp": "1852.54",
+      "open_interest": "103053.98",
+      "open_interest_fp": "103053.98",
       "yes_bid": "0.0900",
       "yes_ask": "0.1000",
       "rules_primary": "If the upper bound of the target federal funds rate published on the Federal Reserve's official website is greater than 4.25% following the Federal Reserve's Dec 9, 2026 meeting, then the market resolves to Yes.",
@@ -192,12 +192,12 @@
       "close_time": "2026-12-09T18:59:00Z",
       "expected_expiration_time": "2026-12-09T19:05:00Z",
       "event_ticker": "KXFEDDECISION-26DEC",
-      "volume": "3804109.69",
-      "volume_fp": "3804109.69",
-      "volume_24h": "89339.75",
-      "volume_24h_fp": "89339.75",
-      "open_interest": "2542266.75",
-      "open_interest_fp": "2542266.75",
+      "volume": "3804554.77",
+      "volume_fp": "3804554.77",
+      "volume_24h": "88005.42",
+      "volume_24h_fp": "88005.42",
+      "open_interest": "2542711.83",
+      "open_interest_fp": "2542711.83",
       "yes_bid": "0.0300",
       "yes_ask": "0.0400",
       "rules_primary": "If the Federal Reserve does a Hike of 0bps on December 09, 2026, then the market resolves to Yes.",
@@ -210,10 +210,10 @@
       "close_time": "2026-12-09T18:59:00Z",
       "expected_expiration_time": "2026-12-09T19:05:00Z",
       "event_ticker": "KXFEDDECISION-26DEC",
-      "volume": "3108254.10",
-      "volume_fp": "3108254.10",
-      "volume_24h": "49671.00",
-      "volume_24h_fp": "49671.00",
+      "volume": "3108290.85",
+      "volume_fp": "3108290.85",
+      "volume_24h": "49601.27",
+      "volume_24h_fp": "49601.27",
       "open_interest": "1938249.08",
       "open_interest_fp": "1938249.08",
       "yes_bid": "0.8500",
@@ -230,8 +230,8 @@
       "event_ticker": "KXFEDDECISION-26DEC",
       "volume": "4719434.51",
       "volume_fp": "4719434.51",
-      "volume_24h": "140969.29",
-      "volume_24h_fp": "140969.29",
+      "volume_24h": "140869.29",
+      "volume_24h_fp": "140869.29",
       "open_interest": "2364839.51",
       "open_interest_fp": "2364839.51",
       "yes_bid": "0.1000",
@@ -264,12 +264,12 @@
       "close_time": "2026-11-17T21:25:00Z",
       "expected_expiration_time": "2026-11-16T00:25:00Z",
       "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "volume": "975758.05",
-      "volume_fp": "975758.05",
-      "volume_24h": "268440.95",
-      "volume_24h_fp": "268440.95",
-      "open_interest": "823828.45",
-      "open_interest_fp": "823828.45",
+      "volume": "981837.48",
+      "volume_fp": "981837.48",
+      "volume_24h": "269518.99",
+      "volume_24h_fp": "269518.99",
+      "open_interest": "829685.03",
+      "open_interest_fp": "829685.03",
       "yes_bid": "0.6500",
       "yes_ask": "0.6600",
       "rules_primary": "If San Francisco wins the San Francisco vs Dallas Pro Football game originally scheduled for Nov 15, 2026, then the market resolves to Yes.",
@@ -282,12 +282,12 @@
       "close_time": "2029-02-13T23:30:00Z",
       "expected_expiration_time": "2027-02-14T23:30:00Z",
       "event_ticker": "KXSB-27",
-      "volume": "11454924.79",
-      "volume_fp": "11454924.79",
-      "volume_24h": "117510.92",
-      "volume_24h_fp": "117510.92",
-      "open_interest": "8938628.83",
-      "open_interest_fp": "8938628.83",
+      "volume": "11455112.31",
+      "volume_fp": "11455112.31",
+      "volume_24h": "99766.09",
+      "volume_24h_fp": "99766.09",
+      "open_interest": "8938816.35",
+      "open_interest_fp": "8938816.35",
       "yes_bid": "0.0400",
       "yes_ask": "0.0500",
       "rules_primary": "If Minnesota wins the 2027 Pro Football Championship, then the market resolves to Yes.",
@@ -300,12 +300,12 @@
       "close_time": "2026-11-17T03:30:00Z",
       "expected_expiration_time": "2026-11-15T08:30:00Z",
       "event_ticker": "KXUFCFIGHT-26NOV14GANHOK",
-      "volume": "6644003.55",
-      "volume_fp": "6644003.55",
-      "volume_24h": "3218040.10",
-      "volume_24h_fp": "3218040.10",
-      "open_interest": "6077110.06",
-      "open_interest_fp": "6077110.06",
+      "volume": "6940767.24",
+      "volume_fp": "6940767.24",
+      "volume_24h": "3394078.03",
+      "volume_24h_fp": "3394078.03",
+      "open_interest": "6370808.80",
+      "open_interest_fp": "6370808.80",
       "yes_bid": "0.3300",
       "yes_ask": "0.3400",
       "rules_primary": "If Josh Hokit  wins the Ciryl Gane vs Josh Hokit professional MMA fight originally scheduled for Nov 14, 2026, then the market resolves to Yes.",
@@ -857,30 +857,30 @@
       ]
     },
     {
-      "slug": "btc-up-or-down-15-min-1794702600",
+      "slug": "btc-up-or-down-15-min-1794703500",
       "title": "BTC Up or Down - 15 Min",
       "status": "FUNDED",
-      "volume": "162000",
-      "volumeFormatted": "0.162000",
-      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 00:45 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:30 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 00:30 UTC was $63794.433880844200000000.</p>",
-      "expirationTimestamp": 1794703500000,
-      "expiration": "2026-11-15T00:45:00.000Z",
-      "yesTokenId": "16941706080453135118368235095262543118850076346248322861686130234723879524064",
-      "noTokenId": "44815224234635567919361204450103271932622890735868270889384240292527662201169",
+      "volume": "3743000",
+      "volumeFormatted": "3.743000",
+      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 01:00 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:45 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 00:45 UTC was $63771.056984063700000000.</p>",
+      "expirationTimestamp": 1794704400000,
+      "expiration": "2026-11-15T01:00:00.000Z",
+      "yesTokenId": "102972580521423441505184480970216932427111925562290234284849071722253098919568",
+      "noTokenId": "30635921135184221728054731666146575398848582712813626352884362543231926045537",
       "marketType": "single",
       "outcomes": null
     },
     {
-      "slug": "btc-up-or-down-5-min-1794702900",
+      "slug": "btc-up-or-down-5-min-1794703800",
       "title": "BTC Up or Down - 5 Min",
       "status": "FUNDED",
-      "volume": "0",
-      "volumeFormatted": "0.000000",
-      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 00:40 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:35 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 00:35 UTC was $63799.139979630800000000.</p>",
-      "expirationTimestamp": 1794703200000,
-      "expiration": "2026-11-15T00:40:00.000Z",
-      "yesTokenId": "63781265080321830595953538320872887296736730464623305148758683456996347713054",
-      "noTokenId": "1173628201858984139974103076012486345728598087022214070417995189477937467972",
+      "volume": "2090000",
+      "volumeFormatted": "2.090000",
+      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 00:55 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:50 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 15, 2026, at 00:50 UTC was $63591.100076349400000000.</p>",
+      "expirationTimestamp": 1794704100000,
+      "expiration": "2026-11-15T00:55:00.000Z",
+      "yesTokenId": "70929151851119951693047600594784422416790873283251244918400245706709559621334",
+      "noTokenId": "36117694414988458272591610935813433039112728017947852505850398425645591885808",
       "marketType": "single",
       "outcomes": null
     },
@@ -958,8 +958,8 @@
       "slug": "doge-up-or-down-hourly-p-1794690331259",
       "title": "DOGE Up or Down Hourly",
       "status": "FUNDED",
-      "volume": "1020000",
-      "volumeFormatted": "1.020000",
+      "volume": "1060000",
+      "volumeFormatted": "1.060000",
       "description": "<p>This market will resolve to &quot;Up&quot; if the close price is greater than or equal to the open price for the DOGE/USDT 1 hour candle that begins on the time and date specified in the title. Otherwise, this market will resolve to &quot;Down&quot;.</p><p><br></p><p>The resolution source for this market is information from Binance, specifically the DOGE/USDT pair (<a href=\"https://www.binance.com/en/trade/DOGE_USDT\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.binance.com/en/trade/DOGE_USDT</a>). The close « C » and open « O » displayed at the top of the graph for the relevant &quot;1H&quot; candle will be used once the data for that candle is finalized.</p><p><br></p><p>Please note that this market is about the price according to Binance DOGE/USDT, not according to other exchanges or trading pairs.</p>",
       "expirationTimestamp": 1794704400000,
       "expiration": "2026-11-15T01:00:00.000Z",
@@ -1011,30 +1011,30 @@
       "outcomes": null
     },
     {
-      "slug": "eth-up-or-down-15-min-1794702600",
+      "slug": "eth-up-or-down-15-min-1794703500",
       "title": "ETH Up or Down - 15 Min",
       "status": "FUNDED",
-      "volume": "140000",
-      "volumeFormatted": "0.140000",
-      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 00:45 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:30 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 00:30 UTC was $1753.849104260510000000.</p>",
-      "expirationTimestamp": 1794703500000,
-      "expiration": "2026-11-15T00:45:00.000Z",
-      "yesTokenId": "38778850248344812395901324218659515555769897656631054821949494106438260057381",
-      "noTokenId": "115159605252894180092534189616525193250298602004353385370844579720630282333561",
+      "volume": "261000",
+      "volumeFormatted": "0.261000",
+      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 01:00 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:45 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 00:45 UTC was $1754.855402970520000000.</p>",
+      "expirationTimestamp": 1794704400000,
+      "expiration": "2026-11-15T01:00:00.000Z",
+      "yesTokenId": "16762693386666568280715790425362967554676993620094227610187848292401149594239",
+      "noTokenId": "10053958107370160069025013692649474882936748486068049479553760121973318505180",
       "marketType": "single",
       "outcomes": null
     },
     {
-      "slug": "eth-up-or-down-5-min-1794702900",
+      "slug": "eth-up-or-down-5-min-1794703800",
       "title": "ETH Up or Down - 5 Min",
       "status": "FUNDED",
       "volume": "0",
       "volumeFormatted": "0.000000",
-      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 00:40 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:35 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 00:35 UTC was $1754.553755226570000000.</p>",
-      "expirationTimestamp": 1794703200000,
-      "expiration": "2026-11-15T00:40:00.000Z",
-      "yesTokenId": "32968033412147884946915717678919598248325263972816507918542426795534309577012",
-      "noTokenId": "61949687835212720772002391796893264834458086044401188472489515251266231785834",
+      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 00:55 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 15, 2026, at 00:50 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 15, 2026, at 00:50 UTC was $1748.299133290790000000.</p>",
+      "expirationTimestamp": 1794704100000,
+      "expiration": "2026-11-15T00:55:00.000Z",
+      "yesTokenId": "43763911485440794905200002882740039249710344740536512449729631019769280788584",
+      "noTokenId": "11573714700239851583185312447357003368592420874872657395195957833303730569900",
       "marketType": "single",
       "outcomes": null
     },
@@ -2917,20 +2917,6 @@
       "outcomes": null
     },
     {
-      "slug": "ufc-334-cesar-almeida-vs-donte-johnson-middleweight-prelims-1794089173888",
-      "title": "UFC 334: Cesar Almeida vs. Donte Johnson (Middleweight, Prelims)",
-      "status": "FUNDED",
-      "volume": "0",
-      "volumeFormatted": "0.000000",
-      "description": "<p>This market will resolve to &quot;Cesar Almeida&quot; if Cesar Almeida is officially declared the winner of the fight against Donte Johnson at UFC 334: Gane vs. Hokit, scheduled for November 14, 2026.</p><p><br></p><p>It will resolve to &quot;Donte Johnson&quot; if Donte Johnson is officially declared the winner.</p><p><br></p><p>If the fight is declared a draw or technical draw, ruled a No Contest, not scored, canceled, or postponed beyond November 28, 2026, this market will resolve &quot;50-50.&quot;</p><p><br></p><p>The resolution source for this market will be official information from the UFC.</p>",
-      "expirationTimestamp": 1794780000000,
-      "expiration": "2026-11-15T22:00:00.000Z",
-      "yesTokenId": "19941537635579733917374311301698363114773606737502388478315080991170008892019",
-      "noTokenId": "70575433470912698902911463064152694042375023740923983098106301763762322478979",
-      "marketType": "single",
-      "outcomes": null
-    },
-    {
       "slug": "ufc-334-drew-dober-vs-chris-duncan-lightweight-prelims-1794089171513",
       "title": "UFC 334: Drew Dober vs. Chris Duncan (Lightweight, Prelims)",
       "status": "FUNDED",
@@ -2948,8 +2934,8 @@
       "slug": "ufc-334-jim-miller-vs-terrance-mckinney-lightweight-prelims-1794089172677",
       "title": "UFC 334: Jim Miller vs. Terrance McKinney (Lightweight, Prelims)",
       "status": "FUNDED",
-      "volume": "0",
-      "volumeFormatted": "0.000000",
+      "volume": "470629000",
+      "volumeFormatted": "470.629000",
       "description": "<p>This market will resolve to &quot;Jim Miller&quot; if Jim Miller is officially declared the winner of the fight against Terrance McKinney at UFC 334: Gane vs. Hokit, scheduled for November 14, 2026.</p><p><br></p><p>It will resolve to &quot;Terrance McKinney&quot; if Terrance McKinney is officially declared the winner.</p><p><br></p><p>If the fight is declared a draw or technical draw, ruled a No Contest, not scored, canceled, or postponed beyond November 28, 2026, this market will resolve &quot;50-50.&quot;</p><p><br></p><p>The resolution source for this market will be official information from the UFC.</p>",
       "expirationTimestamp": 1794780000000,
       "expiration": "2026-11-15T22:00:00.000Z",
@@ -4088,6 +4074,20 @@
       ]
     },
     {
+      "slug": "xi-jinping-out-before-2027-1787659720504",
+      "title": "Xi Jinping out before 2027?",
+      "status": "FUNDED",
+      "volume": "40000000",
+      "volumeFormatted": "40.000000",
+      "description": "<p>This market will resolve to \"Yes\" if China's General Secretary of the Communist Party, Xi Jinping, is removed from power for any length of time between July 3, 2025, and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".</p><p><br></p><p>CCP General Secretary Xi Jinping will be considered removed from power if he announces his resignation from his role as General Secretary, or is otherwise dismissed, detained, disqualified, or otherwise loses his position or is prevented from fulfilling his duties as General Secretary within this market's timeframe.</p><p><br></p><p>The primary resolution source for this market will be a consensus of credible reporting.</p>",
+      "expirationTimestamp": 1798675200000,
+      "expiration": "2026-12-31T00:00:00.000Z",
+      "yesTokenId": "59742952539448621360713230548268643067575708278066488129928216930026358884053",
+      "noTokenId": "2752730233645300692029751053001214234110005525516344490527804543937586524117",
+      "marketType": "single",
+      "outcomes": null
+    },
+    {
       "slug": "xrp-up-or-down-daily-p-1794665180303",
       "title": "XRP Up or Down Daily",
       "status": "FUNDED",
@@ -4121,7 +4121,7 @@
       "id": 8152,
       "name": "Who will win the 2028 Republican presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8152/Who-will-win-the-2028-Republican-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4270,7 +4270,7 @@
       "id": 8153,
       "name": "Who will win the 2028 Democratic presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8153/Who-will-win-the-2028-Democratic-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4449,7 +4449,7 @@
       "id": 8171,
       "name": "Who will win the 2028 US presidential election?",
       "url": "https://www.predictit.org/markets/detail/8171/Who-will-win-the-2028-US-presidential-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4466,11 +4466,11 @@
           "id": 32019,
           "name": "A. Ocasio-Cortez",
           "status": "Open",
-          "lastTradePrice": 0.08,
-          "bestBuyYesCost": 0.09,
+          "lastTradePrice": 0.09,
+          "bestBuyYesCost": 0.1,
           "bestBuyNoCost": 0.92,
           "bestSellYesCost": 0.08,
-          "bestSellNoCost": 0.91
+          "bestSellNoCost": 0.9
         },
         {
           "id": 32020,
@@ -4507,10 +4507,10 @@
           "name": "Gavin Newsom",
           "status": "Open",
           "lastTradePrice": 0.09,
-          "bestBuyYesCost": 0.11,
+          "bestBuyYesCost": 0.1,
           "bestBuyNoCost": 0.91,
           "bestSellYesCost": 0.09,
-          "bestSellNoCost": 0.89
+          "bestSellNoCost": 0.9
         },
         {
           "id": 32024,
@@ -4568,8 +4568,8 @@
           "status": "Open",
           "lastTradePrice": 0.18,
           "bestBuyYesCost": 0.19,
-          "bestBuyNoCost": 0.82,
-          "bestSellYesCost": 0.18,
+          "bestBuyNoCost": 0.83,
+          "bestSellYesCost": 0.17,
           "bestSellNoCost": 0.81
         },
         {
@@ -4598,7 +4598,7 @@
       "id": 8181,
       "name": "Which party will win the 2028 US presidential election?",
       "url": "https://www.predictit.org/markets/detail/8181/Which-party-will-win-the-2028-US-presidential-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4627,7 +4627,7 @@
       "id": 8214,
       "name": "Which party will win the 2026 election for governor of Kansas?",
       "url": "https://www.predictit.org/markets/detail/8214/Which-party-will-win-the-2026-election-for-governor-of-Kansas",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4656,7 +4656,7 @@
       "id": 8245,
       "name": "Who will win the 2026 election for governor of Alaska?",
       "url": "https://www.predictit.org/markets/detail/8245/Who-will-win-the-2026-election-for-governor-of-Alaska",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4745,7 +4745,7 @@
       "id": 8246,
       "name": "Who will be the next Supreme Court nominee?",
       "url": "https://www.predictit.org/markets/detail/8246/Who-will-be-the-next-Supreme-Court-nominee",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4844,7 +4844,7 @@
       "id": 8271,
       "name": "Which party will win the 2026 US Senate election in Alaska?",
       "url": "https://www.predictit.org/markets/detail/8271/Which-party-will-win-the-2026-US-Senate-election-in-Alaska",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4883,7 +4883,7 @@
       "id": 8345,
       "name": "Will Mike Johnson remain Speaker of the House through the 119th Congress?",
       "url": "https://www.predictit.org/markets/detail/8345/Will-Mike-Johnson-remain-Speaker-of-the-House-through-the-119th-Congress",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4902,7 +4902,7 @@
       "id": 8349,
       "name": "Will Chuck Schumer remain the Democratic Leader through the 119th Congress?",
       "url": "https://www.predictit.org/markets/detail/8349/Will-Chuck-Schumer-remain-the-Democratic-Leader-through-the-119th-Congress",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -4921,7 +4921,7 @@
       "id": 8357,
       "name": "Who will win the 2028 Republican presidential primary in New Hampshire?",
       "url": "https://www.predictit.org/markets/detail/8357/Who-will-win-the-2028-Republican-presidential-primary-in-New-Hampshire",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5020,7 +5020,7 @@
       "id": 8363,
       "name": "Which office will AOC announce a run for by the end of 2027?",
       "url": "https://www.predictit.org/markets/detail/8363/Which-office-will-AOC-announce-a-run-for-by-the-end-of-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5049,7 +5049,7 @@
       "id": 8442,
       "name": "Will the House pass any articles of impeachment by the end of 2026?",
       "url": "https://www.predictit.org/markets/detail/8442/Will-the-House-pass-any-articles-of-impeachment-by-the-end-of-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5068,7 +5068,7 @@
       "id": 8457,
       "name": "Will Trump leave office early?",
       "url": "https://www.predictit.org/markets/detail/8457/Will-Trump-leave-office-early",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5087,7 +5087,7 @@
       "id": 8461,
       "name": "When will the House impeach Trump again?",
       "url": "https://www.predictit.org/markets/detail/8461/When-will-the-House-impeach-Trump-again",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5156,7 +5156,7 @@
       "id": 8479,
       "name": "How many vetoes will Trump issue in 2026?",
       "url": "https://www.predictit.org/markets/detail/8479/How-many-vetoes-will-Trump-issue-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5215,7 +5215,7 @@
       "id": 8480,
       "name": "Will Congress override a veto in 2026?",
       "url": "https://www.predictit.org/markets/detail/8480/Will-Congress-override-a-veto-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5234,7 +5234,7 @@
       "id": 8485,
       "name": "Will Congress confirm a Supreme Court justice in 2026?",
       "url": "https://www.predictit.org/markets/detail/8485/Will-Congress-confirm-a-Supreme-Court-justice-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5253,7 +5253,7 @@
       "id": 8486,
       "name": "Will Trump visit Greenland in 2026?",
       "url": "https://www.predictit.org/markets/detail/8486/Will-Trump-visit-Greenland-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5272,7 +5272,7 @@
       "id": 8488,
       "name": "Will any country announce that it is leaving NATO in 2026?",
       "url": "https://www.predictit.org/markets/detail/8488/Will-any-country-announce-that-it-is-leaving-NATO-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5291,7 +5291,7 @@
       "id": 8491,
       "name": "Will the US purchase and annex any land in Greenland in 2026?",
       "url": "https://www.predictit.org/markets/detail/8491/Will-the-US-purchase-and-annex-any-land-in-Greenland-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5310,7 +5310,7 @@
       "id": 8493,
       "name": "Will the US purchase Greenland in 2026?",
       "url": "https://www.predictit.org/markets/detail/8493/Will-the-US-purchase-Greenland-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5329,7 +5329,7 @@
       "id": 8494,
       "name": "Will Greenland hold an independence referendum in 2026?",
       "url": "https://www.predictit.org/markets/detail/8494/Will-Greenland-hold-an-independence-referendum-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5348,7 +5348,7 @@
       "id": 8521,
       "name": "How many tie-breaking Senate votes will JD Vance cast in 2026?",
       "url": "https://www.predictit.org/markets/detail/8521/How-many-tie-breaking-Senate-votes-will-JD-Vance-cast-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5457,7 +5457,7 @@
       "id": 8533,
       "name": "Which of these 10 Asian leaders will leave office next?",
       "url": "https://www.predictit.org/markets/detail/8533/Which-of-these-10-Asian-leaders-will-leave-office-next",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5566,7 +5566,7 @@
       "id": 8540,
       "name": "Will Stephen Miller leave office in 2026?",
       "url": "https://www.predictit.org/markets/detail/8540/Will-Stephen-Miller-leave-office-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5585,7 +5585,7 @@
       "id": 8549,
       "name": "Will Trump pardon Elon Musk in 2026?",
       "url": "https://www.predictit.org/markets/detail/8549/Will-Trump-pardon-Elon-Musk-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5604,7 +5604,7 @@
       "id": 8559,
       "name": "Will Trump pardon Nicolás Maduro or commute his sentence in 2026?",
       "url": "https://www.predictit.org/markets/detail/8559/Will-Trump-pardon-Nicolás-Maduro-or-commute-his-sentence-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5623,7 +5623,7 @@
       "id": 8570,
       "name": "Will Jon Ossoff announce a run for President before 2028?",
       "url": "https://www.predictit.org/markets/detail/8570/Will-Jon-Ossoff-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5642,7 +5642,7 @@
       "id": 8587,
       "name": "Who will replace Christine Lagarde at the European Central Bank?",
       "url": "https://www.predictit.org/markets/detail/8587/Who-will-replace-Christine-Lagarde-at-the-European-Central-Bank",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5691,7 +5691,7 @@
       "id": 8588,
       "name": "Will California pass a wealth tax referendum in 2026?",
       "url": "https://www.predictit.org/markets/detail/8588/Will-California-pass-a-wealth-tax-referendum-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5710,7 +5710,7 @@
       "id": 8591,
       "name": "Will Prince Andrew testify publicly before Congress in 2026?",
       "url": "https://www.predictit.org/markets/detail/8591/Will-Prince-Andrew-testify-publicly-before-Congress-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5729,7 +5729,7 @@
       "id": 8599,
       "name": "Will Stephen A. Smith announce a run for president before 2028?",
       "url": "https://www.predictit.org/markets/detail/8599/Will-Stephen-A-Smith-announce-a-run-for-president-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5748,7 +5748,7 @@
       "id": 8640,
       "name": "Will Rubio and Vance both announce a run for President before 2028?",
       "url": "https://www.predictit.org/markets/detail/8640/Will-Rubio-and-Vance-both-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5767,7 +5767,7 @@
       "id": 8643,
       "name": "Who will be the Prime Minister of Israel after the 2026 election?",
       "url": "https://www.predictit.org/markets/detail/8643/Who-will-be-the-Prime-Minister-of-Israel-after-the-2026-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5866,7 +5866,7 @@
       "id": 8648,
       "name": "Will Rubio visit Cuba in 2026?",
       "url": "https://www.predictit.org/markets/detail/8648/Will-Rubio-visit-Cuba-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5885,7 +5885,7 @@
       "id": 8656,
       "name": "Which of these Democratic candidates will announce a 2028 POTUS run first?",
       "url": "https://www.predictit.org/markets/detail/8656/Which-of-these-Democratic-candidates-will-announce-a-2028-POTUS-run-first",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -5994,7 +5994,7 @@
       "id": 8660,
       "name": "Will a law restricting sports trades on prediction markets be enacted in 2026?",
       "url": "https://www.predictit.org/markets/detail/8660/Will-a-law-restricting-sports-trades-on-prediction-markets-be-enacted-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6013,7 +6013,7 @@
       "id": 8669,
       "name": "Will Pete Buttigieg announce a run for President before 2028?",
       "url": "https://www.predictit.org/markets/detail/8669/Will-Pete-Buttigieg-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6032,7 +6032,7 @@
       "id": 8688,
       "name": "Will Tucker Carlson announce a run for President before 2028?",
       "url": "https://www.predictit.org/markets/detail/8688/Will-Tucker-Carlson-announce-a-run-for-President-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6051,7 +6051,7 @@
       "id": 8697,
       "name": "Will Pete Hegseth leave office in 2026?",
       "url": "https://www.predictit.org/markets/detail/8697/Will-Pete-Hegseth-leave-office-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6070,7 +6070,7 @@
       "id": 8701,
       "name": "Will the US announce in 2026 it is closing a military base in Germany or Spain?",
       "url": "https://www.predictit.org/markets/detail/8701/Will-the-US-announce-in-2026-it-is-closing-a-military-base-in-Germany-or-Spain",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6089,14 +6089,14 @@
       "id": 8705,
       "name": "Will the Pope excommunicate JD Vance before 2028?",
       "url": "https://www.predictit.org/markets/detail/8705/Will-the-Pope-excommunicate-JD-Vance-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
           "id": 34442,
           "name": "Will the Pope excommunicate JD Vance before 2028?",
           "status": "Open",
-          "lastTradePrice": 0.03,
+          "lastTradePrice": 0.02,
           "bestBuyYesCost": 0.03,
           "bestBuyNoCost": 0.98,
           "bestSellYesCost": 0.02,
@@ -6108,7 +6108,7 @@
       "id": 8707,
       "name": "Will Trump meet with Pope Leo in 2026?",
       "url": "https://www.predictit.org/markets/detail/8707/Will-Trump-meet-with-Pope-Leo-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6127,7 +6127,7 @@
       "id": 8720,
       "name": "Will the Ninth Circuit allow Kalshi's sports contracts in 2026?",
       "url": "https://www.predictit.org/markets/detail/8720/Will-the-Ninth-Circuit-allow-Kalshi's-sports-contracts-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6146,7 +6146,7 @@
       "id": 8766,
       "name": "Who will win the next French presidential election?",
       "url": "https://www.predictit.org/markets/detail/8766/Who-will-win-the-next-French-presidential-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6245,7 +6245,7 @@
       "id": 8767,
       "name": "Will any additional country announce that it is leaving OPEC in 2026?",
       "url": "https://www.predictit.org/markets/detail/8767/Will-any-additional-country-announce-that-it-is-leaving-OPEC-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6264,7 +6264,7 @@
       "id": 8784,
       "name": "Will the National Popular Vote Interstate Compact go into effect by July 2028?",
       "url": "https://www.predictit.org/markets/detail/8784/Will-the-National-Popular-Vote-Interstate-Compact-go-into-effect-by-July-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6283,7 +6283,7 @@
       "id": 8795,
       "name": "Will the House pass an anti-gerrymandering bill by the end of 2027?",
       "url": "https://www.predictit.org/markets/detail/8795/Will-the-House-pass-an-anti-gerrymandering-bill-by-the-end-of-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6291,10 +6291,10 @@
           "name": "Will the House pass an anti-gerrymandering bill by the end of 2027?",
           "status": "Open",
           "lastTradePrice": 0.78,
-          "bestBuyYesCost": 0.78,
+          "bestBuyYesCost": 0.97,
           "bestBuyNoCost": 0.38,
           "bestSellYesCost": 0.62,
-          "bestSellNoCost": 0.22
+          "bestSellNoCost": 0.03
         }
       ]
     },
@@ -6302,7 +6302,7 @@
       "id": 8799,
       "name": "Who will win the 2028 Democratic vice presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8799/Who-will-win-the-2028-Democratic-vice-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6411,7 +6411,7 @@
       "id": 8800,
       "name": "Who will win the 2028 Republican vice presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8800/Who-will-win-the-2028-Republican-vice-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6500,7 +6500,7 @@
       "id": 8804,
       "name": "Will crypto regulation (Clarity Act) be enacted in 2026?",
       "url": "https://www.predictit.org/markets/detail/8804/Will-crypto-regulation-(Clarity-Act)-be-enacted-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6519,7 +6519,7 @@
       "id": 8818,
       "name": "Will Trump's Anti-Weaponization Fund begin payouts this year?",
       "url": "https://www.predictit.org/markets/detail/8818/Will-Trump's-Anti-Weaponization-Fund-begin-payouts-this-year",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6538,7 +6538,7 @@
       "id": 8820,
       "name": "Will data center legislation (GRID Act) be enacted in 2026?",
       "url": "https://www.predictit.org/markets/detail/8820/Will-data-center-legislation-(GRID-Act)-be-enacted-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6557,7 +6557,7 @@
       "id": 8838,
       "name": "Will Cuba's leader leave office by year-end?",
       "url": "https://www.predictit.org/markets/detail/8838/Will-Cuba's-leader-leave-office-by-year-end",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6576,7 +6576,7 @@
       "id": 8846,
       "name": "Who will be elected Greater Manchester mayor in 2026?",
       "url": "https://www.predictit.org/markets/detail/8846/Who-will-be-elected-Greater-Manchester-mayor-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6625,7 +6625,7 @@
       "id": 8850,
       "name": "Who will be the next Cabinet member to leave office?",
       "url": "https://www.predictit.org/markets/detail/8850/Who-will-be-the-next-Cabinet-member-to-leave-office",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6814,7 +6814,7 @@
       "id": 8853,
       "name": "Will the Pope visit Cuba in 2026?",
       "url": "https://www.predictit.org/markets/detail/8853/Will-the-Pope-visit-Cuba-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6833,7 +6833,7 @@
       "id": 8856,
       "name": "What will be the national vote margin in the 2026 House midterms?",
       "url": "https://www.predictit.org/markets/detail/8856/What-will-be-the-national-vote-margin-in-the-2026-House-midterms",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6922,7 +6922,7 @@
       "id": 8870,
       "name": "Will any US federal judge be impeached in 2026?",
       "url": "https://www.predictit.org/markets/detail/8870/Will-any-US-federal-judge-be-impeached-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6941,7 +6941,7 @@
       "id": 8874,
       "name": "Will the Senate eliminate the legislative filibuster in 2026?",
       "url": "https://www.predictit.org/markets/detail/8874/Will-the-Senate-eliminate-the-legislative-filibuster-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6960,7 +6960,7 @@
       "id": 8877,
       "name": "Will there be another Senate vacancy in 2026?",
       "url": "https://www.predictit.org/markets/detail/8877/Will-there-be-another-Senate-vacancy-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6979,7 +6979,7 @@
       "id": 8879,
       "name": "Will both Raphael Warnock and Jon Ossoff remain US senators through year-end?",
       "url": "https://www.predictit.org/markets/detail/8879/Will-both-Raphael-Warnock-and-Jon-Ossoff-remain-US-senators-through-year-end",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -6998,7 +6998,7 @@
       "id": 8881,
       "name": "Will permanent daylight saving time be enacted in 2026?",
       "url": "https://www.predictit.org/markets/detail/8881/Will-permanent-daylight-saving-time-be-enacted-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7017,7 +7017,7 @@
       "id": 8890,
       "name": "Which of these 10 European leaders will leave office next?",
       "url": "https://www.predictit.org/markets/detail/8890/Which-of-these-10-European-leaders-will-leave-office-next",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7126,7 +7126,7 @@
       "id": 8899,
       "name": "Who will be selected the next Secretary-General of the United Nations?",
       "url": "https://www.predictit.org/markets/detail/8899/Who-will-be-selected-the-next-Secretary-General-of-the-United-Nations",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7185,7 +7185,7 @@
       "id": 8908,
       "name": "Will the House censure or reprimand Chuck Edwards in 2026?",
       "url": "https://www.predictit.org/markets/detail/8908/Will-the-House-censure-or-reprimand-Chuck-Edwards-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7204,7 +7204,7 @@
       "id": 8911,
       "name": "Will a woman be elected US president in 2028?",
       "url": "https://www.predictit.org/markets/detail/8911/Will-a-woman-be-elected-US-president-in-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7223,7 +7223,7 @@
       "id": 8912,
       "name": "Will a woman be elected US vice president in 2028?",
       "url": "https://www.predictit.org/markets/detail/8912/Will-a-woman-be-elected-US-vice-president-in-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7242,7 +7242,7 @@
       "id": 8914,
       "name": "Will a woman win the 2028 Democratic presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8914/Will-a-woman-win-the-2028-Democratic-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7261,7 +7261,7 @@
       "id": 8915,
       "name": "Will a woman win the 2028 Republican vice presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8915/Will-a-woman-win-the-2028-Republican-vice-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7280,7 +7280,7 @@
       "id": 8916,
       "name": "Will a woman win the 2028 Democratic vice presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8916/Will-a-woman-win-the-2028-Democratic-vice-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7299,7 +7299,7 @@
       "id": 8918,
       "name": "Will a woman win the 2028 Republican presidential nomination?",
       "url": "https://www.predictit.org/markets/detail/8918/Will-a-woman-win-the-2028-Republican-presidential-nomination",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7318,7 +7318,7 @@
       "id": 8922,
       "name": "Will Katie Wilson resign as Seattle mayor in 2026?",
       "url": "https://www.predictit.org/markets/detail/8922/Will-Katie-Wilson-resign-as-Seattle-mayor-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7337,7 +7337,7 @@
       "id": 8926,
       "name": "Will Mitch McConnell resign in 2026?",
       "url": "https://www.predictit.org/markets/detail/8926/Will-Mitch-McConnell-resign-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7356,7 +7356,7 @@
       "id": 8939,
       "name": "Which 2026 Senate race will be the closest?",
       "url": "https://www.predictit.org/markets/detail/8939/Which-2026-Senate-race-will-be-the-closest",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7403,11 +7403,11 @@
           "id": 35602,
           "name": "Alaska",
           "status": "Open",
-          "lastTradePrice": 0.28,
-          "bestBuyYesCost": 0.32,
+          "lastTradePrice": 0.29,
+          "bestBuyYesCost": 0.3,
           "bestBuyNoCost": 0.71,
           "bestSellYesCost": 0.29,
-          "bestSellNoCost": 0.68
+          "bestSellNoCost": 0.7
         },
         {
           "id": 35603,
@@ -7455,7 +7455,7 @@
       "id": 8940,
       "name": "Will Canada expel the US ambassador in 2026?",
       "url": "https://www.predictit.org/markets/detail/8940/Will-Canada-expel-the-US-ambassador-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7474,7 +7474,7 @@
       "id": 8943,
       "name": "Will Heidi Overton be confirmed as FDA Commissioner in 2026?",
       "url": "https://www.predictit.org/markets/detail/8943/Will-Heidi-Overton-be-confirmed-as-FDA-Commissioner-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7493,7 +7493,7 @@
       "id": 8952,
       "name": "How many articles of impeachment of Trump will the House pass in 2027?",
       "url": "https://www.predictit.org/markets/detail/8952/How-many-articles-of-impeachment-of-Trump-will-the-House-pass-in-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7562,7 +7562,7 @@
       "id": 8955,
       "name": "Which 2026 race will be the tipping point for Senate control?",
       "url": "https://www.predictit.org/markets/detail/8955/Which-2026-race-will-be-the-tipping-point-for-Senate-control",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7621,7 +7621,7 @@
       "id": 8957,
       "name": "Will Supreme Court grant certiorari in a sports prediction market case in 2026?",
       "url": "https://www.predictit.org/markets/detail/8957/Will-Supreme-Court-grant-certiorari-in-a-sports-prediction-market-case-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7640,7 +7640,7 @@
       "id": 8964,
       "name": "Will Fetterman leave the Democratic Party by June 30?",
       "url": "https://www.predictit.org/markets/detail/8964/Will-Fetterman-leave-the-Democratic-Party-by-June-30",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7659,7 +7659,7 @@
       "id": 8966,
       "name": "Will the House pass the AI Kill Switch bill in 2026?",
       "url": "https://www.predictit.org/markets/detail/8966/Will-the-House-pass-the-AI-Kill-Switch-bill-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7678,7 +7678,7 @@
       "id": 8970,
       "name": "Who will be the next Senate-confirmed Army Secretary?",
       "url": "https://www.predictit.org/markets/detail/8970/Who-will-be-the-next-Senate-confirmed-Army-Secretary",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7737,7 +7737,7 @@
       "id": 8981,
       "name": "Which party will win the 2026 US House race in Michigan's 10th District?",
       "url": "https://www.predictit.org/markets/detail/8981/Which-party-will-win-the-2026-US-House-race-in-Michigan's-10th-District",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7766,7 +7766,7 @@
       "id": 8983,
       "name": "Will Canada become an EU Associate Member by year-end 2027?",
       "url": "https://www.predictit.org/markets/detail/8983/Will-Canada-become-an-EU-Associate-Member-by-year-end-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7785,7 +7785,7 @@
       "id": 8985,
       "name": "Will the Protect College Sports Act be enacted in 2026?",
       "url": "https://www.predictit.org/markets/detail/8985/Will-the-Protect-College-Sports-Act-be-enacted-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7804,7 +7804,7 @@
       "id": 8989,
       "name": "Will Senate Judiciary Committee vote to subpoena Donald Trump, Jr. in 2026?",
       "url": "https://www.predictit.org/markets/detail/8989/Will-Senate-Judiciary-Committee-vote-to-subpoena-Donald-Trump,-Jr-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7823,7 +7823,7 @@
       "id": 9022,
       "name": "What will be the margin of victory in the 2026 Texas Senate race?",
       "url": "https://www.predictit.org/markets/detail/9022/What-will-be-the-margin-of-victory-in-the-2026-Texas-Senate-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -7922,7 +7922,7 @@
       "id": 9024,
       "name": "What will be the margin of victory in the 2026 Michigan Senate race?",
       "url": "https://www.predictit.org/markets/detail/9024/What-will-be-the-margin-of-victory-in-the-2026-Michigan-Senate-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8021,7 +8021,7 @@
       "id": 9025,
       "name": "Larger margin of victory: Texas Senate or Maine Senate?",
       "url": "https://www.predictit.org/markets/detail/9025/Larger-margin-of-victory--Texas-Senate-or-Maine-Senate",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8050,7 +8050,7 @@
       "id": 9027,
       "name": "Will James Talarico outperform the polls?",
       "url": "https://www.predictit.org/markets/detail/9027/Will-James-Talarico-outperform-the-polls",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8069,7 +8069,7 @@
       "id": 9029,
       "name": "Who will be the next White House press secretary?",
       "url": "https://www.predictit.org/markets/detail/9029/Who-will-be-the-next-White-House-press-secretary",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8177,10 +8177,10 @@
           "name": "Ben Ferguson",
           "status": "Open",
           "lastTradePrice": 0.03,
-          "bestBuyYesCost": 0.19,
+          "bestBuyYesCost": 0.18,
           "bestBuyNoCost": 0.97,
           "bestSellYesCost": 0.03,
-          "bestSellNoCost": 0.81
+          "bestSellNoCost": 0.82
         },
         {
           "id": 36451,
@@ -8198,7 +8198,7 @@
       "id": 9033,
       "name": "Will Alaska elect a Senator and Governor from different parties?",
       "url": "https://www.predictit.org/markets/detail/9033/Will-Alaska-elect-a-Senator-and-Governor-from-different-parties",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8217,7 +8217,7 @@
       "id": 9034,
       "name": "What will be the margin of victory in the 2026 Maine Senate race?",
       "url": "https://www.predictit.org/markets/detail/9034/What-will-be-the-margin-of-victory-in-the-2026-Maine-Senate-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8326,7 +8326,7 @@
       "id": 9035,
       "name": "Larger margin of victory: Texas Senate or Texas Governor?",
       "url": "https://www.predictit.org/markets/detail/9035/Larger-margin-of-victory--Texas-Senate-or-Texas-Governor",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8355,7 +8355,7 @@
       "id": 9036,
       "name": "Larger margin of victory: Georgia Governor or Nevada Governor?",
       "url": "https://www.predictit.org/markets/detail/9036/Larger-margin-of-victory--Georgia-Governor-or-Nevada-Governor",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8384,7 +8384,7 @@
       "id": 9037,
       "name": "How many Senate races will be won by less than 1%?",
       "url": "https://www.predictit.org/markets/detail/9037/How-many-Senate-races-will-be-won-by-less-than-1",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8412,10 +8412,10 @@
           "name": "2",
           "status": "Open",
           "lastTradePrice": 0.02,
-          "bestBuyYesCost": 0.03,
-          "bestBuyNoCost": 0.98,
-          "bestSellYesCost": 0.02,
-          "bestSellNoCost": 0.97
+          "bestBuyYesCost": 0.02,
+          "bestBuyNoCost": 0.99,
+          "bestSellYesCost": 0.01,
+          "bestSellNoCost": 0.98
         },
         {
           "id": 36089,
@@ -8463,7 +8463,7 @@
       "id": 9039,
       "name": "What will be the margin in the Los Angeles mayoral general election?",
       "url": "https://www.predictit.org/markets/detail/9039/What-will-be-the-margin-in-the-Los-Angeles-mayoral-general-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8572,7 +8572,7 @@
       "id": 9040,
       "name": "What will be the margin of victory in the 2026 Ohio Governor race?",
       "url": "https://www.predictit.org/markets/detail/9040/What-will-be-the-margin-of-victory-in-the-2026-Ohio-Governor-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8661,7 +8661,7 @@
       "id": 9041,
       "name": "Will House Democrats outperform the polls?",
       "url": "https://www.predictit.org/markets/detail/9041/Will-House-Democrats-outperform-the-polls",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8680,7 +8680,7 @@
       "id": 9042,
       "name": "How many votes in the 2026 U.S. House elections?",
       "url": "https://www.predictit.org/markets/detail/9042/How-many-votes-in-the-2026-US-House-elections",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8779,7 +8779,7 @@
       "id": 9043,
       "name": "Will Talarico or Paxton win Denton County?",
       "url": "https://www.predictit.org/markets/detail/9043/Will-Talarico-or-Paxton-win-Denton-County",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8808,7 +8808,7 @@
       "id": 9046,
       "name": "How many Senate seats will Democrats control after the 2026 midterms?",
       "url": "https://www.predictit.org/markets/detail/9046/How-many-Senate-seats-will-Democrats-control-after-the-2026-midterms",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8917,7 +8917,7 @@
       "id": 9047,
       "name": "Who will win the 2026 Spain snap election?",
       "url": "https://www.predictit.org/markets/detail/9047/Who-will-win-the-2026-Spain-snap-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -8986,7 +8986,7 @@
       "id": 9051,
       "name": "Larger margin of victory: Ohio Senate or Ohio Governor?",
       "url": "https://www.predictit.org/markets/detail/9051/Larger-margin-of-victory--Ohio-Senate-or-Ohio-Governor",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9015,7 +9015,7 @@
       "id": 9054,
       "name": "Who will win the 2026 Bulgarian presidential election?",
       "url": "https://www.predictit.org/markets/detail/9054/Who-will-win-the-2026-Bulgarian-presidential-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9044,7 +9044,7 @@
       "id": 9058,
       "name": "What will be the margin of victory in the 2026 Florida Governor race?",
       "url": "https://www.predictit.org/markets/detail/9058/What-will-be-the-margin-of-victory-in-the-2026-Florida-Governor-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9133,7 +9133,7 @@
       "id": 9060,
       "name": "Will there be a Supreme Court vacancy in 2026?",
       "url": "https://www.predictit.org/markets/detail/9060/Will-there-be-a-Supreme-Court-vacancy-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9152,7 +9152,7 @@
       "id": 9061,
       "name": "What will be the margin of victory in the 2026 South Carolina Senate race?",
       "url": "https://www.predictit.org/markets/detail/9061/What-will-be-the-margin-of-victory-in-the-2026-South-Carolina-Senate-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9241,7 +9241,7 @@
       "id": 9062,
       "name": "What will be the margin of victory in the 2026 Kansas Senate race?",
       "url": "https://www.predictit.org/markets/detail/9062/What-will-be-the-margin-of-victory-in-the-2026-Kansas-Senate-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9340,7 +9340,7 @@
       "id": 9066,
       "name": "What will be the early vote turnout margin in Florida in 2026?",
       "url": "https://www.predictit.org/markets/detail/9066/What-will-be-the-early-vote-turnout-margin-in-Florida-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9439,7 +9439,7 @@
       "id": 9067,
       "name": "Will Susan Collins outperform the polls?",
       "url": "https://www.predictit.org/markets/detail/9067/Will-Susan-Collins-outperform-the-polls",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9458,7 +9458,7 @@
       "id": 9070,
       "name": "Will Haley Stevens leave the Democratic Party by Dec 31?",
       "url": "https://www.predictit.org/markets/detail/9070/Will-Haley-Stevens-leave-the-Democratic-Party-by-Dec-31",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9477,7 +9477,7 @@
       "id": 9074,
       "name": "Which 2026 Governor race will be the closest?",
       "url": "https://www.predictit.org/markets/detail/9074/Which-2026-Governor-race-will-be-the-closest",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9586,7 +9586,7 @@
       "id": 9079,
       "name": "Which party will win the 2026 US House race in North Carolina's 3rd District?",
       "url": "https://www.predictit.org/markets/detail/9079/Which-party-will-win-the-2026-US-House-race-in-North-Carolina's-3rd-District",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9615,7 +9615,7 @@
       "id": 9081,
       "name": "Which party will win the 2026 US House race in California's 23rd District?",
       "url": "https://www.predictit.org/markets/detail/9081/Which-party-will-win-the-2026-US-House-race-in-California's-23rd-District",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9644,7 +9644,7 @@
       "id": 9085,
       "name": "Will there be a Supreme Court vacancy in 2027?",
       "url": "https://www.predictit.org/markets/detail/9085/Will-there-be-a-Supreme-Court-vacancy-in-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9663,7 +9663,7 @@
       "id": 9086,
       "name": "Will Congress confirm a new Supreme Court justice in 2027?",
       "url": "https://www.predictit.org/markets/detail/9086/Will-Congress-confirm-a-new-Supreme-Court-justice-in-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9682,7 +9682,7 @@
       "id": 9088,
       "name": "Will Pete Hegseth leave office in 2027?",
       "url": "https://www.predictit.org/markets/detail/9088/Will-Pete-Hegseth-leave-office-in-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9701,7 +9701,7 @@
       "id": 9089,
       "name": "Will Marco Rubio leave office in 2026?",
       "url": "https://www.predictit.org/markets/detail/9089/Will-Marco-Rubio-leave-office-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9720,7 +9720,7 @@
       "id": 9090,
       "name": "Who will be the next Speaker of the House?",
       "url": "https://www.predictit.org/markets/detail/9090/Who-will-be-the-next-Speaker-of-the-House",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9779,7 +9779,7 @@
       "id": 9091,
       "name": "How many House seats will Democrats win in the 2026 midterm election? (higher)",
       "url": "https://www.predictit.org/markets/detail/9091/How-many-House-seats-will-Democrats-win-in-the-2026-midterm-election-(higher)",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9838,8 +9838,8 @@
           "status": "Open",
           "lastTradePrice": 0.02,
           "bestBuyYesCost": 0.08,
-          "bestBuyNoCost": 0.99,
-          "bestSellYesCost": 0.01,
+          "bestBuyNoCost": 0.98,
+          "bestSellYesCost": 0.02,
           "bestSellNoCost": 0.92
         }
       ]
@@ -9848,7 +9848,7 @@
       "id": 9092,
       "name": "Who will be the next House Minority Leader?",
       "url": "https://www.predictit.org/markets/detail/9092/Who-will-be-the-next-House-Minority-Leader",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9897,7 +9897,7 @@
       "id": 9093,
       "name": "Will Pete Hegseth be impeached in 2026?",
       "url": "https://www.predictit.org/markets/detail/9093/Will-Pete-Hegseth-be-impeached-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9916,7 +9916,7 @@
       "id": 9094,
       "name": "Which party will win the US House in 2028?",
       "url": "https://www.predictit.org/markets/detail/9094/Which-party-will-win-the-US-House-in-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9945,7 +9945,7 @@
       "id": 9095,
       "name": "Which party will control the US Senate after 2028?",
       "url": "https://www.predictit.org/markets/detail/9095/Which-party-will-control-the-US-Senate-after-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9974,7 +9974,7 @@
       "id": 9096,
       "name": "Will Peltola win an outright majority in the Alaska Senate race?",
       "url": "https://www.predictit.org/markets/detail/9096/Will-Peltola-win-an-outright-majority-in-the-Alaska-Senate-race",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -9993,7 +9993,7 @@
       "id": 9098,
       "name": "Which party will win the 2027 Kentucky governor election?",
       "url": "https://www.predictit.org/markets/detail/9098/Which-party-will-win-the-2027-Kentucky-governor-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10022,7 +10022,7 @@
       "id": 9099,
       "name": "Which party will win the 2027 Mississippi governor election?",
       "url": "https://www.predictit.org/markets/detail/9099/Which-party-will-win-the-2027-Mississippi-governor-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10051,7 +10051,7 @@
       "id": 9100,
       "name": "Which party will win the 2027 Louisiana governor election?",
       "url": "https://www.predictit.org/markets/detail/9100/Which-party-will-win-the-2027-Louisiana-governor-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10080,7 +10080,7 @@
       "id": 9101,
       "name": "Which party will win the 2026 US House race in Louisiana's 6th District?",
       "url": "https://www.predictit.org/markets/detail/9101/Which-party-will-win-the-2026-US-House-race-in-Louisiana's-6th-District",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10109,7 +10109,7 @@
       "id": 9102,
       "name": "Who will win the 2027 Wisconsin Supreme Court election?",
       "url": "https://www.predictit.org/markets/detail/9102/Who-will-win-the-2027-Wisconsin-Supreme-Court-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10138,7 +10138,7 @@
       "id": 9103,
       "name": "Will Stephen Miller leave office before 2028?",
       "url": "https://www.predictit.org/markets/detail/9103/Will-Stephen-Miller-leave-office-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10157,7 +10157,7 @@
       "id": 9104,
       "name": "Who will win the 2026 US House race in Alaska?",
       "url": "https://www.predictit.org/markets/detail/9104/Who-will-win-the-2026-US-House-race-in-Alaska",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10186,7 +10186,7 @@
       "id": 9105,
       "name": "2027 Governor races: how many of LA, KY, MS will Democrats win?",
       "url": "https://www.predictit.org/markets/detail/9105/2027-Governor-races--how-many-of-LA,-KY,-MS-will-Democrats-win",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10235,7 +10235,7 @@
       "id": 9106,
       "name": "Who will be the Prime Minister of New Zealand after the 2026 election?",
       "url": "https://www.predictit.org/markets/detail/9106/Who-will-be-the-Prime-Minister-of-New-Zealand-after-the-2026-election",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10264,7 +10264,7 @@
       "id": 9107,
       "name": "Who will be the next Senate Majority Leader?",
       "url": "https://www.predictit.org/markets/detail/9107/Who-will-be-the-next-Senate-Majority-Leader",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10273,8 +10273,8 @@
           "status": "Open",
           "lastTradePrice": 0.88,
           "bestBuyYesCost": 0.9,
-          "bestBuyNoCost": 0.13,
-          "bestSellYesCost": 0.87,
+          "bestBuyNoCost": 0.12,
+          "bestSellYesCost": 0.88,
           "bestSellNoCost": 0.1
         },
         {
@@ -10303,7 +10303,7 @@
       "id": 9108,
       "name": "Who will be the next Senate Minority Leader?",
       "url": "https://www.predictit.org/markets/detail/9108/Who-will-be-the-next-Senate-Minority-Leader",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10352,7 +10352,7 @@
       "id": 9109,
       "name": "Will the government shut down by Dec.12?",
       "url": "https://www.predictit.org/markets/detail/9109/Will-the-government-shut-down-by-Dec12",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10371,7 +10371,7 @@
       "id": 9110,
       "name": "2026 Louisiana's 5th District US House race winner?",
       "url": "https://www.predictit.org/markets/detail/9110/2026-Louisiana's-5th-District-US-House-race-winner",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10400,7 +10400,7 @@
       "id": 9111,
       "name": "Will Jensen Huang testify publicly before Congress before 2028?",
       "url": "https://www.predictit.org/markets/detail/9111/Will-Jensen-Huang-testify-publicly-before-Congress-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10419,7 +10419,7 @@
       "id": 9112,
       "name": "Who will be elected Chicago mayor in 2027?",
       "url": "https://www.predictit.org/markets/detail/9112/Who-will-be-elected-Chicago-mayor-in-2027",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10528,7 +10528,7 @@
       "id": 9113,
       "name": "What will President Trump's RCP job approval rating be on Nov. 18?",
       "url": "https://www.predictit.org/markets/detail/9113/What-will-President-Trump's-RCP-job-approval-rating-be-on-Nov-18",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10627,7 +10627,7 @@
       "id": 9114,
       "name": "2027 Chicago mayoral election first round winner?",
       "url": "https://www.predictit.org/markets/detail/9114/2027-Chicago-mayoral-election-first-round-winner",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10736,7 +10736,7 @@
       "id": 9115,
       "name": "Will Howard Lutnick leave office in 2026?",
       "url": "https://www.predictit.org/markets/detail/9115/Will-Howard-Lutnick-leave-office-in-2026",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10755,7 +10755,7 @@
       "id": 9116,
       "name": "Will Howard Lutnick leave office before 2028?",
       "url": "https://www.predictit.org/markets/detail/9116/Will-Howard-Lutnick-leave-office-before-2028",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
@@ -10774,7 +10774,7 @@
       "id": 9117,
       "name": "Trump's DDHQ job approval rating on Nov. 20?",
       "url": "https://www.predictit.org/markets/detail/9117/Trump's-DDHQ-job-approval-rating-on-Nov-20",
-      "timeStamp": "2026-11-14T19:39:13.1933329",
+      "timeStamp": "2026-11-14T19:54:21.4100785",
       "status": "Open",
       "contracts": [
         {
