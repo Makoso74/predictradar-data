@@ -546,6 +546,11 @@ function hlQuestionTitle(q, byOutcome) {
   return t || null;
 }
 
+/** only https images from the Hyperliquid/outcome CDN (CSP img-src must allow https://cdn.outcome.xyz) */
+function hlImage(u) {
+  return typeof u === "string" && /^https:\/\/cdn\.outcome\.xyz\//.test(u) ? u : null;
+}
+
 function hlTemplate(name, fields) {
   return String(name || "")
     .replace(/^template:/, "")
@@ -610,6 +615,7 @@ async function fetchHyperliquid(prev, deadline) {
       template: String(o.name || "").replace(/^template:/, ""),
       title: k?.title ? String(k.title).replace(/\$\$/g, "$") : null, // Kairos doubles "$"
       outcomeLabel: null, // filled below for outcomes inside a question
+      image: hlImage(k?.image || k?.icon),
       sides: (o.sideSpecs || []).map((s) => hlTemplate(s.name, fields)),
       description: String(o.description || "").slice(0, HL_DESCRIPTION_MAX),
       questionId: questionOf.get(o.outcome) ?? null,
@@ -633,6 +639,7 @@ async function fetchHyperliquid(prev, deadline) {
     .map((q) => ({
       question: q.question,
       title: hlQuestionTitle(q, byOutcome),
+      image: hlImage(kairos.get(String(q.fallbackOutcome))?.image) || hlImage(byOutcome.get((q.namedOutcomes || [])[0])?.image),
       template: String(q.name || "").replace(/^template:/, ""),
       description: String(q.description || "").slice(0, HL_DESCRIPTION_MAX),
       fallbackOutcome: q.fallbackOutcome ?? null,
