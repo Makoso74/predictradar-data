@@ -8,7 +8,16 @@
  *   SNAPSHOT_KALSHI_BASE         default: https://api.elections.kalshi.com/trade-api/v2
  *   SNAPSHOT_LIMITLESS_ACTIVE    default: https://api.limitless.exchange/markets/active
  *   SNAPSHOT_PREDICTIT_URL       default: https://www.predictit.org/api/marketdata/all/
+ *
+ * Modes:
+ *   node scripts/snapshot.mjs                      fetch all sources, write SNAPSHOT_OUT
+ *   node scripts/snapshot.mjs --fingerprint FILE   print sha256 of FILE without time-only fields
+ *                                                  (generatedAt, sources.*.fetchedAt/previousFetchedAt,
+ *                                                  predictit[].timeStamp); used to skip unchanged pushes.
+ *
+ * One PredictIt request per run (official feed limit: 5 req/min).
  */
+import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -126,6 +135,9 @@ function pickKalshi(m) {
     open_interest_fp,
     yes_bid: m.yes_bid_dollars ?? m.yes_bid ?? null,
     yes_ask: m.yes_ask_dollars ?? m.yes_ask ?? null,
+    // As Kalshi REST returns them (dollar strings). Null when absent; never derived from yes_*.
+    no_bid: m.no_bid_dollars ?? m.no_bid ?? null,
+    no_ask: m.no_ask_dollars ?? m.no_ask ?? null,
     rules_primary: m.rules_primary ?? null,
     rules_secondary: m.rules_secondary ?? null,
   };
@@ -406,7 +418,42 @@ async function main() {
   process.stderr.write(`wrote ${OUT} (${Buffer.byteLength(text)} bytes)\n`);
 }
 
-main().catch((err) => {
+function canonical(v) {
+  if (Array.isArray(v)) return v.map(canonical);
+  if (v && typeof v === "object") {
+    return Object.fromEntries(Object.keys(v).sort().map((k) => [k, canonical(v[k])]));
+  }
+  return v;
+}
+
+export function fingerprint(snapshot) {
+  const s = JSON.parse(JSON.stringify(snapshot));
+  delete s.generatedAt;
+  for (const meta of Object.values(s.sources || {})) {
+    if (meta && typeof meta === "object") {
+      delete meta.fetchedAt;
+      delete meta.previousFetchedAt;
+    }
+  }
+  // PredictIt feed-wide clock, ticks every minute even when prices do not move.
+  for (const m of Array.isArray(s.predictit) ? s.predictit : []) delete m.timeStamp;
+  return createHash("sha256").update(JSON.stringify(canonical(s))).digest("hex");
+}
+
+async function fingerprintCli(file) {
+  try {
+    const json = JSON.parse(await readFile(file, "utf8"));
+    process.stdout.write(fingerprint(json) + "\n");
+  } catch (err) {
+    process.stderr.write(`fingerprint: ${err.message}\n`);
+    process.stdout.write("none\n");
+  }
+}
+
+const fpIdx = process.argv.indexOf("--fingerprint");
+const run = fpIdx !== -1 ? () => fingerprintCli(process.argv[fpIdx + 1]) : main;
+
+run().catch((err) => {
   console.error(err);
   process.exit(1);
 });
