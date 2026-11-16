@@ -638,6 +638,34 @@ function hlTemplate(name, fields) {
     .replace(/\{(\w+)\}/g, (_, k) => fields[k] ?? `{${k}}`);
 }
 
+/** case-insensitive field lookup in a parsed HL description */
+function hlField(fields, key) {
+  const k = Object.keys(fields).find((x) => x.toLowerCase() === key.toLowerCase());
+  return k == null ? "" : String(fields[k]).trim();
+}
+
+/**
+ * Fallback title for HIP-4 price markets without a Kairos title, in the Kairos format:
+ * "{asset} above ${threshold} at {YYYY-MM-DD HH:MM} UTC?" (checked against the Kairos binaryPrice titles);
+ * binaryPriceExternal uses "on" instead of "at", as Kairos does.
+ * binaryPrice: asset = last ":" segment of perp (perp:xyz:XYZ100 -> XYZ100); binaryPriceExternal: shortName.
+ */
+function hlPriceTitle(name, fields) {
+  const template = String(name || "").replace(/^template:/, "");
+  let asset = "";
+  if (template === "binaryPrice") asset = hlField(fields, "perp").split(":").pop().trim();
+  else if (template === "binaryPriceExternal") asset = hlField(fields, "shortName");
+  else return null;
+  const threshold = hlField(fields, "threshold");
+  const when = hlTime(hlField(fields, "time"));
+  if (!/^[A-Za-z0-9._-]{1,24}$/.test(asset) || !/^\d+(\.\d+)?$/.test(threshold) || !when) return null;
+  const decimals = (threshold.split(".")[1] || "").length;
+  const price = Number(threshold).toLocaleString("en-US", { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+  // Kairos: binaryPrice "... at <time> UTC?", binaryPriceExternal "... on <time> UTC?" (e.g. 37462)
+  const prep = template === "binaryPriceExternal" ? "on" : "at";
+  return `${asset} above $${price} ${prep} ${when.slice(0, 10)} ${when.slice(11, 16)} UTC?`;
+}
+
 async function fetchKairosAll(provider, pages, deadline) {
   const out = new Map();
   let cursor = "";
@@ -694,7 +722,8 @@ async function fetchHyperliquid(prev, deadline) {
       coinYes,
       coinNo,
       template: String(o.name || "").replace(/^template:/, ""),
-      title: k?.title ? String(k.title).replace(/\$\$/g, "$") : null, // Kairos doubles "$"
+      // Kairos doubles "$"; price markets Kairos has not titled yet get the same format from description
+      title: k?.title ? String(k.title).replace(/\$\$/g, "$") : hlPriceTitle(o.name, fields),
       outcomeLabel: null, // filled below for outcomes inside a question
       image: hlImage(k?.image || k?.icon),
       sides: (o.sideSpecs || []).map((s) => hlTemplate(s.name, fields)),
