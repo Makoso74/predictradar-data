@@ -226,7 +226,47 @@ function pickKalshi(m) {
     no_ask: m.no_ask_dollars ?? m.no_ask ?? null,
     rules_primary: m.rules_primary ?? null,
     rules_secondary: m.rules_secondary ?? null,
+    series_ticker: m.series_ticker ?? null,
+    // Series page. Official API has no event slug for the 3-segment kalshi.com path.
+    url: m.url ?? null,
+    image: m.image ?? null,
   };
+}
+
+function kalshiSeriesOk(s) {
+  return typeof s === "string" && /^[A-Z][A-Z0-9]{1,40}$/.test(s);
+}
+
+/** Predictable series art on Kalshi's public docs bucket (not in REST). */
+function kalshiImage(series) {
+  return kalshiSeriesOk(series)
+    ? `https://kalshi-public-docs.s3.amazonaws.com/series-images-webp/${series}.webp`
+    : null;
+}
+
+function kalshiMarketUrl(series) {
+  return kalshiSeriesOk(series) ? `https://kalshi.com/markets/${series.toLowerCase()}` : null;
+}
+
+async function enrichKalshiEvents(items) {
+  const events = new Map();
+  const tickers = [...new Set(items.map((m) => m.event_ticker).filter(Boolean))];
+  for (const et of tickers) {
+    try {
+      const data = await kalshiGet(`${KALSHI_BASE}/events/${encodeURIComponent(et)}`);
+      const ev = data.event || data;
+      const series = ev.series_ticker || null;
+      events.set(et, { series_ticker: series, url: kalshiMarketUrl(series), image: kalshiImage(series) });
+    } catch {
+      events.set(et, { series_ticker: null, url: null, image: null });
+    }
+  }
+  for (const m of items) {
+    const e = events.get(m.event_ticker) || {};
+    m.series_ticker = e.series_ticker || null;
+    m.url = e.url || null;
+    m.image = e.image || null;
+  }
 }
 
 function kalshiDead(m) {
@@ -349,6 +389,7 @@ async function fetchKalshi(prev) {
     .slice(0, MAX_KALSHI)
     .map(pickKalshi)
     .sort((a, b) => String(a.ticker).localeCompare(String(b.ticker)));
+  await enrichKalshiEvents(items);
 
   // Order books ride on top: a failure here never fails the Kalshi source.
   const bookFetchedAt = nowIso();
@@ -406,7 +447,7 @@ const LIMITLESS_IMAGE_HOSTS = new Set([
 ]);
 
 function limitlessImage(market) {
-  for (const value of [market.image, market.icon, market.imageUrl]) {
+  for (const value of [market.image, market.icon, market.imageUrl, market.logo]) {
     if (typeof value !== "string" || value.length > 2048) continue;
     try {
       const url = new URL(value);
@@ -480,6 +521,18 @@ async function fetchLimitless() {
   };
 }
 
+function predictItImage(u) {
+  if (typeof u !== "string" || u.length > 2048) return null;
+  try {
+    const url = new URL(u);
+    if (url.protocol !== "https:" || url.username || url.password) return null;
+    if (!/^cdn\d*\.predictit\.org$/.test(url.hostname)) return null;
+    return url.href;
+  } catch {
+    return null;
+  }
+}
+
 function pickPredictIt(m) {
   const contracts = (m.contracts || [])
     .map((c) => ({
@@ -487,6 +540,7 @@ function pickPredictIt(m) {
       name: c.name ?? null,
       shortName: c.shortName ?? null,
       status: c.status ?? null,
+      image: predictItImage(c.image),
       // Raw string as PredictIt sends it: ISO without zone (America/New_York), "NA", "N/A" or prose.
       dateEnd: c.dateEnd ?? null,
       displayOrder: c.displayOrder ?? null,
@@ -503,6 +557,7 @@ function pickPredictIt(m) {
     name: m.name ?? null,
     shortName: m.shortName ?? null,
     url: m.url ?? null,
+    image: predictItImage(m.image),
     // Raw PredictIt time without zone; it is America/New_York, not UTC. Use fetchedAt/generatedAt for freshness.
     timeStamp: m.timeStamp ?? null,
     timeStampZone: "America/New_York",
@@ -697,6 +752,19 @@ function slugDate(s) {
   return all ? all[all.length - 1] : null;
 }
 
+/** Kairos md/search images; skip the generic default-category asset (wrong Content-Type, ~740KB). */
+function predictfunImage(u) {
+  if (typeof u !== "string" || u.length > 2048 || /\/default-category(?:\b|$)/.test(u)) return null;
+  try {
+    const url = new URL(u);
+    if (url.protocol !== "https:" || url.username || url.password) return null;
+    if (url.hostname !== "static.predict.fun") return null;
+    return url.href;
+  } catch {
+    return null;
+  }
+}
+
 async function fetchPredictfun(prev, deadline) {
   const fetchedAt = nowIso();
   const found = new Map();
@@ -763,6 +831,7 @@ async function fetchPredictfun(prev, deadline) {
         eventTitle: m.event_name ?? null,
         eventSlug,
         url: eventSlug ? `https://predict.fun/market/${eventSlug}` : null,
+        image: predictfunImage(d.image || d.icon || m.image || m.icon),
         category: m.category ?? d.category ?? null,
         outcomes: Array.isArray(m.outcomes) ? m.outcomes : [],
         outcomeLabel: m.outcome_label ?? null,
@@ -811,6 +880,19 @@ function opinionCutoff(v) {
   return n && n > 0 ? new Date(n * 1000).toISOString() : null;
 }
 
+function opinionImage(m) {
+  for (const value of [m?.thumbnailUrl, m?.coverUrl, m?.image]) {
+    if (typeof value !== "string" || value.length > 2048) continue;
+    try {
+      const url = new URL(value);
+      if (url.protocol === "https:" && !url.username && !url.password && url.hostname === "images.opinion.trade") return url.href;
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
 async function fetchOpinion(prev, deadline) {
   const fetchedAt = nowIso();
   const cands = [];
@@ -837,6 +919,7 @@ async function fetchOpinion(prev, deadline) {
       type: categorical ? "categorical" : "binary",
       title: m.marketTitle ?? null,
       slug: m.slug ?? null,
+      image: opinionImage(m),
       labels: m.labels || [],
       rules: rules.length > OPINION_RULES_MAX ? rules.slice(0, OPINION_RULES_MAX) + "…" : rules,
       rulesTruncated: rules.length > OPINION_RULES_MAX,
