@@ -10,6 +10,8 @@
  *   hyperliquid HIP-4 outcomeMeta + "#" coin contexts (spotMetaAndAssetCtxs) + titles/dates from Kairos md
  *   predictfun  ~30 active Predict.fun markets by 24h volume (Kairos public search + md batch, no key)
  *   opinion     top 40 Opinion markets by volume24h + Yes top of book (<= 4 req/s)
+ *   polymarket  active Gamma events with volume24hr >= $10K (<= 300, pages of 100, gzip) and their
+ *               order-book markets that accept orders (even past endDate); bestAsk/bestBid, not live
  *
  * Env (for tests / overrides):
  *   SNAPSHOT_OUT                 default: <repo>/data/snapshot.json
@@ -20,8 +22,9 @@
  *   SNAPSHOT_KAIROS_MD           default: https://md.kairos.trade
  *   SNAPSHOT_KAIROS_SEARCH       default: https://data.kairos.trade
  *   SNAPSHOT_OPINION_BASE        default: https://openapi.opinion.trade/openapi
+ *   SNAPSHOT_GAMMA_BASE          default: https://gamma-api.polymarket.com
  *   SNAPSHOT_SOURCE_DEADLINE_SEC default: 100 (hard cap per new source: hyperliquid, predictfun, opinion)
- *   SNAPSHOT_MAX_BYTES           default: 1800000 (size cap for shrink; tests only)
+ *   SNAPSHOT_MAX_BYTES           default: 2400000 (size cap for shrink; tests only; app rejects > 3 MB)
  *   SNAPSHOT_ONLY                optional comma list of sources to fetch; others are copied from the
  *                                previous file as stale (tests only)
  *
@@ -47,6 +50,7 @@ const HL_INFO = process.env.SNAPSHOT_HL_INFO || "https://api.hyperliquid.xyz/inf
 const KAIROS_MD = (process.env.SNAPSHOT_KAIROS_MD || "https://md.kairos.trade").replace(/\/$/, "");
 const KAIROS_SEARCH = (process.env.SNAPSHOT_KAIROS_SEARCH || "https://data.kairos.trade").replace(/\/$/, "");
 const OPINION_BASE = (process.env.SNAPSHOT_OPINION_BASE || "https://openapi.opinion.trade/openapi").replace(/\/$/, "");
+const GAMMA_BASE = (process.env.SNAPSHOT_GAMMA_BASE || "https://gamma-api.polymarket.com").replace(/\/$/, "");
 const SOURCE_DEADLINE_MS = Number(process.env.SNAPSHOT_SOURCE_DEADLINE_SEC || 100) * 1000;
 const ONLY = (process.env.SNAPSHOT_ONLY || "").split(",").map((s) => s.trim()).filter(Boolean);
 
@@ -56,7 +60,7 @@ const RETRY_WAIT_MS = 1_000;
 const MAX_KALSHI = 80;
 const MAX_LIMITLESS = 150;
 const LIMITLESS_PAGE_SIZE = 25;
-const TARGET_MAX_BYTES = Number(process.env.SNAPSHOT_MAX_BYTES || 1_800_000); // env only for tests
+const TARGET_MAX_BYTES = Number(process.env.SNAPSHOT_MAX_BYTES || 2_400_000); // env only for tests
 const UA = "predictradar-data-snapshot/1 (+https://github.com/Makoso74/predictradar-data)";
 
 const KALSHI_GAP_MS = 150; // unauthenticated Kalshi answers 429 on bursts of ~10 req/s
@@ -109,6 +113,16 @@ const OPINION_MAX_BOOKS = 120; // ~32 s at 4 req/s
 const OPINION_MAX_CHILDREN = 8;
 const OPINION_RULES_MAX = 1500;
 const HL_DESCRIPTION_MAX = 600;
+const POLY_MIN_VOLUME24 = 10_000; // USD, event volume24hr
+const POLY_MAX_EVENTS = 350;
+const POLY_PAGE = 100; // Gamma serves /events pages with limit > 50 only gzip-compressed
+const POLY_MAX_PAGES = 6;
+const POLY_MAX_MARKETS = 4; // top markets by volume24hr; app shows 3 collapsed (cap 8), marketCount has the total
+const POLY_MAX_TAGS = 6;
+const POLY_RULES_MAX = 300;
+const POLY_MAX_BYTES = Number(process.env.SNAPSHOT_POLY_MAX_BYTES || 1_100_000); // fetch-side cap; shrink() fits the rest
+const POLY_MIN_EVENTS = 50; // shrink() never cuts polymarket below this before touching other sources
+const POLY_GAP_MS = 250;
 
 function nowIso() {
   return new Date().toISOString();
@@ -138,6 +152,7 @@ async function fetchJson(url, opts = {}) {
     try {
       const headers = { Accept: "application/json", "User-Agent": UA };
       if (opts.body !== undefined) headers["Content-Type"] = "application/json";
+      if (opts.headers) Object.assign(headers, opts.headers);
       const res = await fetch(url, {
         method: opts.body !== undefined ? "POST" : "GET",
         body: opts.body !== undefined ? JSON.stringify(opts.body) : undefined,
@@ -1022,10 +1037,156 @@ async function fetchOpinion(prev, deadline) {
   return { name: "opinion", ok: true, fetchedAt, error: null, httpStatus: 200, extraMeta, items };
 }
 
+/* ------------------------------ polymarket ------------------------------ */
+
+const POLY_IMAGE_HOSTS = new Set(["polymarket-upload.s3.us-east-2.amazonaws.com", "polymarket.com"]);
+
+function polyImage(u) {
+  try {
+    const url = new URL(String(u || ""));
+    return url.protocol === "https:" && POLY_IMAGE_HOSTS.has(url.hostname) ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
+function polyArray(v) {
+  if (Array.isArray(v)) return v;
+  try {
+    const a = JSON.parse(v);
+    return Array.isArray(a) ? a : [];
+  } catch {
+    return [];
+  }
+}
+
+function polyPrice(v) {
+  const n = num(v);
+  return n !== null && n >= 0 && n <= 1 ? n : null;
+}
+
+function polyIso(v) {
+  const t = Date.parse(v || "");
+  return Number.isFinite(t) ? new Date(t).toISOString() : null;
+}
+
+/** Order-book market that still trades: acceptingOrders and not closed, regardless of a past endDate.
+ * Compact: Yes/No outcomes are implied (field `outcomes` only when different); market images are
+ * dropped to save space (the app falls back to the event image). */
+function pickPolyMarket(m, e) {
+  const tokens = polyArray(m.clobTokenIds).map(String);
+  const outcomes = polyArray(m.outcomes).map(String);
+  if (m.acceptingOrders !== true || m.closed === true || m.enableOrderBook !== true) return null;
+  if (tokens.length !== 2 || outcomes.length !== 2 || !m.conditionId) return null;
+  const marketEnd = polyIso(m.endDate);
+  const eventEnd = polyIso(e.endDate);
+  const end = [marketEnd, eventEnd].filter(Boolean).sort().pop() || null; // later of market/event endDate
+  const out = {
+    id: String(m.id),
+    conditionId: String(m.conditionId),
+    title: String(m.groupItemTitle || m.question || "").slice(0, 200),
+    clobTokenIds: tokens, // [Yes token, No token], same order as outcomes
+    bestAsk: polyPrice(m.bestAsk), // Yes ask; No ask = 1 - bestBid
+    bestBid: polyPrice(m.bestBid),
+    volume24h: round(num(m.volume24hr) ?? 0, 2),
+    end,
+  };
+  if (!(outcomes[0] === "Yes" && outcomes[1] === "No")) out.outcomes = outcomes;
+  if (end && Date.parse(end) <= Date.now()) out.pastEnd = true;
+  return out;
+}
+
+/** Pretty-printed size of one event as written at depth 1 of the snapshot. */
+function polyBytes(item) {
+  const text = JSON.stringify(item, null, 2);
+  return Buffer.byteLength(text) + 4 * (text.split("\n").length - 1) + 6;
+}
+
+async function fetchPolymarket(prev, deadline) {
+  const fetchedAt = nowIso();
+  const items = [];
+  const seen = new Set();
+  let pages = 0;
+  let scanned = 0;
+  let pastEndMarkets = 0;
+  let droppedNoMarkets = 0;
+  let marketsCut = 0;
+  let bytes = 0;
+  let budgetHit = false;
+  for (let page = 0; page < POLY_MAX_PAGES && items.length < POLY_MAX_EVENTS && !budgetHit; page++) {
+    const q = new URLSearchParams({
+      active: "true",
+      closed: "false",
+      limit: String(POLY_PAGE),
+      offset: String(page * POLY_PAGE),
+      order: "volume24hr",
+      ascending: "false",
+    });
+    if (page) await sleep(POLY_GAP_MS);
+    const data = await fetchJson(`${GAMMA_BASE}/events?${q}`, { deadline, headers: { "Accept-Encoding": "gzip" } });
+    if (!Array.isArray(data)) throw new Error(`gamma events: unexpected response (${String(data && (data.error || data.type)).slice(0, 80)})`);
+    pages++;
+    let below = false;
+    for (const e of data) {
+      scanned++;
+      const vol24 = num(e.volume24hr) ?? 0;
+      if (vol24 < POLY_MIN_VOLUME24) { below = true; break; }
+      if (e.active !== true || e.closed === true || !e.slug || seen.has(String(e.id))) continue;
+      seen.add(String(e.id));
+      const all = (e.markets || [])
+        .map((m) => pickPolyMarket(m, e))
+        .filter(Boolean)
+        .sort((a, b) => b.volume24h - a.volume24h);
+      if (!all.length) { droppedNoMarkets++; continue; }
+      const markets = all.slice(0, POLY_MAX_MARKETS);
+      const tags = (e.tags || []).map((t) => String(t.label || t.slug || "")).filter(Boolean).slice(0, POLY_MAX_TAGS);
+      const rules = String(e.description || "").trim();
+      const item = {
+        id: String(e.id),
+        slug: String(e.slug),
+        title: String(e.title || "").slice(0, 300),
+        url: `https://polymarket.com/event/${encodeURIComponent(e.slug)}`,
+        image: polyImage(e.icon || e.image),
+        tags,
+        endDate: polyIso(e.endDate),
+        volume24h: round(vol24, 2),
+        volume: round(num(e.volume) ?? 0, 2),
+        liquidity: round(num(e.liquidity) ?? 0, 2),
+        marketCount: all.length,
+        rules: rules.length > POLY_RULES_MAX ? rules.slice(0, POLY_RULES_MAX) + "…" : rules,
+        markets,
+      };
+      const size = polyBytes(item);
+      if (bytes + size > POLY_MAX_BYTES) { budgetHit = true; break; }
+      bytes += size;
+      marketsCut += all.length - markets.length;
+      pastEndMarkets += markets.filter((m) => m.pastEnd).length;
+      items.push(item);
+      if (items.length >= POLY_MAX_EVENTS) break;
+    }
+    if (below || data.length < POLY_PAGE) break;
+  }
+  if (!items.length) throw new Error("polymarket: no active events above the volume floor");
+  const extraMeta = {
+    minVolume24h: POLY_MIN_VOLUME24,
+    maxMarketsPerEvent: POLY_MAX_MARKETS,
+    pages,
+    scanned,
+    markets: items.reduce((s, e) => s + e.markets.length, 0),
+    pastEndMarkets,
+    marketsCut,
+    droppedNoMarkets,
+    budgetBytes: POLY_MAX_BYTES,
+    budgetHit,
+    units: "bestAsk/bestBid: Yes side, USD per share (pays $1), Gamma top of book at sources.polymarket.fetchedAt; No ask = 1 - bestBid; snapshot price, not live",
+  };
+  return { name: "polymarket", ok: true, fetchedAt, error: null, httpStatus: 200, extraMeta, items };
+}
+
 /* ------------------------------ assembly ------------------------------ */
 
 const LEGACY_SOURCES = ["kalshi", "limitless", "predictit"];
-const NEW_SOURCES = ["hyperliquid", "predictfun", "opinion"];
+const NEW_SOURCES = ["hyperliquid", "predictfun", "opinion", "polymarket"];
 const SOURCE_EXTRAS = { hyperliquid: ["hyperliquidQuestions"] };
 
 async function loadPrevious() {
@@ -1088,6 +1249,23 @@ function shrink(snapshot) {
     notes.push(note);
   };
   // 1. New blocks first: they are lists for discovery, the app does not depend on full text.
+  // 0. Polymarket fills only the room left under the cap: drop its lowest-volume events first.
+  if (over() && snapshot.polymarket.length > POLY_MIN_EVENTS) {
+    let excess = byteSize(snapshot) - TARGET_MAX_BYTES;
+    while (excess > 0 && snapshot.polymarket.length > POLY_MIN_EVENTS) excess -= polyBytes(snapshot.polymarket.pop());
+    const meta = snapshot.sources.polymarket;
+    meta.count = snapshot.polymarket.length;
+    meta.markets = snapshot.polymarket.reduce((n, e) => n + e.markets.length, 0);
+    meta.pastEndMarkets = snapshot.polymarket.reduce((n, e) => n + e.markets.filter((m) => m.pastEnd).length, 0);
+    mark("polymarket", "trimmed polymarket tail to fit size cap");
+  }
+  if (over() && snapshot.polymarket.length) {
+    for (const e of snapshot.polymarket) {
+      if (e.rules && e.rules.length > 150) e.rules = e.rules.slice(0, 150) + "…";
+      if (e.markets.length > 2) e.markets = e.markets.slice(0, 2);
+    }
+    mark("polymarket", "trimmed polymarket rules/markets");
+  }
   if (over() && snapshot.opinion.length) {
     for (const m of snapshot.opinion) {
       if (m.rules && m.rules.length > 500) {
@@ -1140,6 +1318,7 @@ function shrink(snapshot) {
       .sort((a, b) => a.outcome - b.outcome);
     snapshot.opinion = snapshot.opinion.slice(0, 20);
     snapshot.predictfun = snapshot.predictfun.slice(0, 15);
+    snapshot.polymarket = snapshot.polymarket.slice(0, 30);
     for (const n of NEW_SOURCES) snapshot.sources[n].count = snapshot[n].length;
     for (const n of NEW_SOURCES) mark(n, `cut ${n} list`);
   }
@@ -1207,6 +1386,7 @@ async function main() {
     ["hyperliquid", fetchHyperliquid],
     ["predictfun", fetchPredictfun],
     ["opinion", fetchOpinion],
+    ["polymarket", fetchPolymarket],
   ].map(([name, fn]) => runSource(name, () => withDeadline(fn(prev, deadline), SOURCE_DEADLINE_MS, name), prev));
 
   const results = [...(await legacy), ...(await Promise.all(fresh))];
