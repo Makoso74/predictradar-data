@@ -1093,6 +1093,9 @@ function pickPolyMarket(m, e) {
   };
   if (!(outcomes[0] === "Yes" && outcomes[1] === "No")) out.outcomes = outcomes;
   if (end && Date.parse(end) <= Date.now()) out.pastEnd = true;
+  // UMA resolution status (proposed/resolved/disputed…): only when set, the app hides ended markets by it.
+  const uma = String(m.umaResolutionStatus ?? "").trim().toLowerCase();
+  if (uma && /^[a-z_ -]{1,40}$/.test(uma)) out.umaResolutionStatus = uma;
   return out;
 }
 
@@ -1109,6 +1112,7 @@ async function fetchPolymarket(prev, deadline) {
   let pages = 0;
   let scanned = 0;
   let pastEndMarkets = 0;
+  let umaMarkets = 0;
   let droppedNoMarkets = 0;
   let marketsCut = 0;
   let bytes = 0;
@@ -1161,6 +1165,7 @@ async function fetchPolymarket(prev, deadline) {
       bytes += size;
       marketsCut += all.length - markets.length;
       pastEndMarkets += markets.filter((m) => m.pastEnd).length;
+      umaMarkets += markets.filter((m) => m.umaResolutionStatus).length;
       items.push(item);
       if (items.length >= POLY_MAX_EVENTS) break;
     }
@@ -1174,6 +1179,7 @@ async function fetchPolymarket(prev, deadline) {
     scanned,
     markets: items.reduce((s, e) => s + e.markets.length, 0),
     pastEndMarkets,
+    umaMarkets,
     marketsCut,
     droppedNoMarkets,
     budgetBytes: POLY_MAX_BYTES,
@@ -1257,6 +1263,7 @@ function shrink(snapshot) {
     meta.count = snapshot.polymarket.length;
     meta.markets = snapshot.polymarket.reduce((n, e) => n + e.markets.length, 0);
     meta.pastEndMarkets = snapshot.polymarket.reduce((n, e) => n + e.markets.filter((m) => m.pastEnd).length, 0);
+    meta.umaMarkets = snapshot.polymarket.reduce((n, e) => n + e.markets.filter((m) => m.umaResolutionStatus).length, 0);
     mark("polymarket", "trimmed polymarket tail to fit size cap");
   }
   if (over() && snapshot.polymarket.length) {
