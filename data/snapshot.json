@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T02:09:14.454Z",
+  "generatedAt": "2026-11-17T02:10:07.635Z",
   "sources": {
     "kalshi": {
       "ok": true,
-      "fetchedAt": "2026-11-17T02:09:14.462Z",
+      "fetchedAt": "2026-11-17T02:10:07.643Z",
       "count": 55,
       "httpStatus": 200,
       "book": {
         "ok": true,
-        "fetchedAt": "2026-11-17T02:09:22.697Z",
+        "fetchedAt": "2026-11-17T02:10:15.776Z",
         "count": 55,
         "levelsMax": 5,
         "units": "price: USD per contract (pays $1) as string; size: contracts as string; yesBids/noBids best first; yesAsk = 1 - best noBid, noAsk = 1 - best yesBid; snapshot price, not live"
@@ -26,27 +26,27 @@
     },
     "limitless": {
       "ok": true,
-      "fetchedAt": "2026-11-17T02:09:22.853Z",
+      "fetchedAt": "2026-11-17T02:10:15.932Z",
       "count": 150,
       "httpStatus": 200,
       "truncated": true
     },
     "predictit": {
       "ok": true,
-      "fetchedAt": "2026-11-17T02:09:27.069Z",
+      "fetchedAt": "2026-11-17T02:10:20.500Z",
       "count": 149,
       "httpStatus": 200
     },
     "hyperliquid": {
       "ok": true,
-      "fetchedAt": "2026-11-17T02:09:14.488Z",
-      "count": 280,
+      "fetchedAt": "2026-11-17T02:10:07.677Z",
+      "count": 281,
       "httpStatus": 200,
       "feeScale": "1.0"
     },
     "predictfun": {
       "ok": true,
-      "fetchedAt": "2026-11-17T02:09:14.489Z",
+      "fetchedAt": "2026-11-17T02:10:07.678Z",
       "count": 30,
       "httpStatus": 200,
       "queries": 12,
@@ -55,7 +55,7 @@
     },
     "opinion": {
       "ok": true,
-      "fetchedAt": "2026-11-17T02:09:14.490Z",
+      "fetchedAt": "2026-11-17T02:10:07.680Z",
       "count": 40,
       "httpStatus": 200,
       "books": 120,
@@ -95,7 +95,7 @@
           ],
           [
             "0.9000",
-            "2602.67"
+            "2608.67"
           ],
           [
             "0.8900",
@@ -117,7 +117,7 @@
           ],
           [
             "0.0700",
-            "2064.01"
+            "2058.01"
           ],
           [
             "0.0600",
@@ -172,19 +172,19 @@
         "yesBids": [
           [
             "0.6400",
-            "2254.00"
+            "2511.00"
           ],
           [
             "0.6300",
-            "1458.00"
+            "1265.00"
           ],
           [
             "0.6200",
-            "1043.01"
+            "1665.01"
           ],
           [
             "0.6100",
-            "4495.41"
+            "4796.41"
           ],
           [
             "0.6000",
@@ -194,32 +194,32 @@
         "noBids": [
           [
             "0.3500",
-            "7751.00"
+            "5601.00"
           ],
           [
             "0.3400",
-            "4512.15"
+            "3170.62"
           ],
           [
             "0.3300",
-            "3462.51"
+            "3708.51"
           ],
           [
             "0.3200",
-            "1949.68"
+            "4132.79"
           ],
           [
             "0.3100",
-            "200.00"
+            "496.81"
           ]
         ],
         "yesAsk": {
           "price": "0.6500",
-          "size": "7751.00"
+          "size": "5601.00"
         },
         "noAsk": {
           "price": "0.3600",
-          "size": "2254.00"
+          "size": "2511.00"
         },
         "levels": {
           "yes": 44,
@@ -234,12 +234,12 @@
       "close_time": "2026-11-17T22:00:00Z",
       "expected_expiration_time": "2026-11-17T22:05:00Z",
       "event_ticker": "KXBTCD-26NOV1717",
-      "volume": "19481.60",
-      "volume_fp": "19481.60",
+      "volume": "19542.60",
+      "volume_fp": "19542.60",
       "volume_24h": "19478.60",
       "volume_24h_fp": "19478.60",
-      "open_interest": "17185.28",
-      "open_interest_fp": "17185.28",
+      "open_interest": "17124.28",
+      "open_interest_fp": "17124.28",
       "yes_bid": "0.5800",
       "yes_ask": "0.5900",
       "no_bid": "0.4100",
@@ -253,54 +253,54 @@
         "yesBids": [
           [
             "0.5800",
-            "2078.00"
+            "3508.00"
           ],
           [
             "0.5700",
-            "1604.00"
+            "1624.00"
           ],
           [
             "0.5600",
-            "2628.01"
+            "2648.01"
           ],
           [
             "0.5500",
-            "6049.59"
+            "4776.26"
           ],
           [
             "0.5400",
-            "5920.11"
+            "5970.11"
           ]
         ],
         "noBids": [
           [
             "0.4100",
-            "7732.00"
+            "7715.00"
           ],
           [
             "0.4000",
-            "3905.67"
+            "3121.67"
           ],
           [
             "0.3900",
-            "4061.30"
+            "4042.30"
           ],
           [
             "0.3800",
-            "1922.40"
+            "1771.40"
           ],
           [
             "0.3700",
-            "495.29"
+            "495.53"
           ]
         ],
         "yesAsk": {
           "price": "0.5900",
-          "size": "7732.00"
+          "size": "7715.00"
         },
         "noAsk": {
           "price": "0.4200",
-          "size": "2078.00"
+          "size": "3508.00"
         },
         "levels": {
           "yes": 41,
@@ -334,11 +334,11 @@
         "yesBids": [
           [
             "0.3800",
-            "1580.00"
+            "2330.00"
           ],
           [
             "0.3700",
-            "416.00"
+            "618.00"
           ],
           [
             "0.3600",
@@ -346,42 +346,42 @@
           ],
           [
             "0.3500",
-            "3322.00"
+            "3666.30"
           ],
           [
             "0.3400",
-            "7768.39"
+            "8216.16"
           ]
         ],
         "noBids": [
           [
             "0.6100",
-            "4038.99"
+            "4046.99"
           ],
           [
             "0.6000",
-            "7719.70"
+            "7715.70"
           ],
           [
             "0.5900",
-            "4805.30"
+            "4792.30"
           ],
           [
             "0.5800",
-            "1895.29"
+            "1645.29"
           ],
           [
             "0.5700",
-            "200.00"
+            "463.00"
           ]
         ],
         "yesAsk": {
           "price": "0.3900",
-          "size": "4038.99"
+          "size": "4046.99"
         },
         "noAsk": {
           "price": "0.6200",
-          "size": "1580.00"
+          "size": "2330.00"
         },
         "levels": {
           "yes": 35,
@@ -772,7 +772,7 @@
           ],
           [
             "0.4700",
-            "8640.08"
+            "8651.08"
           ],
           [
             "0.4600",
@@ -784,7 +784,7 @@
           ],
           [
             "0.4400",
-            "22440.00"
+            "24440.00"
           ]
         ],
         "noBids": [
@@ -865,13 +865,13 @@
           ],
           [
             "0.4700",
-            "83.25"
+            "50.25"
           ]
         ],
         "noBids": [
           [
             "0.4800",
-            "16665.03"
+            "18956.03"
           ],
           [
             "0.4700",
@@ -879,11 +879,11 @@
           ],
           [
             "0.4600",
-            "1249.00"
+            "4109.00"
           ],
           [
             "0.4500",
-            "1688.00"
+            "2728.00"
           ],
           [
             "0.4400",
@@ -892,7 +892,7 @@
         ],
         "yesAsk": {
           "price": "0.5200",
-          "size": "16665.03"
+          "size": "18956.03"
         },
         "noAsk": {
           "price": "0.4900",
@@ -952,15 +952,15 @@
         "noBids": [
           [
             "0.3000",
-            "110.00"
+            "4112.00"
           ],
           [
             "0.2900",
-            "26044.74"
+            "26213.70"
           ],
           [
             "0.2800",
-            "18069.65"
+            "17269.65"
           ],
           [
             "0.2700",
@@ -973,7 +973,7 @@
         ],
         "yesAsk": {
           "price": "0.7000",
-          "size": "110.00"
+          "size": "4112.00"
         },
         "noAsk": {
           "price": "0.3100",
@@ -1033,7 +1033,7 @@
         "noBids": [
           [
             "0.4400",
-            "27701.75"
+            "30428.75"
           ],
           [
             "0.4300",
@@ -1054,14 +1054,14 @@
         ],
         "yesAsk": {
           "price": "0.5600",
-          "size": "27701.75"
+          "size": "30428.75"
         },
         "noAsk": {
           "price": "0.4500",
           "size": "594.27"
         },
         "levels": {
-          "yes": 26,
+          "yes": 27,
           "no": 33
         }
       }
@@ -1096,7 +1096,7 @@
           ],
           [
             "0.7200",
-            "1263.01"
+            "1270.63"
           ],
           [
             "0.7100",
@@ -1108,21 +1108,21 @@
           ],
           [
             "0.6900",
-            "75.00"
+            "5075.00"
           ]
         ],
         "noBids": [
           [
             "0.2600",
-            "1699.00"
+            "1749.00"
           ],
           [
             "0.2500",
-            "253.00"
+            "203.00"
           ],
           [
             "0.2400",
-            "1388.32"
+            "1384.32"
           ],
           [
             "0.2300",
@@ -1135,7 +1135,7 @@
         ],
         "yesAsk": {
           "price": "0.7400",
-          "size": "1699.00"
+          "size": "1749.00"
         },
         "noAsk": {
           "price": "0.2700",
@@ -1181,11 +1181,11 @@
           ],
           [
             "0.4300",
-            "2756.01"
+            "2980.01"
           ],
           [
             "0.4200",
-            "1216.00"
+            "1056.19"
           ],
           [
             "0.4100",
@@ -1195,11 +1195,11 @@
         "noBids": [
           [
             "0.5400",
-            "50.18"
+            "6.18"
           ],
           [
             "0.5300",
-            "2733.25"
+            "2779.25"
           ],
           [
             "0.5200",
@@ -1207,7 +1207,7 @@
           ],
           [
             "0.5100",
-            "1195.00"
+            "1240.00"
           ],
           [
             "0.5000",
@@ -1216,14 +1216,14 @@
         ],
         "yesAsk": {
           "price": "0.4600",
-          "size": "50.18"
+          "size": "6.18"
         },
         "noAsk": {
           "price": "0.5500",
           "size": "656.00"
         },
         "levels": {
-          "yes": 43,
+          "yes": 44,
           "no": 48
         }
       }
@@ -1559,11 +1559,11 @@
           ],
           [
             "0.9600",
-            "554.35"
+            "1540.35"
           ],
           [
             "0.9500",
-            "223.00"
+            "214.00"
           ]
         ],
         "yesAsk": {
@@ -1616,7 +1616,7 @@
           ],
           [
             "0.9600",
-            "31.00"
+            "2031.00"
           ],
           [
             "0.9500",
@@ -1672,7 +1672,7 @@
           ],
           [
             "0.0100",
-            "20803.08"
+            "22803.08"
           ]
         ],
         "noBids": [
@@ -1686,7 +1686,7 @@
           ],
           [
             "0.9300",
-            "1894.00"
+            "2894.00"
           ],
           [
             "0.9200",
@@ -1745,11 +1745,11 @@
           ],
           [
             "0.8800",
-            "20380.29"
+            "22380.29"
           ],
           [
             "0.8700",
-            "3227.58"
+            "5227.58"
           ],
           [
             "0.8600",
@@ -1830,7 +1830,7 @@
           ],
           [
             "0.0200",
-            "10466.47"
+            "10966.47"
           ],
           [
             "0.0100",
@@ -1840,7 +1840,7 @@
         "noBids": [
           [
             "0.9400",
-            "34214.77"
+            "34156.77"
           ],
           [
             "0.9300",
@@ -1852,7 +1852,7 @@
           ],
           [
             "0.9100",
-            "746.91"
+            "2746.91"
           ],
           [
             "0.9000",
@@ -1861,7 +1861,7 @@
         ],
         "yesAsk": {
           "price": "0.0600",
-          "size": "34214.77"
+          "size": "34156.77"
         },
         "noAsk": {
           "price": "0.9500",
@@ -1886,10 +1886,10 @@
       "volume_24h_fp": "1374.83",
       "open_interest": "990.13",
       "open_interest_fp": "990.13",
-      "yes_bid": "0.5400",
-      "yes_ask": "0.6500",
-      "no_bid": "0.3500",
-      "no_ask": "0.4600",
+      "yes_bid": "0.5300",
+      "yes_ask": "0.6400",
+      "no_bid": "0.3600",
+      "no_ask": "0.4700",
       "rules_primary": "If the end-of-day S&P 500 index value on November 17, 2026 is above 7419.9999, then the market resolves to Yes.",
       "rules_secondary": "The market will close on November 17, 2026. The market will expire at the sooner of the first release of the data, or one week after November 17, 2026.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
       "series_ticker": "KXINXU",
@@ -1898,7 +1898,7 @@
       "book": {
         "yesBids": [
           [
-            "0.5300",
+            "0.5400",
             "6000.00"
           ],
           [
@@ -1920,12 +1920,16 @@
         ],
         "noBids": [
           [
-            "0.3600",
+            "0.3500",
             "6000.00"
           ],
           [
+            "0.3200",
+            "87.00"
+          ],
+          [
             "0.3100",
-            "102.50"
+            "12.50"
           ],
           [
             "0.2900",
@@ -1934,18 +1938,14 @@
           [
             "0.2800",
             "500.00"
-          ],
-          [
-            "0.2500",
-            "0.15"
           ]
         ],
         "yesAsk": {
-          "price": "0.6400",
+          "price": "0.6500",
           "size": "6000.00"
         },
         "noAsk": {
-          "price": "0.4700",
+          "price": "0.4600",
           "size": "6000.00"
         },
         "levels": {
@@ -1987,8 +1987,8 @@
             "500.00"
           ],
           [
-            "0.4100",
-            "13.50"
+            "0.4400",
+            "12.50"
           ],
           [
             "0.3800",
@@ -2006,19 +2006,19 @@
           ],
           [
             "0.3500",
-            "11.50"
+            "91.50"
           ],
           [
             "0.3400",
-            "582.00"
+            "500.00"
           ],
           [
             "0.3300",
             "60.50"
           ],
           [
-            "0.2800",
-            "500.00"
+            "0.2700",
+            "138.00"
           ]
         ],
         "yesAsk": {
@@ -2030,8 +2030,8 @@
           "size": "6000.00"
         },
         "levels": {
-          "yes": 12,
-          "no": 13
+          "yes": 11,
+          "no": 11
         }
       }
     },
@@ -2048,10 +2048,10 @@
       "volume_24h_fp": "1406.84",
       "open_interest": "1406.84",
       "open_interest_fp": "1406.84",
-      "yes_bid": "0.4700",
+      "yes_bid": "0.4600",
       "yes_ask": "0.5700",
       "no_bid": "0.4300",
-      "no_ask": "0.5300",
+      "no_ask": "0.5400",
       "rules_primary": "If the end-of-day S&P 500 index value on November 17, 2026 is above 7434.9999, then the market resolves to Yes.",
       "rules_secondary": "The market will close on November 17, 2026. The market will expire at the sooner of the first release of the data, or one week after November 17, 2026.\n\nPursuant to the Kalshi Rulebook, the Exchange has modified the Source Agency and Underlying for indices markets. See the rules for more information.",
       "series_ticker": "KXINXU",
@@ -2060,7 +2060,7 @@
       "book": {
         "yesBids": [
           [
-            "0.4600",
+            "0.4700",
             "6000.00"
           ],
           [
@@ -2068,16 +2068,16 @@
             "500.00"
           ],
           [
-            "0.3300",
-            "15.50"
+            "0.3900",
+            "11.50"
           ],
           [
             "0.3100",
             "60.50"
           ],
           [
-            "0.2900",
-            "96.00"
+            "0.2100",
+            "133.00"
           ]
         ],
         "noBids": [
@@ -2098,8 +2098,8 @@
             "500.00"
           ],
           [
-            "0.3400",
-            "12.00"
+            "0.3600",
+            "104.00"
           ]
         ],
         "yesAsk": {
@@ -2107,12 +2107,12 @@
           "size": "6011.50"
         },
         "noAsk": {
-          "price": "0.5400",
+          "price": "0.5300",
           "size": "6000.00"
         },
         "levels": {
-          "yes": 13,
-          "no": 14
+          "yes": 12,
+          "no": 13
         }
       }
     },
@@ -2123,12 +2123,12 @@
       "close_time": "2026-11-19T00:00:00Z",
       "expected_expiration_time": "2026-11-17T03:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV16CHICLE",
-      "volume": "1493104.83",
-      "volume_fp": "1493104.83",
+      "volume": "1500085.82",
+      "volume_fp": "1500085.82",
       "volume_24h": "1330853.66",
       "volume_24h_fp": "1330853.66",
-      "open_interest": "833636.75",
-      "open_interest_fp": "833636.75",
+      "open_interest": "840617.74",
+      "open_interest_fp": "840617.74",
       "yes_bid": "0.0000",
       "yes_ask": "0.0100",
       "no_bid": "0.9900",
@@ -2143,15 +2143,15 @@
         "noBids": [
           [
             "0.9900",
-            "17424.49"
+            "13269.65"
           ],
           [
             "0.9800",
-            "18878.95"
+            "21850.72"
           ],
           [
             "0.9700",
-            "15491.37"
+            "15182.37"
           ],
           [
             "0.9600",
@@ -2159,17 +2159,17 @@
           ],
           [
             "0.9500",
-            "1798.82"
+            "2260.17"
           ]
         ],
         "yesAsk": {
           "price": "0.0100",
-          "size": "17424.49"
+          "size": "13269.65"
         },
         "noAsk": null,
         "levels": {
           "yes": 0,
-          "no": 91
+          "no": 92
         }
       }
     },
@@ -2180,16 +2180,16 @@
       "close_time": "2026-11-19T00:30:00Z",
       "expected_expiration_time": "2026-11-17T03:30:00Z",
       "event_ticker": "KXNBAGAME-26NOV16HOUMIA",
-      "volume": "1702577.37",
-      "volume_fp": "1702577.37",
+      "volume": "1716849.80",
+      "volume_fp": "1716849.80",
       "volume_24h": "1436950.46",
       "volume_24h_fp": "1436950.46",
-      "open_interest": "1170940.20",
-      "open_interest_fp": "1170940.20",
-      "yes_bid": "0.1600",
-      "yes_ask": "0.1700",
-      "no_bid": "0.8300",
-      "no_ask": "0.8400",
+      "open_interest": "1179096.31",
+      "open_interest_fp": "1179096.31",
+      "yes_bid": "0.1200",
+      "yes_ask": "0.1300",
+      "no_bid": "0.8700",
+      "no_ask": "0.8800",
       "rules_primary": "If Houston wins the Houston vs Miami Pro Basketball game originally scheduled for Nov 16, 2026, then the market resolves to Yes.",
       "rules_secondary": "If the game is postponed but begins within 48 hours of its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is cancelled or not started within 48 hours of its originally scheduled start, all markets will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
       "series_ticker": "KXNBAGAME",
@@ -2198,59 +2198,59 @@
       "book": {
         "yesBids": [
           [
-            "0.1500",
-            "9694.50"
+            "0.1000",
+            "175.56"
           ],
           [
-            "0.1400",
-            "7907.07"
+            "0.0900",
+            "13288.29"
           ],
           [
-            "0.1300",
-            "7957.39"
+            "0.0800",
+            "8495.80"
           ],
           [
-            "0.1200",
-            "6365.60"
+            "0.0700",
+            "9574.68"
           ],
           [
-            "0.1100",
-            "2413.36"
+            "0.0600",
+            "21336.18"
           ]
         ],
         "noBids": [
           [
-            "0.8400",
-            "17622.27"
+            "0.8900",
+            "17552.62"
           ],
           [
-            "0.8300",
-            "14303.48"
+            "0.8800",
+            "19249.56"
           ],
           [
-            "0.8200",
-            "8025.12"
+            "0.8700",
+            "14982.55"
           ],
           [
-            "0.8100",
-            "13307.44"
+            "0.8600",
+            "8477.98"
           ],
           [
-            "0.8000",
-            "22308.02"
+            "0.8500",
+            "12785.64"
           ]
         ],
         "yesAsk": {
-          "price": "0.1600",
-          "size": "17622.27"
+          "price": "0.1100",
+          "size": "17552.62"
         },
         "noAsk": {
-          "price": "0.8500",
-          "size": "9694.50"
+          "price": "0.9000",
+          "size": "175.56"
         },
         "levels": {
-          "yes": 15,
-          "no": 84
+          "yes": 10,
+          "no": 89
         }
       }
     },
@@ -2261,16 +2261,16 @@
       "close_time": "2026-11-19T00:30:00Z",
       "expected_expiration_time": "2026-11-17T03:30:00Z",
       "event_ticker": "KXNBAGAME-26NOV16HOUMIA",
-      "volume": "2341722.96",
-      "volume_fp": "2341722.96",
+      "volume": "2348059.57",
+      "volume_fp": "2348059.57",
       "volume_24h": "2253927.37",
       "volume_24h_fp": "2253927.37",
-      "open_interest": "1882513.52",
-      "open_interest_fp": "1882513.52",
-      "yes_bid": "0.8300",
-      "yes_ask": "0.8400",
-      "no_bid": "0.1600",
-      "no_ask": "0.1700",
+      "open_interest": "1883305.29",
+      "open_interest_fp": "1883305.29",
+      "yes_bid": "0.8700",
+      "yes_ask": "0.8800",
+      "no_bid": "0.1200",
+      "no_ask": "0.1300",
       "rules_primary": "If Miami wins the Houston vs Miami Pro Basketball game originally scheduled for Nov 16, 2026, then the market resolves to Yes.",
       "rules_secondary": "If the game is postponed but begins within 48 hours of its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is cancelled or not started within 48 hours of its originally scheduled start, all markets will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
       "series_ticker": "KXNBAGAME",
@@ -2279,59 +2279,59 @@
       "book": {
         "yesBids": [
           [
-            "0.8400",
-            "7396.59"
+            "0.8900",
+            "9340.92"
           ],
           [
-            "0.8300",
-            "4245.36"
+            "0.8800",
+            "9093.28"
           ],
           [
-            "0.8200",
-            "3655.45"
+            "0.8700",
+            "5702.57"
           ],
           [
-            "0.8100",
-            "4877.20"
+            "0.8600",
+            "3472.24"
           ],
           [
-            "0.8000",
-            "5006.27"
+            "0.8500",
+            "6200.86"
           ]
         ],
         "noBids": [
           [
-            "0.1500",
-            "34435.04"
+            "0.1000",
+            "168.47"
           ],
           [
-            "0.1400",
-            "15515.75"
+            "0.0900",
+            "18798.24"
           ],
           [
-            "0.1300",
-            "18184.03"
+            "0.0800",
+            "12006.86"
           ],
           [
-            "0.1200",
-            "12936.36"
+            "0.0700",
+            "12058.36"
           ],
           [
-            "0.1100",
-            "2382.55"
+            "0.0600",
+            "30106.10"
           ]
         ],
         "yesAsk": {
-          "price": "0.8500",
-          "size": "34435.04"
+          "price": "0.9000",
+          "size": "168.47"
         },
         "noAsk": {
-          "price": "0.1600",
-          "size": "7396.59"
+          "price": "0.1100",
+          "size": "9340.92"
         },
         "levels": {
-          "yes": 81,
-          "no": 15
+          "yes": 84,
+          "no": 10
         }
       }
     },
@@ -2342,12 +2342,12 @@
       "close_time": "2026-11-19T00:00:00Z",
       "expected_expiration_time": "2026-11-17T03:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV16MEMWAS",
-      "volume": "1797031.59",
-      "volume_fp": "1797031.59",
+      "volume": "1799433.23",
+      "volume_fp": "1799433.23",
       "volume_24h": "1678776.13",
       "volume_24h_fp": "1678776.13",
-      "open_interest": "755459.43",
-      "open_interest_fp": "755459.43",
+      "open_interest": "756126.54",
+      "open_interest_fp": "756126.54",
       "yes_bid": "0.9800",
       "yes_ask": "0.9900",
       "no_bid": "0.0100",
@@ -2361,15 +2361,15 @@
         "yesBids": [
           [
             "0.9800",
-            "15057.76"
+            "25456.80"
           ],
           [
             "0.9700",
-            "16319.62"
+            "23819.62"
           ],
           [
             "0.9600",
-            "10332.07"
+            "16056.07"
           ],
           [
             "0.9500",
@@ -2383,16 +2383,16 @@
         "noBids": [
           [
             "0.0100",
-            "100099.06"
+            "68991.03"
           ]
         ],
         "yesAsk": {
           "price": "0.9900",
-          "size": "100099.06"
+          "size": "68991.03"
         },
         "noAsk": {
           "price": "0.0200",
-          "size": "15057.76"
+          "size": "25456.80"
         },
         "levels": {
           "yes": 71,
@@ -2407,12 +2407,12 @@
       "close_time": "2026-11-19T00:00:00Z",
       "expected_expiration_time": "2026-11-17T03:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV16MEMWAS",
-      "volume": "2315955.00",
-      "volume_fp": "2315955.00",
+      "volume": "2333135.11",
+      "volume_fp": "2333135.11",
       "volume_24h": "2115566.37",
       "volume_24h_fp": "2115566.37",
-      "open_interest": "1250530.01",
-      "open_interest_fp": "1250530.01",
+      "open_interest": "1254337.68",
+      "open_interest_fp": "1254337.68",
       "yes_bid": "0.0100",
       "yes_ask": "0.0200",
       "no_bid": "0.9800",
@@ -2426,25 +2426,25 @@
         "yesBids": [
           [
             "0.0100",
-            "71655.41"
+            "36633.48"
           ]
         ],
         "noBids": [
           [
             "0.9800",
-            "56269.99"
+            "57192.16"
           ],
           [
             "0.9700",
-            "97880.62"
+            "56195.62"
           ],
           [
             "0.9600",
-            "156065.10"
+            "156715.10"
           ],
           [
             "0.9500",
-            "10893.89"
+            "41213.89"
           ],
           [
             "0.9400",
@@ -2453,11 +2453,11 @@
         ],
         "yesAsk": {
           "price": "0.0200",
-          "size": "56269.99"
+          "size": "57192.16"
         },
         "noAsk": {
           "price": "0.9900",
-          "size": "71655.41"
+          "size": "36633.48"
         },
         "levels": {
           "yes": 1,
@@ -2472,12 +2472,12 @@
       "close_time": "2026-11-19T00:00:00Z",
       "expected_expiration_time": "2026-11-17T03:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV16ORLBOS",
-      "volume": "3632336.65",
-      "volume_fp": "3632336.65",
+      "volume": "3652488.49",
+      "volume_fp": "3652488.49",
       "volume_24h": "3289441.81",
       "volume_24h_fp": "3289441.81",
-      "open_interest": "2405836.17",
-      "open_interest_fp": "2405836.17",
+      "open_interest": "2422622.84",
+      "open_interest_fp": "2422622.84",
       "yes_bid": "0.5400",
       "yes_ask": "0.5500",
       "no_bid": "0.4500",
@@ -2491,15 +2491,15 @@
         "yesBids": [
           [
             "0.5400",
-            "238515.45"
+            "239454.88"
           ],
           [
             "0.5300",
-            "59333.59"
+            "57663.40"
           ],
           [
             "0.5200",
-            "43541.98"
+            "43541.97"
           ],
           [
             "0.5100",
@@ -2513,32 +2513,32 @@
         "noBids": [
           [
             "0.4500",
-            "110229.69"
+            "41690.25"
           ],
           [
             "0.4400",
-            "103539.27"
+            "83129.32"
           ],
           [
             "0.4300",
-            "487412.10"
+            "495385.91"
           ],
           [
             "0.4200",
-            "47240.50"
+            "58797.50"
           ],
           [
             "0.4100",
-            "1848.80"
+            "1390.80"
           ]
         ],
         "yesAsk": {
           "price": "0.5500",
-          "size": "110229.69"
+          "size": "41690.25"
         },
         "noAsk": {
           "price": "0.4600",
-          "size": "238515.45"
+          "size": "239454.88"
         },
         "levels": {
           "yes": 53,
@@ -2553,12 +2553,12 @@
       "close_time": "2026-11-19T00:00:00Z",
       "expected_expiration_time": "2026-11-17T03:00:00Z",
       "event_ticker": "KXNBAGAME-26NOV16ORLBOS",
-      "volume": "2089498.45",
-      "volume_fp": "2089498.45",
+      "volume": "2113792.66",
+      "volume_fp": "2113792.66",
       "volume_24h": "1372507.73",
       "volume_24h_fp": "1372507.73",
-      "open_interest": "1172418.00",
-      "open_interest_fp": "1172418.00",
+      "open_interest": "1168098.09",
+      "open_interest_fp": "1168098.09",
       "yes_bid": "0.4500",
       "yes_ask": "0.4600",
       "no_bid": "0.5400",
@@ -2572,37 +2572,37 @@
         "yesBids": [
           [
             "0.4500",
-            "81091.88"
+            "32164.06"
           ],
           [
             "0.4400",
-            "49452.82"
+            "43062.61"
           ],
           [
             "0.4300",
-            "452591.68"
+            "455591.81"
           ],
           [
             "0.4200",
-            "26894.61"
+            "29436.61"
           ],
           [
             "0.4100",
-            "2787.92"
+            "2260.92"
           ]
         ],
         "noBids": [
           [
             "0.5400",
-            "331589.84"
+            "285835.00"
           ],
           [
             "0.5300",
-            "76998.36"
+            "74498.36"
           ],
           [
             "0.5200",
-            "63493.77"
+            "64293.63"
           ],
           [
             "0.5100",
@@ -2610,16 +2610,16 @@
           ],
           [
             "0.5000",
-            "1941.56"
+            "1360.56"
           ]
         ],
         "yesAsk": {
           "price": "0.4600",
-          "size": "331589.84"
+          "size": "285835.00"
         },
         "noAsk": {
           "price": "0.5500",
-          "size": "81091.88"
+          "size": "32164.06"
         },
         "levels": {
           "yes": 45,
@@ -2634,12 +2634,12 @@
       "close_time": "2026-11-19T00:30:00Z",
       "expected_expiration_time": "2026-11-17T03:30:00Z",
       "event_ticker": "KXNBAGAME-26NOV16PHIBKN",
-      "volume": "1627409.43",
-      "volume_fp": "1627409.43",
+      "volume": "1630593.25",
+      "volume_fp": "1630593.25",
       "volume_24h": "1565354.59",
       "volume_24h_fp": "1565354.59",
-      "open_interest": "1053317.53",
-      "open_interest_fp": "1053317.53",
+      "open_interest": "1055549.74",
+      "open_interest_fp": "1055549.74",
       "yes_bid": "0.9700",
       "yes_ask": "0.9800",
       "no_bid": "0.0200",
@@ -2653,42 +2653,42 @@
         "yesBids": [
           [
             "0.9700",
-            "53124.63"
+            "52930.75"
           ],
           [
             "0.9600",
-            "14919.64"
+            "33466.84"
           ],
           [
             "0.9500",
-            "20219.06"
+            "38748.55"
           ],
           [
             "0.9400",
-            "9375.95"
+            "20168.95"
           ],
           [
             "0.9300",
-            "4026.00"
+            "4020.00"
           ]
         ],
         "noBids": [
           [
             "0.0200",
-            "72540.65"
+            "63150.71"
           ],
           [
             "0.0100",
-            "116187.33"
+            "119141.60"
           ]
         ],
         "yesAsk": {
           "price": "0.9800",
-          "size": "72540.65"
+          "size": "63150.71"
         },
         "noAsk": {
           "price": "0.0300",
-          "size": "53124.63"
+          "size": "52930.75"
         },
         "levels": {
           "yes": 89,
@@ -2722,7 +2722,7 @@
         "yesBids": [
           [
             "0.4900",
-            "7528.57"
+            "7544.57"
           ],
           [
             "0.4800",
@@ -2769,7 +2769,7 @@
         },
         "noAsk": {
           "price": "0.5100",
-          "size": "7528.57"
+          "size": "7544.57"
         },
         "levels": {
           "yes": 45,
@@ -2784,12 +2784,12 @@
       "close_time": "2026-11-23T20:30:00Z",
       "expected_expiration_time": "2026-11-21T23:30:00Z",
       "event_ticker": "KXNCAAFGAME-26NOV21LSUTENN",
-      "volume": "90092.81",
-      "volume_fp": "90092.81",
+      "volume": "90102.47",
+      "volume_fp": "90102.47",
       "volume_24h": "45293.78",
       "volume_24h_fp": "45293.78",
-      "open_interest": "80041.19",
-      "open_interest_fp": "80041.19",
+      "open_interest": "80050.85",
+      "open_interest_fp": "80050.85",
       "yes_bid": "0.4900",
       "yes_ask": "0.5000",
       "no_bid": "0.5000",
@@ -2825,7 +2825,7 @@
         "noBids": [
           [
             "0.5000",
-            "5477.19"
+            "8989.53"
           ],
           [
             "0.4900",
@@ -2833,7 +2833,7 @@
           ],
           [
             "0.4800",
-            "3597.16"
+            "3918.16"
           ],
           [
             "0.4700",
@@ -2846,7 +2846,7 @@
         ],
         "yesAsk": {
           "price": "0.5000",
-          "size": "5477.19"
+          "size": "8989.53"
         },
         "noAsk": {
           "price": "0.5100",
@@ -2906,7 +2906,7 @@
         "noBids": [
           [
             "0.0900",
-            "6331.13"
+            "6455.13"
           ],
           [
             "0.0800",
@@ -2927,7 +2927,7 @@
         ],
         "yesAsk": {
           "price": "0.9100",
-          "size": "6331.13"
+          "size": "6455.13"
         },
         "noAsk": {
           "price": "0.1000",
@@ -2946,12 +2946,12 @@
       "close_time": "2026-11-24T00:30:00Z",
       "expected_expiration_time": "2026-11-22T03:30:00Z",
       "event_ticker": "KXNCAAFGAME-26NOV21SMUND",
-      "volume": "36254.13",
-      "volume_fp": "36254.13",
+      "volume": "36301.16",
+      "volume_fp": "36301.16",
       "volume_24h": "20964.51",
       "volume_24h_fp": "20964.51",
-      "open_interest": "30825.00",
-      "open_interest_fp": "30825.00",
+      "open_interest": "30872.03",
+      "open_interest_fp": "30872.03",
       "yes_bid": "0.0900",
       "yes_ask": "0.1000",
       "no_bid": "0.9000",
@@ -2987,7 +2987,7 @@
         "noBids": [
           [
             "0.9000",
-            "6709.32"
+            "6719.32"
           ],
           [
             "0.8900",
@@ -2999,7 +2999,7 @@
           ],
           [
             "0.8700",
-            "13593.00"
+            "15593.00"
           ],
           [
             "0.8600",
@@ -3008,7 +3008,7 @@
         ],
         "yesAsk": {
           "price": "0.1000",
-          "size": "6709.32"
+          "size": "6719.32"
         },
         "noAsk": {
           "price": "0.9100",
@@ -3027,16 +3027,16 @@
       "close_time": "2026-11-19T01:15:00Z",
       "expected_expiration_time": "2026-11-17T04:15:00Z",
       "event_ticker": "KXNFLGAME-26NOV16LACBAL",
-      "volume": "14865347.80",
-      "volume_fp": "14865347.80",
+      "volume": "14955233.76",
+      "volume_fp": "14955233.76",
       "volume_24h": "12735243.37",
       "volume_24h_fp": "12735243.37",
-      "open_interest": "11669825.90",
-      "open_interest_fp": "11669825.90",
-      "yes_bid": "0.4900",
-      "yes_ask": "0.5000",
-      "no_bid": "0.5000",
-      "no_ask": "0.5100",
+      "open_interest": "11729892.13",
+      "open_interest_fp": "11729892.13",
+      "yes_bid": "0.5300",
+      "yes_ask": "0.5400",
+      "no_bid": "0.4600",
+      "no_ask": "0.4700",
       "rules_primary": "If Baltimore wins the Los Angeles C vs Baltimore Pro Football game originally scheduled for Nov 16, 2026, then the market resolves to Yes.",
       "rules_secondary": "The following market refers to the team who wins the Los Angeles C vs Baltimore Pro Football game originally scheduled for Nov 16, 2026. If the game ends in a tie, the market will resolve to $0.50 for each team. If the game is postponed but begins within 48 hours from its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is not started within 48 hours, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
       "series_ticker": "KXNFLGAME",
@@ -3045,59 +3045,59 @@
       "book": {
         "yesBids": [
           [
+            "0.5300",
+            "158322.59"
+          ],
+          [
+            "0.5200",
+            "117222.47"
+          ],
+          [
+            "0.5100",
+            "141014.42"
+          ],
+          [
             "0.5000",
-            "306186.33"
+            "2863.45"
           ],
           [
             "0.4900",
-            "189819.67"
-          ],
-          [
-            "0.4800",
-            "67522.68"
-          ],
-          [
-            "0.4700",
-            "28406.36"
-          ],
-          [
-            "0.4600",
-            "49755.13"
+            "16841.01"
           ]
         ],
         "noBids": [
           [
-            "0.4900",
-            "566931.55"
-          ],
-          [
-            "0.4800",
-            "424597.77"
-          ],
-          [
-            "0.4700",
-            "306717.15"
-          ],
-          [
             "0.4600",
-            "130146.06"
+            "547397.79"
           ],
           [
             "0.4500",
-            "67268.48"
+            "343847.55"
+          ],
+          [
+            "0.4400",
+            "258628.98"
+          ],
+          [
+            "0.4300",
+            "92357.01"
+          ],
+          [
+            "0.4200",
+            "2800.25"
           ]
         ],
         "yesAsk": {
-          "price": "0.5100",
-          "size": "566931.55"
+          "price": "0.5400",
+          "size": "547397.79"
         },
         "noAsk": {
-          "price": "0.5000",
-          "size": "306186.33"
+          "price": "0.4700",
+          "size": "158322.59"
         },
         "levels": {
-          "yes": 50,
-          "no": 49
+          "yes": 53,
+          "no": 46
         }
       }
     },
@@ -3108,16 +3108,16 @@
       "close_time": "2026-11-19T01:15:00Z",
       "expected_expiration_time": "2026-11-17T04:15:00Z",
       "event_ticker": "KXNFLGAME-26NOV16LACBAL",
-      "volume": "14931052.77",
-      "volume_fp": "14931052.77",
+      "volume": "15106759.04",
+      "volume_fp": "15106759.04",
       "volume_24h": "13343291.82",
       "volume_24h_fp": "13343291.82",
-      "open_interest": "10404317.30",
-      "open_interest_fp": "10404317.30",
-      "yes_bid": "0.5000",
-      "yes_ask": "0.5100",
-      "no_bid": "0.4900",
-      "no_ask": "0.5000",
+      "open_interest": "10356614.50",
+      "open_interest_fp": "10356614.50",
+      "yes_bid": "0.4600",
+      "yes_ask": "0.4700",
+      "no_bid": "0.5300",
+      "no_ask": "0.5400",
       "rules_primary": "If Los Angeles C wins the Los Angeles C vs Baltimore Pro Football game originally scheduled for Nov 16, 2026, then the market resolves to Yes.",
       "rules_secondary": "The following market refers to the team who wins the Los Angeles C vs Baltimore Pro Football game originally scheduled for Nov 16, 2026. If the game ends in a tie, the market will resolve to $0.50 for each team. If the game is postponed but begins within 48 hours from its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is not started within 48 hours, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
       "series_ticker": "KXNFLGAME",
@@ -3126,59 +3126,59 @@
       "book": {
         "yesBids": [
           [
-            "0.4900",
-            "267619.32"
-          ],
-          [
-            "0.4800",
-            "133279.80"
-          ],
-          [
-            "0.4700",
-            "132818.68"
-          ],
-          [
             "0.4600",
-            "110926.32"
+            "233215.26"
           ],
           [
             "0.4500",
-            "41902.01"
+            "111157.21"
+          ],
+          [
+            "0.4400",
+            "140974.32"
+          ],
+          [
+            "0.4300",
+            "70036.00"
+          ],
+          [
+            "0.4200",
+            "1882.44"
           ]
         ],
         "noBids": [
           [
+            "0.5300",
+            "317169.59"
+          ],
+          [
+            "0.5200",
+            "316280.21"
+          ],
+          [
+            "0.5100",
+            "207686.41"
+          ],
+          [
             "0.5000",
-            "615041.53"
+            "3253.54"
           ],
           [
             "0.4900",
-            "393926.44"
-          ],
-          [
-            "0.4800",
-            "205100.73"
-          ],
-          [
-            "0.4700",
-            "109530.57"
-          ],
-          [
-            "0.4600",
-            "87577.49"
+            "79216.21"
           ]
         ],
         "yesAsk": {
-          "price": "0.5000",
-          "size": "615041.53"
+          "price": "0.4700",
+          "size": "317169.59"
         },
         "noAsk": {
-          "price": "0.5100",
-          "size": "267619.32"
+          "price": "0.5400",
+          "size": "233215.26"
         },
         "levels": {
-          "yes": 49,
-          "no": 50
+          "yes": 46,
+          "no": 53
         }
       }
     },
@@ -3189,12 +3189,12 @@
       "close_time": "2026-11-22T01:15:00Z",
       "expected_expiration_time": "2026-11-20T04:15:00Z",
       "event_ticker": "KXNFLGAME-26NOV19INDHOU",
-      "volume": "83130.64",
-      "volume_fp": "83130.64",
+      "volume": "83253.21",
+      "volume_fp": "83253.21",
       "volume_24h": "57951.71",
       "volume_24h_fp": "57951.71",
-      "open_interest": "71421.84",
-      "open_interest_fp": "71421.84",
+      "open_interest": "71495.65",
+      "open_interest_fp": "71495.65",
       "yes_bid": "0.8300",
       "yes_ask": "0.8400",
       "no_bid": "0.1600",
@@ -3208,15 +3208,15 @@
         "yesBids": [
           [
             "0.8300",
-            "39623.50"
+            "39105.69"
           ],
           [
             "0.8200",
-            "17837.92"
+            "17537.92"
           ],
           [
             "0.8100",
-            "308786.00"
+            "308786.13"
           ],
           [
             "0.8000",
@@ -3230,7 +3230,7 @@
         "noBids": [
           [
             "0.1600",
-            "400490.95"
+            "399917.14"
           ],
           [
             "0.1500",
@@ -3242,7 +3242,7 @@
           ],
           [
             "0.1300",
-            "41248.43"
+            "41210.43"
           ],
           [
             "0.1200",
@@ -3251,11 +3251,11 @@
         ],
         "yesAsk": {
           "price": "0.8400",
-          "size": "400490.95"
+          "size": "399917.14"
         },
         "noAsk": {
           "price": "0.1700",
-          "size": "39623.50"
+          "size": "39105.69"
         },
         "levels": {
           "yes": 64,
@@ -3270,12 +3270,12 @@
       "close_time": "2026-11-22T01:15:00Z",
       "expected_expiration_time": "2026-11-20T04:15:00Z",
       "event_ticker": "KXNFLGAME-26NOV19INDHOU",
-      "volume": "154279.92",
-      "volume_fp": "154279.92",
+      "volume": "154557.88",
+      "volume_fp": "154557.88",
       "volume_24h": "94581.99",
       "volume_24h_fp": "94581.99",
-      "open_interest": "116490.63",
-      "open_interest_fp": "116490.63",
+      "open_interest": "116768.59",
+      "open_interest_fp": "116768.59",
       "yes_bid": "0.1600",
       "yes_ask": "0.1700",
       "no_bid": "0.8300",
@@ -3289,7 +3289,7 @@
         "yesBids": [
           [
             "0.1600",
-            "4709.56"
+            "4209.56"
           ],
           [
             "0.1500",
@@ -3311,15 +3311,15 @@
         "noBids": [
           [
             "0.8300",
-            "160076.14"
+            "159289.48"
           ],
           [
             "0.8200",
-            "396243.62"
+            "392119.05"
           ],
           [
             "0.8100",
-            "7926.18"
+            "7926.41"
           ],
           [
             "0.8000",
@@ -3332,11 +3332,11 @@
         ],
         "yesAsk": {
           "price": "0.1700",
-          "size": "160076.14"
+          "size": "159289.48"
         },
         "noAsk": {
           "price": "0.8400",
-          "size": "4709.56"
+          "size": "4209.56"
         },
         "levels": {
           "yes": 16,
@@ -3432,12 +3432,12 @@
       "close_time": "2026-11-25T01:20:00Z",
       "expected_expiration_time": "2026-11-23T04:20:00Z",
       "event_ticker": "KXNFLGAME-26NOV22MINSF",
-      "volume": "492918.22",
-      "volume_fp": "492918.22",
+      "volume": "492968.68",
+      "volume_fp": "492968.68",
       "volume_24h": "438959.22",
       "volume_24h_fp": "438959.22",
-      "open_interest": "472634.04",
-      "open_interest_fp": "472634.04",
+      "open_interest": "472684.50",
+      "open_interest_fp": "472684.50",
       "yes_bid": "0.4100",
       "yes_ask": "0.4200",
       "no_bid": "0.5800",
@@ -3451,11 +3451,11 @@
         "yesBids": [
           [
             "0.4100",
-            "20576.47"
+            "20571.00"
           ],
           [
             "0.4000",
-            "10401.59"
+            "10413.14"
           ],
           [
             "0.3900",
@@ -3473,7 +3473,7 @@
         "noBids": [
           [
             "0.5800",
-            "7637.37"
+            "3887.17"
           ],
           [
             "0.5700",
@@ -3494,11 +3494,11 @@
         ],
         "yesAsk": {
           "price": "0.4200",
-          "size": "7637.37"
+          "size": "3887.17"
         },
         "noAsk": {
           "price": "0.5900",
-          "size": "20576.47"
+          "size": "20571.00"
         },
         "levels": {
           "yes": 40,
@@ -3532,7 +3532,7 @@
         "yesBids": [
           [
             "0.5700",
-            "20345.10"
+            "20331.92"
           ],
           [
             "0.5600",
@@ -3554,7 +3554,7 @@
         "noBids": [
           [
             "0.4100",
-            "75463.26"
+            "75446.79"
           ],
           [
             "0.4000",
@@ -3575,11 +3575,11 @@
         ],
         "yesAsk": {
           "price": "0.5900",
-          "size": "75463.26"
+          "size": "75446.79"
         },
         "noAsk": {
           "price": "0.4300",
-          "size": "20345.10"
+          "size": "20331.92"
         },
         "levels": {
           "yes": 53,
@@ -3675,12 +3675,12 @@
       "close_time": "2026-11-19T00:30:00Z",
       "expected_expiration_time": "2026-11-17T03:30:00Z",
       "event_ticker": "KXNHLGAME-26NOV16MTLNYR",
-      "volume": "788240.17",
-      "volume_fp": "788240.17",
+      "volume": "788616.17",
+      "volume_fp": "788616.17",
       "volume_24h": "742988.74",
       "volume_24h_fp": "742988.74",
-      "open_interest": "753901.67",
-      "open_interest_fp": "753901.67",
+      "open_interest": "754110.80",
+      "open_interest_fp": "754110.80",
       "yes_bid": "0.5200",
       "yes_ask": "0.5300",
       "no_bid": "0.4700",
@@ -3694,19 +3694,19 @@
         "yesBids": [
           [
             "0.5200",
-            "4978.99"
+            "2165.37"
           ],
           [
             "0.5100",
-            "3821.34"
+            "982.72"
           ],
           [
             "0.5000",
-            "2238.44"
+            "2880.14"
           ],
           [
             "0.4900",
-            "1482.94"
+            "921.94"
           ],
           [
             "0.4800",
@@ -3716,19 +3716,19 @@
         "noBids": [
           [
             "0.4700",
-            "13074.81"
+            "12288.97"
           ],
           [
             "0.4600",
-            "7903.88"
+            "7229.44"
           ],
           [
             "0.4500",
-            "6330.02"
+            "7257.24"
           ],
           [
             "0.4400",
-            "5682.17"
+            "5609.17"
           ],
           [
             "0.4300",
@@ -3737,11 +3737,11 @@
         ],
         "yesAsk": {
           "price": "0.5300",
-          "size": "13074.81"
+          "size": "12288.97"
         },
         "noAsk": {
           "price": "0.4800",
-          "size": "4978.99"
+          "size": "2165.37"
         },
         "levels": {
           "yes": 46,
@@ -3756,12 +3756,12 @@
       "close_time": "2026-11-19T00:30:00Z",
       "expected_expiration_time": "2026-11-17T03:30:00Z",
       "event_ticker": "KXNHLGAME-26NOV16MTLNYR",
-      "volume": "309311.63",
-      "volume_fp": "309311.63",
+      "volume": "310661.90",
+      "volume_fp": "310661.90",
       "volume_24h": "286574.45",
       "volume_24h_fp": "286574.45",
-      "open_interest": "245522.29",
-      "open_interest_fp": "245522.29",
+      "open_interest": "246870.53",
+      "open_interest_fp": "246870.53",
       "yes_bid": "0.4700",
       "yes_ask": "0.4800",
       "no_bid": "0.5200",
@@ -3775,57 +3775,57 @@
         "yesBids": [
           [
             "0.4700",
-            "3064.96"
+            "1917.02"
           ],
           [
             "0.4600",
-            "3422.69"
+            "2158.04"
           ],
           [
             "0.4500",
-            "2392.24"
+            "1143.08"
           ],
           [
             "0.4400",
-            "3398.79"
+            "97.79"
           ],
           [
             "0.4300",
-            "64.00"
+            "9.00"
           ]
         ],
         "noBids": [
           [
             "0.5200",
-            "6649.88"
+            "130.70"
           ],
           [
             "0.5100",
-            "11912.17"
+            "4945.65"
           ],
           [
             "0.5000",
-            "3832.02"
+            "3144.89"
           ],
           [
             "0.4900",
-            "3042.40"
+            "1073.18"
           ],
           [
             "0.4800",
-            "1001.00"
+            "1.00"
           ]
         ],
         "yesAsk": {
           "price": "0.4800",
-          "size": "6649.88"
+          "size": "130.70"
         },
         "noAsk": {
           "price": "0.5300",
-          "size": "3064.96"
+          "size": "1917.02"
         },
         "levels": {
-          "yes": 44,
+          "yes": 46,
           "no": 48
         }
       }
@@ -3856,11 +3856,11 @@
         "yesBids": [
           [
             "0.7400",
-            "16494.56"
+            "16594.56"
           ],
           [
             "0.7300",
-            "45151.04"
+            "45200.69"
           ],
           [
             "0.7200",
@@ -3878,15 +3878,15 @@
         "noBids": [
           [
             "0.2500",
-            "62102.39"
+            "65624.88"
           ],
           [
             "0.2400",
-            "166950.25"
+            "167743.93"
           ],
           [
             "0.2300",
-            "305348.05"
+            "305397.43"
           ],
           [
             "0.2200",
@@ -3899,11 +3899,11 @@
         ],
         "yesAsk": {
           "price": "0.7500",
-          "size": "62102.39"
+          "size": "65624.88"
         },
         "noAsk": {
           "price": "0.2600",
-          "size": "16494.56"
+          "size": "16594.56"
         },
         "levels": {
           "yes": 74,
@@ -3941,11 +3941,11 @@
           ],
           [
             "0.2400",
-            "33817.27"
+            "33997.27"
           ],
           [
             "0.2300",
-            "103406.81"
+            "103606.77"
           ],
           [
             "0.2200",
@@ -3959,15 +3959,15 @@
         "noBids": [
           [
             "0.7400",
-            "81946.46"
+            "81909.90"
           ],
           [
             "0.7300",
-            "143763.52"
+            "143963.52"
           ],
           [
             "0.7200",
-            "140558.35"
+            "140758.58"
           ],
           [
             "0.7100",
@@ -3980,7 +3980,7 @@
         ],
         "yesAsk": {
           "price": "0.2600",
-          "size": "81946.46"
+          "size": "81909.90"
         },
         "noAsk": {
           "price": "0.7500",
@@ -4202,7 +4202,7 @@
         "noBids": [
           [
             "0.6000",
-            "8457.85"
+            "11290.85"
           ],
           [
             "0.5900",
@@ -4223,7 +4223,7 @@
         ],
         "yesAsk": {
           "price": "0.4000",
-          "size": "8457.85"
+          "size": "11290.85"
         },
         "noAsk": {
           "price": "0.6100",
@@ -4269,11 +4269,11 @@
           ],
           [
             "0.6900",
-            "900.00"
+            "1400.00"
           ],
           [
             "0.6800",
-            "755.00"
+            "1255.00"
           ],
           [
             "0.6700",
@@ -4311,7 +4311,7 @@
           "size": "47.07"
         },
         "levels": {
-          "yes": 31,
+          "yes": 32,
           "no": 26
         }
       }
@@ -4416,8 +4416,8 @@
       "volume": "0",
       "volumeFormatted": "0.000000",
       "description": "This market refers to the tennis match between Alexander Zverev and Arthur Fils in the ATP Finals — John McEnroe Group, originally scheduled for November 17, 2026 at 13:00 UTC.\nThis market will resolve to 'Alexander Zverev' if Alexander Zverev advances against Arthur Fils.\nThis market will resolve to 'Arthur Fils' if Arthur Fils advances against Alexander Zverev.\nIf the match is canceled (not played at all), ends in a tie, or a winner has not been determined by December 1, 2026, 23:59 UTC (14 days after the scheduled start), this market will resolve to 50-50.\nIf the match begins but is not completed, and one player advances due to the opponent's retirement, default, or disqualification, this market will resolve to the player who advances.\nIf the match ends in a walkover (player withdraws before the start and the other advances automatically), this market will resolve to 50-50.",
-      "expirationTimestamp": 1795093200000,
-      "expiration": "2026-11-19T13:00:00.000Z",
+      "expirationTimestamp": 1795179600000,
+      "expiration": "2026-11-20T13:00:00.000Z",
       "yesTokenId": "63420156140591906245502886775182458496264991976131480294338770091140091544934",
       "noTokenId": "59982609628897154272714639228350664175443866169412680140078088128071232608019",
       "marketType": "single",
@@ -4656,8 +4656,8 @@
       "volume": "0",
       "volumeFormatted": "0.000000",
       "description": "This market refers to the tennis match between Ben Shelton and Rafael Jodar in the ATP Finals — John McEnroe Group, originally scheduled for November 17, 2026 at 13:00 UTC.\nThis market will resolve to 'Ben Shelton' if Ben Shelton advances against Rafael Jodar.\nThis market will resolve to 'Rafael Jodar' if Rafael Jodar advances against Ben Shelton.\nIf the match is canceled (not played at all), ends in a tie, or a winner has not been determined by December 1, 2026, 23:59 UTC (14 days after the scheduled start), this market will resolve to 50-50.\nIf the match begins but is not completed, and one player advances due to the opponent's retirement, default, or disqualification, this market will resolve to the player who advances.\nIf the match ends in a walkover (player withdraws before the start and the other advances automatically), this market will resolve to 50-50.",
-      "expirationTimestamp": 1795093200000,
-      "expiration": "2026-11-19T13:00:00.000Z",
+      "expirationTimestamp": 1795179600000,
+      "expiration": "2026-11-20T13:00:00.000Z",
       "yesTokenId": "70777869618672015806629473243289387852714205756073484911274014828887760322829",
       "noTokenId": "65327331159680994842801616798553056169925956551410397238449451239913933377581",
       "marketType": "single",
@@ -5118,8 +5118,8 @@
       "title": "BTC Up or Down - 15 Min",
       "image": "https://cdn.limitless.exchange/price-oracles/130/387a1354-5f1e-4fa0-ab44-3bba1fdc6c2c.png",
       "status": "FUNDED",
-      "volume": "6989000",
-      "volumeFormatted": "6.989000",
+      "volume": "9989000",
+      "volumeFormatted": "9.989000",
       "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 17, 2026, at 02:15 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 17, 2026, at 02:00 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 17, 2026, at 02:00 UTC was $64688.911220489700000000.</p>",
       "expirationTimestamp": 1794881700000,
       "expiration": "2026-11-17T02:15:00.000Z",
@@ -5129,17 +5129,17 @@
       "outcomes": null
     },
     {
-      "slug": "btc-up-or-down-5-min-1794881100",
+      "slug": "btc-up-or-down-5-min-1794881400",
       "title": "BTC Up or Down - 5 Min",
       "image": "https://cdn.limitless.exchange/price-oracles/130/387a1354-5f1e-4fa0-ab44-3bba1fdc6c2c.png",
       "status": "FUNDED",
       "volume": "0",
       "volumeFormatted": "0.000000",
-      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 17, 2026, at 02:10 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 17, 2026, at 02:05 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 17, 2026, at 02:05 UTC was $64800.260241754600000000.</p>",
-      "expirationTimestamp": 1794881400000,
-      "expiration": "2026-11-17T02:10:00.000Z",
-      "yesTokenId": "96811665925625006902678272680388912031652227095627853853186256913508942391356",
-      "noTokenId": "103372583550805809278835041715575005842886554818816318026738227993039547817847",
+      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 17, 2026, at 02:15 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 17, 2026, at 02:10 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/btc-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink BTC/USD 60-second TWAP</a> on November 17, 2026, at 02:10 UTC was $64772.172452368100000000.</p>",
+      "expirationTimestamp": 1794881700000,
+      "expiration": "2026-11-17T02:15:00.000Z",
+      "yesTokenId": "79632585529998746279743061291790682735114638133655243493624961023240887011897",
+      "noTokenId": "94819000174717530766802930903834483761905763477944978303843241904423503943898",
       "marketType": "single",
       "outcomes": null
     },
@@ -5163,8 +5163,8 @@
       "title": "BTC Up or Down Hourly",
       "image": "https://cdn.limitless.exchange/price-oracles/57/1546e81a-9e31-4292-b36c-b54e9443e4b1.svg",
       "status": "FUNDED",
-      "volume": "29040000",
-      "volumeFormatted": "29.040000",
+      "volume": "83576000",
+      "volumeFormatted": "83.576000",
       "description": "<p>This market will resolve to &quot;Up&quot; if the close price is greater than or equal to the open price for the BTC/USDT 1 hour candle that begins on the time and date specified in the title. Otherwise, this market will resolve to &quot;Down&quot;.</p><p><br></p><p>The resolution source for this market is information from Binance, specifically the BTC/USDT pair (<a href=\"https://www.binance.com/en/trade/BTC_USDT\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.binance.com/en/trade/BTC_USDT</a>). The close « C » and open « O » displayed at the top of the graph for the relevant &quot;1H&quot; candle will be used once the data for that candle is finalized.</p><p><br></p><p>Please note that this market is about the price according to Binance BTC/USDT, not according to other exchanges or trading pairs.</p>",
       "expirationTimestamp": 1794884400000,
       "expiration": "2026-11-17T03:00:00.000Z",
@@ -5296,8 +5296,8 @@
       "volume": "0",
       "volumeFormatted": "0.000000",
       "description": "This market refers to the tennis match between Carlos Alcaraz and Flavio Cobolli in the ATP Finals — Ivan Lendl Group, originally scheduled for November 17, 2026 at 13:00 UTC.\nThis market will resolve to 'Carlos Alcaraz' if Carlos Alcaraz advances against Flavio Cobolli.\nThis market will resolve to 'Flavio Cobolli' if Flavio Cobolli advances against Carlos Alcaraz.\nIf the match is canceled (not played at all), ends in a tie, or a winner has not been determined by December 1, 2026, 23:59 UTC (14 days after the scheduled start), this market will resolve to 50-50.\nIf the match begins but is not completed, and one player advances due to the opponent's retirement, default, or disqualification, this market will resolve to the player who advances.\nIf the match ends in a walkover (player withdraws before the start and the other advances automatically), this market will resolve to 50-50.",
-      "expirationTimestamp": 1795093200000,
-      "expiration": "2026-11-19T13:00:00.000Z",
+      "expirationTimestamp": 1795179600000,
+      "expiration": "2026-11-20T13:00:00.000Z",
       "yesTokenId": "34055950121283646467614477881933111700122661949086094266953335713118389914552",
       "noTokenId": "101933375962934000693810825898367686665898121493973601217532411456705775758141",
       "marketType": "single",
@@ -5386,8 +5386,8 @@
       "volume": "0",
       "volumeFormatted": "0.000000",
       "description": "This market refers to the tennis match between Daniil Medvedev and Frances Tiafoe in the ATP Finals — Ivan Lendl Group, originally scheduled for November 17, 2026 at 13:00 UTC.\nThis market will resolve to 'Daniil Medvedev' if Daniil Medvedev advances against Frances Tiafoe.\nThis market will resolve to 'Frances Tiafoe' if Frances Tiafoe advances against Daniil Medvedev.\nIf the match is canceled (not played at all), ends in a tie, or a winner has not been determined by December 1, 2026, 23:59 UTC (14 days after the scheduled start), this market will resolve to 50-50.\nIf the match begins but is not completed, and one player advances due to the opponent's retirement, default, or disqualification, this market will resolve to the player who advances.\nIf the match ends in a walkover (player withdraws before the start and the other advances automatically), this market will resolve to 50-50.",
-      "expirationTimestamp": 1795093200000,
-      "expiration": "2026-11-19T13:00:00.000Z",
+      "expirationTimestamp": 1795179600000,
+      "expiration": "2026-11-20T13:00:00.000Z",
       "yesTokenId": "54476802069661989980963582138245029335051135383212439579657802093138797930744",
       "noTokenId": "27718747912377455284648089664322742500665613331898363206004935947494086637918",
       "marketType": "single",
@@ -5539,17 +5539,17 @@
       "outcomes": null
     },
     {
-      "slug": "eth-up-or-down-5-min-1794881100",
+      "slug": "eth-up-or-down-5-min-1794881400",
       "title": "ETH Up or Down - 5 Min",
       "image": "https://cdn.limitless.exchange/price-oracles/131/31e8d5aa-90b3-424c-899c-8dbaf3f5d289.png",
       "status": "FUNDED",
       "volume": "0",
       "volumeFormatted": "0.000000",
-      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 17, 2026, at 02:10 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 17, 2026, at 02:05 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 17, 2026, at 02:05 UTC was $1822.698240904970000000.</p>",
-      "expirationTimestamp": 1794881400000,
-      "expiration": "2026-11-17T02:10:00.000Z",
-      "yesTokenId": "30651304785361102772945223966712419566438533680594740281961161542596246320278",
-      "noTokenId": "91355388742607731076861631426663432805464378198404453057358181385219204675179",
+      "description": "<p>This market will resolve to \"Up\" if the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 17, 2026, at 02:15 UTC is greater than or equal to the Price to Beat captured from the same TWAP on November 17, 2026, at 02:10 UTC. Otherwise, this market will resolve to \"Down\".</p><p><br></p><p>The <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> is used for both the Price to Beat and resolution. Other exchanges, spot markets, and oracles will not be used.</p><p><br></p><p>The Price to Beat captured from the <a href=\"https://data.chain.link/streams/eth-usd-twap-60s-streams\" target=\"_blank\" rel=\"noopener noreferrer\">Chainlink ETH/USD 60-second TWAP</a> on November 17, 2026, at 02:10 UTC was $1822.086058161660000000.</p>",
+      "expirationTimestamp": 1794881700000,
+      "expiration": "2026-11-17T02:15:00.000Z",
+      "yesTokenId": "10938889911507424729223157055181864741552171739734106921477502060680142119953",
+      "noTokenId": "93316292997733770786080764725730784372425789124564111788002663573301580748059",
       "marketType": "single",
       "outcomes": null
     },
@@ -18113,8 +18113,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 124812,
-      "markPxYes": "0.12909",
-      "markPxNo": "0.87091",
+      "markPxYes": "0.12908",
+      "markPxNo": "0.87092",
       "circulatingSupplyYes": "39001.0"
     },
     {
@@ -18840,7 +18840,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 5475,
+      "volume24hUsd": 4959,
       "markPxYes": "0.08955",
       "markPxNo": "0.91045",
       "circulatingSupplyYes": "16074.0"
@@ -19230,7 +19230,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 73473,
+      "volume24hUsd": 72390,
       "markPxYes": "0.08908",
       "markPxNo": "0.91092",
       "circulatingSupplyYes": "157104.0"
@@ -19256,9 +19256,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 35758,
-      "markPxYes": "0.08196",
-      "markPxNo": "0.91804",
+      "volume24hUsd": 33530,
+      "markPxYes": "0.08197",
+      "markPxNo": "0.91803",
       "circulatingSupplyYes": "38324.0"
     },
     {
@@ -19673,8 +19673,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 379774,
-      "markPxYes": "0.487",
-      "markPxNo": "0.513",
+      "markPxYes": "0.521",
+      "markPxNo": "0.479",
       "circulatingSupplyYes": "72322.0"
     },
     {
@@ -19777,8 +19777,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 139243,
-      "markPxYes": "0.53953",
-      "markPxNo": "0.46047",
+      "markPxYes": "0.537895",
+      "markPxNo": "0.462105",
       "circulatingSupplyYes": "6649.0"
     },
     {
@@ -19829,8 +19829,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.10993",
-      "markPxNo": "0.89007",
+      "markPxYes": "0.11249",
+      "markPxNo": "0.88751",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -19881,8 +19881,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.22227",
-      "markPxNo": "0.77773",
+      "markPxYes": "0.22558",
+      "markPxNo": "0.77442",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -20478,7 +20478,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 278581,
+      "volume24hUsd": 278543,
       "markPxYes": "0.019",
       "markPxNo": "0.981",
       "circulatingSupplyYes": "50530.0"
@@ -20530,10 +20530,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 220971,
-      "markPxYes": "0.5525",
-      "markPxNo": "0.4475",
-      "circulatingSupplyYes": "49016.0"
+      "volume24hUsd": 221370,
+      "markPxYes": "0.5395",
+      "markPxNo": "0.4605",
+      "circulatingSupplyYes": "48914.0"
     },
     {
       "outcome": 34495,
@@ -20582,10 +20582,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 114126,
-      "markPxYes": "0.8345",
-      "markPxNo": "0.1655",
-      "circulatingSupplyYes": "52054.0"
+      "volume24hUsd": 114101,
+      "markPxYes": "0.869",
+      "markPxNo": "0.131",
+      "circulatingSupplyYes": "52086.0"
     },
     {
       "outcome": 34499,
@@ -20609,8 +20609,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 234571,
-      "markPxYes": "0.66",
-      "markPxNo": "0.34",
+      "markPxYes": "0.712",
+      "markPxNo": "0.288",
       "circulatingSupplyYes": "41642.0"
     },
     {
@@ -20634,7 +20634,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 234157,
+      "volume24hUsd": 234059,
       "markPxYes": "0.94",
       "markPxNo": "0.06",
       "circulatingSupplyYes": "33419.0"
@@ -20765,8 +20765,8 @@
       "venue": "skew",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 0,
-      "markPxYes": "0.31017",
-      "markPxNo": "0.68983",
+      "markPxYes": "0.31348",
+      "markPxNo": "0.68652",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -20947,8 +20947,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 54631,
-      "markPxYes": "0.49502",
-      "markPxNo": "0.50498",
+      "markPxYes": "0.49525",
+      "markPxNo": "0.50475",
       "circulatingSupplyYes": "7923.0"
     },
     {
@@ -20973,8 +20973,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 150121,
-      "markPxYes": "0.26018",
-      "markPxNo": "0.73982",
+      "markPxYes": "0.26021",
+      "markPxNo": "0.73979",
       "circulatingSupplyYes": "12492.0"
     },
     {
@@ -21102,9 +21102,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 159207,
-      "markPxYes": "0.343795",
-      "markPxNo": "0.656205",
+      "volume24hUsd": 158785,
+      "markPxYes": "0.343745",
+      "markPxNo": "0.656255",
       "circulatingSupplyYes": "14964.0"
     },
     {
@@ -21362,7 +21362,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 38789,
+      "volume24hUsd": 36521,
       "markPxYes": "0.22371",
       "markPxNo": "0.77629",
       "circulatingSupplyYes": "4794.0"
@@ -21388,7 +21388,7 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 65618,
+      "volume24hUsd": 65392,
       "markPxYes": "0.251745",
       "markPxNo": "0.748255",
       "circulatingSupplyYes": "5498.0"
@@ -21415,8 +21415,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 84192,
-      "markPxYes": "0.52595",
-      "markPxNo": "0.47405",
+      "markPxYes": "0.52593",
+      "markPxNo": "0.47407",
       "circulatingSupplyYes": "7604.0"
     },
     {
@@ -21597,8 +21597,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 33090,
-      "markPxYes": "0.64843",
-      "markPxNo": "0.35157",
+      "markPxYes": "0.64853",
+      "markPxNo": "0.35147",
       "circulatingSupplyYes": "1021.0"
     },
     {
@@ -21623,8 +21623,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 42509,
-      "markPxYes": "0.81108",
-      "markPxNo": "0.18892",
+      "markPxYes": "0.81098",
+      "markPxNo": "0.18902",
       "circulatingSupplyYes": "1607.0"
     },
     {
@@ -21675,8 +21675,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 58054,
-      "markPxYes": "0.415255",
-      "markPxNo": "0.584745",
+      "markPxYes": "0.4098",
+      "markPxNo": "0.5902",
       "circulatingSupplyYes": "1555.0"
     },
     {
@@ -21701,8 +21701,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 134243,
-      "markPxYes": "0.73374",
-      "markPxNo": "0.26626",
+      "markPxYes": "0.739815",
+      "markPxNo": "0.260185",
       "circulatingSupplyYes": "7135.0"
     },
     {
@@ -21726,10 +21726,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 33687,
-      "markPxYes": "0.56248",
-      "markPxNo": "0.43752",
-      "circulatingSupplyYes": "579.0"
+      "volume24hUsd": 33825,
+      "markPxYes": "0.56249",
+      "markPxNo": "0.43751",
+      "circulatingSupplyYes": "633.0"
     },
     {
       "outcome": 35500,
@@ -21753,8 +21753,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 75161,
-      "markPxYes": "0.31806",
-      "markPxNo": "0.68194",
+      "markPxYes": "0.31808",
+      "markPxNo": "0.68192",
       "circulatingSupplyYes": "3023.0"
     },
     {
@@ -21805,8 +21805,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 24988,
-      "markPxYes": "0.467205",
-      "markPxNo": "0.532795",
+      "markPxYes": "0.4674",
+      "markPxNo": "0.5326",
       "circulatingSupplyYes": "799.0"
     },
     {
@@ -21883,8 +21883,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 49571,
-      "markPxYes": "0.33937",
-      "markPxNo": "0.66063",
+      "markPxYes": "0.33984",
+      "markPxNo": "0.66016",
       "circulatingSupplyYes": "1587.0"
     },
     {
@@ -21935,8 +21935,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 58397,
-      "markPxYes": "0.20084",
-      "markPxNo": "0.79916",
+      "markPxYes": "0.20121",
+      "markPxNo": "0.79879",
       "circulatingSupplyYes": "2282.0"
     },
     {
@@ -22012,10 +22012,10 @@
       "quoteToken": "USDC",
       "venue": null,
       "deployerFeeScale": null,
-      "volume24hUsd": 177717,
-      "markPxYes": "0.811185",
-      "markPxNo": "0.188815",
-      "circulatingSupplyYes": "89869.0"
+      "volume24hUsd": 177735,
+      "markPxYes": "0.81375",
+      "markPxNo": "0.18625",
+      "circulatingSupplyYes": "89887.0"
     },
     {
       "outcome": 37237,
@@ -22039,8 +22039,8 @@
       "venue": null,
       "deployerFeeScale": null,
       "volume24hUsd": 19678,
-      "markPxYes": "0.7205",
-      "markPxNo": "0.2795",
+      "markPxYes": "0.7243",
+      "markPxNo": "0.2757",
       "circulatingSupplyYes": "15532.0"
     },
     {
@@ -22065,8 +22065,8 @@
       "venue": null,
       "deployerFeeScale": null,
       "volume24hUsd": 11511,
-      "markPxYes": "0.79",
-      "markPxNo": "0.21",
+      "markPxYes": "0.78",
+      "markPxNo": "0.22",
       "circulatingSupplyYes": "11476.0"
     },
     {
@@ -22090,10 +22090,10 @@
       "quoteToken": "USDC",
       "venue": null,
       "deployerFeeScale": null,
-      "volume24hUsd": 27991,
+      "volume24hUsd": 28031,
       "markPxYes": "0.98",
       "markPxNo": "0.02",
-      "circulatingSupplyYes": "25842.0"
+      "circulatingSupplyYes": "25882.0"
     },
     {
       "outcome": 37240,
@@ -22143,8 +22143,8 @@
       "venue": null,
       "deployerFeeScale": null,
       "volume24hUsd": 13370,
-      "markPxYes": "0.034",
-      "markPxNo": "0.966",
+      "markPxYes": "0.0185",
+      "markPxNo": "0.9815",
       "circulatingSupplyYes": "11796.0"
     },
     {
@@ -22168,10 +22168,10 @@
       "quoteToken": "USDC",
       "venue": null,
       "deployerFeeScale": null,
-      "volume24hUsd": 4705,
-      "markPxYes": "0.9165",
-      "markPxNo": "0.0835",
-      "circulatingSupplyYes": "4696.0"
+      "volume24hUsd": 5705,
+      "markPxYes": "0.9325",
+      "markPxNo": "0.0675",
+      "circulatingSupplyYes": "5696.0"
     },
     {
       "outcome": 37243,
@@ -22195,8 +22195,8 @@
       "venue": null,
       "deployerFeeScale": null,
       "volume24hUsd": 2202,
-      "markPxYes": "0.0645",
-      "markPxNo": "0.9355",
+      "markPxYes": "0.063",
+      "markPxNo": "0.937",
       "circulatingSupplyYes": "2185.0"
     },
     {
@@ -22221,8 +22221,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 6867,
-      "markPxYes": "0.4522",
-      "markPxNo": "0.5478",
+      "markPxYes": "0.43472",
+      "markPxNo": "0.56528",
       "circulatingSupplyYes": "1249.0"
     },
     {
@@ -22897,8 +22897,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 23226,
-      "markPxYes": "0.159315",
-      "markPxNo": "0.840685",
+      "markPxYes": "0.15927",
+      "markPxNo": "0.84073",
       "circulatingSupplyYes": "2675.0"
     },
     {
@@ -23209,8 +23209,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 21498,
-      "markPxYes": "0.46187",
-      "markPxNo": "0.53813",
+      "markPxYes": "0.46186",
+      "markPxNo": "0.53814",
       "circulatingSupplyYes": "1150.0"
     },
     {
@@ -23289,7 +23289,7 @@
       "volume24hUsd": 0,
       "markPxYes": "0.5",
       "markPxNo": "0.5",
-      "circulatingSupplyYes": "1853.0"
+      "circulatingSupplyYes": "1869.0"
     },
     {
       "outcome": 37325,
@@ -23312,10 +23312,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 33181,
-      "markPxYes": "0.822585",
-      "markPxNo": "0.177415",
-      "circulatingSupplyYes": "2640.0"
+      "volume24hUsd": 33197,
+      "markPxYes": "0.82235",
+      "markPxNo": "0.17765",
+      "circulatingSupplyYes": "2644.0"
     },
     {
       "outcome": 37326,
@@ -23338,9 +23338,9 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 46498,
-      "markPxYes": "0.11546",
-      "markPxNo": "0.88454",
+      "volume24hUsd": 46549,
+      "markPxYes": "0.1163",
+      "markPxNo": "0.8837",
       "circulatingSupplyYes": "3690.0"
     },
     {
@@ -23364,10 +23364,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 25461,
+      "volume24hUsd": 25477,
       "markPxYes": "0.06268",
       "markPxNo": "0.93732",
-      "circulatingSupplyYes": "2076.0"
+      "circulatingSupplyYes": "2092.0"
     },
     {
       "outcome": 37329,
@@ -23781,8 +23781,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 65613,
-      "markPxYes": "0.67313",
-      "markPxNo": "0.32687",
+      "markPxYes": "0.673155",
+      "markPxNo": "0.326845",
       "circulatingSupplyYes": "3518.0"
     },
     {
@@ -23833,8 +23833,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 16233,
-      "markPxYes": "0.406245",
-      "markPxNo": "0.593755",
+      "markPxYes": "0.40484",
+      "markPxNo": "0.59516",
       "circulatingSupplyYes": "5568.0"
     },
     {
@@ -24352,9 +24352,9 @@
       "quoteToken": "USDC",
       "venue": "skew",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 281,
-      "markPxYes": "0.326115",
-      "markPxNo": "0.673885",
+      "volume24hUsd": 290,
+      "markPxYes": "0.438615",
+      "markPxNo": "0.561385",
       "circulatingSupplyYes": "148.0"
     },
     {
@@ -24431,8 +24431,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 4677,
-      "markPxYes": "0.56858",
-      "markPxNo": "0.43142",
+      "markPxYes": "0.57164",
+      "markPxNo": "0.42836",
       "circulatingSupplyYes": "913.0"
     },
     {
@@ -24456,10 +24456,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 1480,
-      "markPxYes": "0.48648",
-      "markPxNo": "0.51352",
-      "circulatingSupplyYes": "468.0"
+      "volume24hUsd": 1619,
+      "markPxYes": "0.505585",
+      "markPxNo": "0.494415",
+      "circulatingSupplyYes": "607.0"
     },
     {
       "outcome": 37910,
@@ -24535,8 +24535,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 2906,
-      "markPxYes": "0.58505",
-      "markPxNo": "0.41495",
+      "markPxYes": "0.585055",
+      "markPxNo": "0.414945",
       "circulatingSupplyYes": "978.0"
     },
     {
@@ -24743,8 +24743,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 3979,
-      "markPxYes": "0.55745",
-      "markPxNo": "0.44255",
+      "markPxYes": "0.55873",
+      "markPxNo": "0.44127",
       "circulatingSupplyYes": "2215.0"
     },
     {
@@ -24769,8 +24769,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 7278,
-      "markPxYes": "0.57",
-      "markPxNo": "0.43",
+      "markPxYes": "0.5601",
+      "markPxNo": "0.4399",
       "circulatingSupplyYes": "1369.0"
     },
     {
@@ -24794,10 +24794,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 5920,
-      "markPxYes": "0.48998",
-      "markPxNo": "0.51002",
-      "circulatingSupplyYes": "716.0"
+      "volume24hUsd": 5979,
+      "markPxYes": "0.492505",
+      "markPxNo": "0.507495",
+      "circulatingSupplyYes": "775.0"
     },
     {
       "outcome": 38040,
@@ -24899,8 +24899,8 @@
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 0,
-      "markPxYes": "0.59625",
-      "markPxNo": "0.40375",
+      "markPxYes": "0.5762",
+      "markPxNo": "0.4238",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24925,8 +24925,8 @@
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 0,
-      "markPxYes": "0.92934",
-      "markPxNo": "0.07066",
+      "markPxYes": "0.90933",
+      "markPxNo": "0.09067",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24951,8 +24951,8 @@
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 0,
-      "markPxYes": "0.92",
-      "markPxNo": "0.08",
+      "markPxYes": "0.9",
+      "markPxNo": "0.1",
       "circulatingSupplyYes": "0.0"
     },
     {
@@ -24977,8 +24977,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 60,
-      "markPxYes": "0.77722",
-      "markPxNo": "0.22278",
+      "markPxYes": "0.858",
+      "markPxNo": "0.142",
       "circulatingSupplyYes": "60.0"
     },
     {
@@ -25002,10 +25002,10 @@
       "quoteToken": "USDC",
       "venue": "out",
       "deployerFeeScale": "1.0",
-      "volume24hUsd": 528,
-      "markPxYes": "0.76656",
-      "markPxNo": "0.23344",
-      "circulatingSupplyYes": "524.0"
+      "volume24hUsd": 579,
+      "markPxYes": "0.79416",
+      "markPxNo": "0.20584",
+      "circulatingSupplyYes": "556.0"
     },
     {
       "outcome": 38118,
@@ -25029,8 +25029,8 @@
       "venue": "out",
       "deployerFeeScale": "1.0",
       "volume24hUsd": 210,
-      "markPxYes": "0.62",
-      "markPxNo": "0.38",
+      "markPxYes": "0.495",
+      "markPxNo": "0.505",
       "circulatingSupplyYes": "170.0"
     },
     {
@@ -25099,39 +25099,88 @@
       ],
       "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:64830|time:20261117-0210",
       "questionId": null,
-      "kairosEventId": "38121",
-      "category": "Crypto",
-      "endAt": "2026-11-17T02:10:00Z",
+      "kairosEventId": null,
+      "category": null,
+      "endAt": "2026-11-17T02:10:00.000Z",
+      "scheduledStart": null,
+      "quoteToken": "USDC",
+      "venue": "fox",
+      "deployerFeeScale": null,
+      "volume24hUsd": null,
+      "markPxYes": null,
+      "markPxNo": null,
+      "circulatingSupplyYes": null
+    },
+    {
+      "outcome": 38122,
+      "coinYes": "#381220",
+      "coinNo": "#381221",
+      "template": "binaryPrice",
+      "title": "BTC above $64,810 at 2026-11-17 02:15 UTC?",
+      "outcomeLabel": null,
+      "image": null,
+      "sides": [
+        "Yes",
+        "No"
+      ],
+      "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:64810|time:20261117-0215",
+      "questionId": null,
+      "kairosEventId": null,
+      "category": null,
+      "endAt": "2026-11-17T02:15:00.000Z",
       "scheduledStart": null,
       "quoteToken": "USDC",
       "venue": "fox",
       "deployerFeeScale": null,
       "volume24hUsd": 0,
-      "markPxYes": "0.41",
-      "markPxNo": "0.59",
+      "markPxYes": "0.5",
+      "markPxNo": "0.5",
       "circulatingSupplyYes": "0.0"
     }
   ],
   "predictfun": [
     {
-      "id": "4154829",
-      "wsTopic": "predictOrderbook/4154829",
-      "title": "Warriors vs. Pelicans",
-      "eventTitle": "NBA: Warriors vs. Pelicans",
-      "eventSlug": "nba-gsw-nop-2026-11-16",
-      "url": "https://predict.fun/market/nba-gsw-nop-2026-11-16",
+      "id": "4154832",
+      "wsTopic": "predictOrderbook/4154832",
+      "title": "Magic vs. Celtics",
+      "eventTitle": "NBA: Magic vs. Celtics",
+      "eventSlug": "nba-orl-bos-2026-11-16",
+      "url": "https://predict.fun/market/nba-orl-bos-2026-11-16",
       "image": "https://static.predict.fun/basketball",
       "category": "Sports",
       "outcomes": [
-        "GSW",
-        "NOP"
+        "ORL",
+        "BOS"
       ],
-      "outcomeLabel": "Warriors vs. Pelicans",
+      "outcomeLabel": "Magic vs. Celtics",
       "expiresAt": null,
       "dateHint": "2026-11-16",
-      "volume24hUsd": 175130,
-      "volume1hUsd": 158378.65,
-      "liquidityUsd": 93635.02,
+      "volume24hUsd": 275632.45,
+      "volume1hUsd": 48931.31,
+      "liquidityUsd": 173279.33,
+      "tickSize": 0.01,
+      "feeRateBps": 200,
+      "negRisk": false
+    },
+    {
+      "id": "4154985",
+      "wsTopic": "predictOrderbook/4154985",
+      "title": "76ers vs. Nets",
+      "eventTitle": "NBA: 76ers vs. Nets",
+      "eventSlug": "nba-phi-bkn-2026-11-16",
+      "url": "https://predict.fun/market/nba-phi-bkn-2026-11-16",
+      "image": "https://static.predict.fun/basketball",
+      "category": "Sports",
+      "outcomes": [
+        "PHI",
+        "BKN"
+      ],
+      "outcomeLabel": "76ers vs. Nets",
+      "expiresAt": null,
+      "dateHint": "2026-11-16",
+      "volume24hUsd": 186435.72,
+      "volume1hUsd": 38859.26,
+      "liquidityUsd": 115929.44,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25152,9 +25201,9 @@
       "outcomeLabel": "Trail Blazers vs. Timberwolves",
       "expiresAt": null,
       "dateHint": "2026-11-16",
-      "volume24hUsd": 117350.58,
-      "volume1hUsd": 53192.1,
-      "liquidityUsd": 145569.5,
+      "volume24hUsd": 117626.78,
+      "volume1hUsd": 51191.82,
+      "liquidityUsd": 151646.99,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25177,7 +25226,7 @@
       "dateHint": null,
       "volume24hUsd": 58825.34,
       "volume1hUsd": 0,
-      "liquidityUsd": 194828.58,
+      "liquidityUsd": 194384.58,
       "tickSize": 0.001,
       "feeRateBps": 200,
       "negRisk": false
@@ -25223,7 +25272,7 @@
       "dateHint": "2026-11-16",
       "volume24hUsd": 13023.81,
       "volume1hUsd": 5277.43,
-      "liquidityUsd": 121299.45,
+      "liquidityUsd": 116097.16,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25247,29 +25296,6 @@
       "volume24hUsd": 12291.01,
       "volume1hUsd": 10950.35,
       "liquidityUsd": 94618.47,
-      "tickSize": 0.01,
-      "feeRateBps": 200,
-      "negRisk": false
-    },
-    {
-      "id": "4593715",
-      "wsTopic": "predictOrderbook/4593715",
-      "title": "Counter-Strike: 9z Academy vs street dogs (BO3) - CCT South America Challengers #4 Playoffs",
-      "eventTitle": "Counter-Strike: 9z Academy vs street dogs (BO3) - CCT South America Challengers #4 Playoffs",
-      "eventSlug": "cs2-9za-sd1-2026-11-16",
-      "url": "https://predict.fun/market/cs2-9za-sd1-2026-11-16",
-      "image": "https://static.predict.fun/cs2",
-      "category": "Esports",
-      "outcomes": [
-        "9ZA",
-        "SD1"
-      ],
-      "outcomeLabel": "Match Winner",
-      "expiresAt": null,
-      "dateHint": "2026-11-16",
-      "volume24hUsd": 9650.16,
-      "volume1hUsd": 0,
-      "liquidityUsd": 27276.04,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25384,7 +25410,7 @@
       "dateHint": "2026-11-21",
       "volume24hUsd": 7513.53,
       "volume1hUsd": 4.35,
-      "liquidityUsd": 19349.28,
+      "liquidityUsd": 19420.28,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": true
@@ -25430,7 +25456,7 @@
       "dateHint": "2026-11-16",
       "volume24hUsd": 7229.58,
       "volume1hUsd": 6.78,
-      "liquidityUsd": 30416,
+      "liquidityUsd": 32106.11,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25476,7 +25502,7 @@
       "dateHint": "2026-11-17",
       "volume24hUsd": 5495.2,
       "volume1hUsd": 138.86,
-      "liquidityUsd": 112952.31,
+      "liquidityUsd": 113022.65,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25660,7 +25686,7 @@
       "dateHint": "2026-11-16",
       "volume24hUsd": 3277.12,
       "volume1hUsd": 3245.54,
-      "liquidityUsd": 11418.73,
+      "liquidityUsd": 8540.15,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25681,9 +25707,9 @@
       "outcomeLabel": "Canadiens vs. Rangers",
       "expiresAt": null,
       "dateHint": "2026-11-16",
-      "volume24hUsd": 3065.38,
-      "volume1hUsd": 1137.15,
-      "liquidityUsd": 47166.44,
+      "volume24hUsd": 3071.44,
+      "volume1hUsd": 1143.21,
+      "liquidityUsd": 49578.67,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25706,7 +25732,7 @@
       "dateHint": "2026-11-17",
       "volume24hUsd": 2769.93,
       "volume1hUsd": 1349.8,
-      "liquidityUsd": 24436.47,
+      "liquidityUsd": 24119.87,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25729,7 +25755,7 @@
       "dateHint": "2026-11-16",
       "volume24hUsd": 2640.91,
       "volume1hUsd": 546.64,
-      "liquidityUsd": 8620.69,
+      "liquidityUsd": 18215.55,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25798,7 +25824,7 @@
       "dateHint": "2026-11-16",
       "volume24hUsd": 2207.22,
       "volume1hUsd": 1984.46,
-      "liquidityUsd": 19743.2,
+      "liquidityUsd": 17775.83,
       "tickSize": 0.01,
       "feeRateBps": 200,
       "negRisk": false
@@ -25839,7 +25865,7 @@
               "0.003",
               "26.2"
             ],
-            "at": "2026-11-17T02:09:16.844Z"
+            "at": "2026-11-17T02:10:09.575Z"
           }
         },
         {
@@ -25857,7 +25883,7 @@
               "0.01",
               "1372.01"
             ],
-            "at": "2026-11-17T02:09:28.569Z"
+            "at": "2026-11-17T02:10:21.917Z"
           }
         },
         {
@@ -25875,7 +25901,7 @@
               "0.057",
               "1146.48"
             ],
-            "at": "2026-11-17T02:09:28.877Z"
+            "at": "2026-11-17T02:10:22.220Z"
           }
         },
         {
@@ -25893,7 +25919,7 @@
               "0.005",
               "3787.53"
             ],
-            "at": "2026-11-17T02:09:29.149Z"
+            "at": "2026-11-17T02:10:22.506Z"
           }
         },
         {
@@ -25911,7 +25937,7 @@
               "0.003",
               "945.07"
             ],
-            "at": "2026-11-17T02:09:29.444Z"
+            "at": "2026-11-17T02:10:22.806Z"
           }
         },
         {
@@ -25929,7 +25955,7 @@
               "0.05",
               "285.48"
             ],
-            "at": "2026-11-17T02:09:29.738Z"
+            "at": "2026-11-17T02:10:23.214Z"
           }
         },
         {
@@ -25947,7 +25973,7 @@
               "0.011",
               "15.8"
             ],
-            "at": "2026-11-17T02:09:30.067Z"
+            "at": "2026-11-17T02:10:23.509Z"
           }
         },
         {
@@ -25965,7 +25991,7 @@
               "0.002",
               "31.2"
             ],
-            "at": "2026-11-17T02:09:30.350Z"
+            "at": "2026-11-17T02:10:23.790Z"
           }
         }
       ]
@@ -26005,7 +26031,7 @@
               "0.001",
               "946.98"
             ],
-            "at": "2026-11-17T02:09:17.135Z"
+            "at": "2026-11-17T02:10:09.848Z"
           }
         },
         {
@@ -26023,7 +26049,7 @@
               "0.011",
               "23.2"
             ],
-            "at": "2026-11-17T02:09:30.630Z"
+            "at": "2026-11-17T02:10:24.085Z"
           }
         },
         {
@@ -26041,7 +26067,7 @@
               "0.011",
               "40.6"
             ],
-            "at": "2026-11-17T02:09:30.915Z"
+            "at": "2026-11-17T02:10:24.398Z"
           }
         },
         {
@@ -26059,7 +26085,7 @@
               "0.05",
               "0.74"
             ],
-            "at": "2026-11-17T02:09:31.253Z"
+            "at": "2026-11-17T02:10:24.675Z"
           }
         },
         {
@@ -26077,7 +26103,7 @@
               "0.003",
               "35.2"
             ],
-            "at": "2026-11-17T02:09:31.589Z"
+            "at": "2026-11-17T02:10:24.948Z"
           }
         },
         {
@@ -26095,7 +26121,7 @@
               "0.01",
               "102.3"
             ],
-            "at": "2026-11-17T02:09:31.915Z"
+            "at": "2026-11-17T02:10:25.228Z"
           }
         },
         {
@@ -26113,7 +26139,7 @@
               "0.002",
               "8085.950000000001"
             ],
-            "at": "2026-11-17T02:09:32.240Z"
+            "at": "2026-11-17T02:10:25.515Z"
           }
         }
       ]
@@ -26152,7 +26178,7 @@
               "0.001",
               "5.7"
             ],
-            "at": "2026-11-17T02:09:17.522Z"
+            "at": "2026-11-17T02:10:10.168Z"
           }
         },
         {
@@ -26170,7 +26196,7 @@
               "0.003",
               "495.04"
             ],
-            "at": "2026-11-17T02:09:32.576Z"
+            "at": "2026-11-17T02:10:25.815Z"
           }
         },
         {
@@ -26188,7 +26214,7 @@
               "0.003",
               "394.91"
             ],
-            "at": "2026-11-17T02:09:32.894Z"
+            "at": "2026-11-17T02:10:26.649Z"
           }
         },
         {
@@ -26206,7 +26232,7 @@
               "0.01",
               "4.02"
             ],
-            "at": "2026-11-17T02:09:33.213Z"
+            "at": "2026-11-17T02:10:26.959Z"
           }
         },
         {
@@ -26224,7 +26250,7 @@
               "0.01",
               "23.12"
             ],
-            "at": "2026-11-17T02:09:33.518Z"
+            "at": "2026-11-17T02:10:27.230Z"
           }
         },
         {
@@ -26236,7 +26262,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:33.801Z"
+            "at": "2026-11-17T02:10:27.521Z"
           }
         },
         {
@@ -26254,7 +26280,7 @@
               "0.01",
               "281.55"
             ],
-            "at": "2026-11-17T02:09:34.232Z"
+            "at": "2026-11-17T02:10:27.793Z"
           }
         },
         {
@@ -26266,7 +26292,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:34.509Z"
+            "at": "2026-11-17T02:10:28.115Z"
           }
         }
       ]
@@ -26306,7 +26332,7 @@
               "0.05",
               "2819.32"
             ],
-            "at": "2026-11-17T02:09:17.818Z"
+            "at": "2026-11-17T02:10:10.499Z"
           }
         }
       ]
@@ -26346,7 +26372,7 @@
               "0.002",
               "20"
             ],
-            "at": "2026-11-17T02:09:18.100Z"
+            "at": "2026-11-17T02:10:10.806Z"
           }
         },
         {
@@ -26364,7 +26390,7 @@
               "0.256",
               "781.25"
             ],
-            "at": "2026-11-17T02:09:34.878Z"
+            "at": "2026-11-17T02:10:28.397Z"
           }
         },
         {
@@ -26382,7 +26408,7 @@
               "0.01",
               "100"
             ],
-            "at": "2026-11-17T02:09:35.208Z"
+            "at": "2026-11-17T02:10:28.675Z"
           }
         },
         {
@@ -26400,7 +26426,7 @@
               "0.002",
               "61.3"
             ],
-            "at": "2026-11-17T02:09:35.527Z"
+            "at": "2026-11-17T02:10:28.943Z"
           }
         },
         {
@@ -26418,7 +26444,7 @@
               "0.023",
               "1.5"
             ],
-            "at": "2026-11-17T02:09:35.828Z"
+            "at": "2026-11-17T02:10:29.219Z"
           }
         },
         {
@@ -26436,7 +26462,7 @@
               "0.01",
               "184"
             ],
-            "at": "2026-11-17T02:09:36.114Z"
+            "at": "2026-11-17T02:10:29.530Z"
           }
         },
         {
@@ -26454,7 +26480,7 @@
               "0.011",
               "22.8"
             ],
-            "at": "2026-11-17T02:09:36.418Z"
+            "at": "2026-11-17T02:10:29.813Z"
           }
         },
         {
@@ -26472,7 +26498,7 @@
               "0.045",
               "128.90099476439792"
             ],
-            "at": "2026-11-17T02:09:36.727Z"
+            "at": "2026-11-17T02:10:30.112Z"
           }
         }
       ]
@@ -26509,7 +26535,7 @@
               "0.01",
               "116.18"
             ],
-            "at": "2026-11-17T02:09:18.390Z"
+            "at": "2026-11-17T02:10:11.137Z"
           }
         },
         {
@@ -26527,7 +26553,7 @@
               "0.001",
               "300"
             ],
-            "at": "2026-11-17T02:09:36.996Z"
+            "at": "2026-11-17T02:10:30.415Z"
           }
         },
         {
@@ -26539,7 +26565,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:37.285Z"
+            "at": "2026-11-17T02:10:30.700Z"
           }
         },
         {
@@ -26557,7 +26583,7 @@
               "0.03",
               "2103.74"
             ],
-            "at": "2026-11-17T02:09:37.587Z"
+            "at": "2026-11-17T02:10:31.020Z"
           }
         },
         {
@@ -26575,7 +26601,7 @@
               "0.03",
               "1008.61"
             ],
-            "at": "2026-11-17T02:09:37.873Z"
+            "at": "2026-11-17T02:10:31.302Z"
           }
         }
       ]
@@ -26606,7 +26632,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:18.672Z"
+            "at": "2026-11-17T02:10:11.423Z"
           }
         }
       ]
@@ -26646,7 +26672,7 @@
               "0.015",
               "1910.3577157360405"
             ],
-            "at": "2026-11-17T02:09:18.953Z"
+            "at": "2026-11-17T02:10:11.736Z"
           }
         }
       ]
@@ -26685,7 +26711,7 @@
               "0.122",
               "5.4"
             ],
-            "at": "2026-11-17T02:09:19.234Z"
+            "at": "2026-11-17T02:10:12.047Z"
           }
         }
       ]
@@ -26716,7 +26742,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:19.511Z"
+            "at": "2026-11-17T02:10:12.316Z"
           }
         },
         {
@@ -26728,7 +26754,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:38.163Z"
+            "at": "2026-11-17T02:10:31.588Z"
           }
         }
       ]
@@ -26764,7 +26790,7 @@
               "39.65"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:19.778Z"
+            "at": "2026-11-17T02:10:12.665Z"
           }
         }
       ]
@@ -26804,7 +26830,7 @@
               "0.1",
               "584.19"
             ],
-            "at": "2026-11-17T02:09:20.074Z"
+            "at": "2026-11-17T02:10:12.989Z"
           }
         }
       ]
@@ -26844,7 +26870,7 @@
               "0.01",
               "1.44"
             ],
-            "at": "2026-11-17T02:09:20.353Z"
+            "at": "2026-11-17T02:10:13.295Z"
           }
         }
       ]
@@ -26884,7 +26910,7 @@
               "0.001",
               "133.3"
             ],
-            "at": "2026-11-17T02:09:20.718Z"
+            "at": "2026-11-17T02:10:13.586Z"
           }
         },
         {
@@ -26902,7 +26928,7 @@
               "0.06",
               "21.89999999999998"
             ],
-            "at": "2026-11-17T02:09:38.484Z"
+            "at": "2026-11-17T02:10:31.907Z"
           }
         },
         {
@@ -26920,7 +26946,7 @@
               "0.021",
               "5.1"
             ],
-            "at": "2026-11-17T02:09:38.780Z"
+            "at": "2026-11-17T02:10:32.223Z"
           }
         },
         {
@@ -26938,7 +26964,7 @@
               "0.05",
               "0.1515789473684212"
             ],
-            "at": "2026-11-17T02:09:39.067Z"
+            "at": "2026-11-17T02:10:32.501Z"
           }
         },
         {
@@ -26953,7 +26979,7 @@
               "0.045",
               "1.20999999999998"
             ],
-            "at": "2026-11-17T02:09:39.362Z"
+            "at": "2026-11-17T02:10:32.809Z"
           }
         },
         {
@@ -26971,7 +26997,7 @@
               "0.051",
               "34"
             ],
-            "at": "2026-11-17T02:09:39.670Z"
+            "at": "2026-11-17T02:10:33.132Z"
           }
         }
       ]
@@ -27002,7 +27028,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:21.019Z"
+            "at": "2026-11-17T02:10:13.863Z"
           }
         }
       ]
@@ -27035,7 +27061,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:21.334Z"
+            "at": "2026-11-17T02:10:14.140Z"
           }
         },
         {
@@ -27050,7 +27076,7 @@
               "0.001",
               "7"
             ],
-            "at": "2026-11-17T02:09:39.967Z"
+            "at": "2026-11-17T02:10:33.447Z"
           }
         },
         {
@@ -27065,7 +27091,7 @@
               "0.08",
               "55.9"
             ],
-            "at": "2026-11-17T02:09:40.241Z"
+            "at": "2026-11-17T02:10:33.719Z"
           }
         },
         {
@@ -27077,7 +27103,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:40.511Z"
+            "at": "2026-11-17T02:10:34.002Z"
           }
         },
         {
@@ -27089,7 +27115,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:40.784Z"
+            "at": "2026-11-17T02:10:34.278Z"
           }
         },
         {
@@ -27101,7 +27127,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:41.062Z"
+            "at": "2026-11-17T02:10:34.583Z"
           }
         }
       ]
@@ -27132,7 +27158,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:21.622Z"
+            "at": "2026-11-17T02:10:14.415Z"
           }
         }
       ]
@@ -27159,7 +27185,7 @@
           "0.001",
           "13"
         ],
-        "at": "2026-11-17T02:09:21.942Z"
+        "at": "2026-11-17T02:10:14.869Z"
       }
     },
     {
@@ -27190,7 +27216,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:22.232Z"
+            "at": "2026-11-17T02:10:15.236Z"
           }
         },
         {
@@ -27205,7 +27231,7 @@
               "0.01",
               "7.2"
             ],
-            "at": "2026-11-17T02:09:41.345Z"
+            "at": "2026-11-17T02:10:34.865Z"
           }
         },
         {
@@ -27223,7 +27249,7 @@
               "0.301",
               "33.199335548172755"
             ],
-            "at": "2026-11-17T02:09:41.635Z"
+            "at": "2026-11-17T02:10:35.186Z"
           }
         },
         {
@@ -27238,7 +27264,7 @@
               "11.100334448160535"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:41.912Z"
+            "at": "2026-11-17T02:10:35.466Z"
           }
         },
         {
@@ -27253,7 +27279,7 @@
               "0.01",
               "17.48"
             ],
-            "at": "2026-11-17T02:09:42.185Z"
+            "at": "2026-11-17T02:10:35.744Z"
           }
         },
         {
@@ -27268,7 +27294,7 @@
               "0.01",
               "40.65"
             ],
-            "at": "2026-11-17T02:09:42.472Z"
+            "at": "2026-11-17T02:10:36.013Z"
           }
         }
       ]
@@ -27299,7 +27325,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:22.504Z"
+            "at": "2026-11-17T02:10:15.536Z"
           }
         }
       ]
@@ -27333,7 +27359,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:22.775Z"
+            "at": "2026-11-17T02:10:15.832Z"
           }
         },
         {
@@ -27351,7 +27377,7 @@
               "0.99",
               "0.02"
             ],
-            "at": "2026-11-17T02:09:42.744Z"
+            "at": "2026-11-17T02:10:36.317Z"
           }
         },
         {
@@ -27363,7 +27389,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:43.025Z"
+            "at": "2026-11-17T02:10:36.586Z"
           }
         },
         {
@@ -27375,7 +27401,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:43.300Z"
+            "at": "2026-11-17T02:10:36.861Z"
           }
         },
         {
@@ -27387,7 +27413,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:43.603Z"
+            "at": "2026-11-17T02:10:37.145Z"
           }
         }
       ]
@@ -27423,7 +27449,7 @@
               "0.014",
               "5527.59"
             ],
-            "at": "2026-11-17T02:09:23.053Z"
+            "at": "2026-11-17T02:10:16.146Z"
           }
         },
         {
@@ -27435,7 +27461,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:43.873Z"
+            "at": "2026-11-17T02:10:37.449Z"
           }
         },
         {
@@ -27447,7 +27473,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:44.184Z"
+            "at": "2026-11-17T02:10:37.716Z"
           }
         },
         {
@@ -27462,7 +27488,7 @@
               "24.85"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:44.473Z"
+            "at": "2026-11-17T02:10:38.057Z"
           }
         },
         {
@@ -27477,7 +27503,7 @@
               "5.39"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:44.794Z"
+            "at": "2026-11-17T02:10:38.340Z"
           }
         },
         {
@@ -27495,7 +27521,7 @@
               "0.012",
               "7798.35"
             ],
-            "at": "2026-11-17T02:09:45.112Z"
+            "at": "2026-11-17T02:10:38.631Z"
           }
         },
         {
@@ -27513,7 +27539,7 @@
               "0.001",
               "50.2"
             ],
-            "at": "2026-11-17T02:09:45.414Z"
+            "at": "2026-11-17T02:10:38.951Z"
           }
         },
         {
@@ -27528,7 +27554,7 @@
               "57.19"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:45.709Z"
+            "at": "2026-11-17T02:10:39.216Z"
           }
         }
       ]
@@ -27559,7 +27585,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:23.336Z"
+            "at": "2026-11-17T02:10:16.510Z"
           }
         }
       ]
@@ -27599,7 +27625,7 @@
               "0.72",
               "60"
             ],
-            "at": "2026-11-17T02:09:23.624Z"
+            "at": "2026-11-17T02:10:16.773Z"
           }
         },
         {
@@ -27617,7 +27643,7 @@
               "0.993",
               "2.556589986468904"
             ],
-            "at": "2026-11-17T02:09:46.017Z"
+            "at": "2026-11-17T02:10:39.505Z"
           }
         },
         {
@@ -27632,7 +27658,7 @@
               "0.4",
               "2305.67"
             ],
-            "at": "2026-11-17T02:09:46.307Z"
+            "at": "2026-11-17T02:10:39.824Z"
           }
         },
         {
@@ -27650,7 +27676,7 @@
               "0.95",
               "0.28"
             ],
-            "at": "2026-11-17T02:09:46.591Z"
+            "at": "2026-11-17T02:10:40.147Z"
           }
         },
         {
@@ -27668,7 +27694,7 @@
               "0.951",
               "2995.29"
             ],
-            "at": "2026-11-17T02:09:46.897Z"
+            "at": "2026-11-17T02:10:40.455Z"
           }
         },
         {
@@ -27686,7 +27712,7 @@
               "0.751",
               "375"
             ],
-            "at": "2026-11-17T02:09:47.186Z"
+            "at": "2026-11-17T02:10:40.728Z"
           }
         }
       ]
@@ -27725,7 +27751,7 @@
               "0.011",
               "20.4"
             ],
-            "at": "2026-11-17T02:09:23.908Z"
+            "at": "2026-11-17T02:10:17.061Z"
           }
         },
         {
@@ -27743,7 +27769,7 @@
               "0.011",
               "6.6"
             ],
-            "at": "2026-11-17T02:09:47.501Z"
+            "at": "2026-11-17T02:10:41.007Z"
           }
         },
         {
@@ -27758,7 +27784,7 @@
               "0.011",
               "22.1"
             ],
-            "at": "2026-11-17T02:09:47.766Z"
+            "at": "2026-11-17T02:10:41.293Z"
           }
         },
         {
@@ -27773,7 +27799,7 @@
               "178.77"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:48.041Z"
+            "at": "2026-11-17T02:10:41.607Z"
           }
         },
         {
@@ -27791,7 +27817,7 @@
               "0.26",
               "389.32"
             ],
-            "at": "2026-11-17T02:09:48.324Z"
+            "at": "2026-11-17T02:10:41.874Z"
           }
         },
         {
@@ -27809,7 +27835,7 @@
               "0.01",
               "13.91"
             ],
-            "at": "2026-11-17T02:09:48.648Z"
+            "at": "2026-11-17T02:10:42.151Z"
           }
         },
         {
@@ -27824,7 +27850,7 @@
               "16.94"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:48.953Z"
+            "at": "2026-11-17T02:10:42.412Z"
           }
         },
         {
@@ -27839,7 +27865,7 @@
               "74.66146496815287"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:49.222Z"
+            "at": "2026-11-17T02:10:42.853Z"
           }
         }
       ]
@@ -27870,7 +27896,7 @@
           "0.101",
           "590.1865294771969"
         ],
-        "at": "2026-11-17T02:09:24.194Z"
+        "at": "2026-11-17T02:10:17.358Z"
       }
     },
     {
@@ -27901,7 +27927,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:24.534Z"
+            "at": "2026-11-17T02:10:17.622Z"
           }
         }
       ]
@@ -27932,7 +27958,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:24.859Z"
+            "at": "2026-11-17T02:10:17.908Z"
           }
         },
         {
@@ -27944,7 +27970,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:49.500Z"
+            "at": "2026-11-17T02:10:43.190Z"
           }
         }
       ]
@@ -27975,7 +28001,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:25.131Z"
+            "at": "2026-11-17T02:10:18.190Z"
           }
         },
         {
@@ -27987,7 +28013,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:49.779Z"
+            "at": "2026-11-17T02:10:43.502Z"
           }
         }
       ]
@@ -28018,7 +28044,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:25.434Z"
+            "at": "2026-11-17T02:10:18.475Z"
           }
         }
       ]
@@ -28051,7 +28077,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:25.712Z"
+            "at": "2026-11-17T02:10:18.816Z"
           }
         }
       ]
@@ -28090,7 +28116,7 @@
               "0.01",
               "510.25"
             ],
-            "at": "2026-11-17T02:09:25.991Z"
+            "at": "2026-11-17T02:10:19.179Z"
           }
         },
         {
@@ -28108,7 +28134,7 @@
               "0.03",
               "101.88"
             ],
-            "at": "2026-11-17T02:09:50.071Z"
+            "at": "2026-11-17T02:10:43.837Z"
           }
         },
         {
@@ -28126,7 +28152,7 @@
               "0.012",
               "416.66"
             ],
-            "at": "2026-11-17T02:09:50.390Z"
+            "at": "2026-11-17T02:10:44.163Z"
           }
         }
       ]
@@ -28165,7 +28191,7 @@
               "0.011",
               "454.54"
             ],
-            "at": "2026-11-17T02:09:26.271Z"
+            "at": "2026-11-17T02:10:19.516Z"
           }
         },
         {
@@ -28183,7 +28209,7 @@
               "0.016",
               "312.5"
             ],
-            "at": "2026-11-17T02:09:50.666Z"
+            "at": "2026-11-17T02:10:44.478Z"
           }
         },
         {
@@ -28201,7 +28227,7 @@
               "0.001",
               "16.62"
             ],
-            "at": "2026-11-17T02:09:50.950Z"
+            "at": "2026-11-17T02:10:44.757Z"
           }
         },
         {
@@ -28219,7 +28245,7 @@
               "0.006",
               "833.33"
             ],
-            "at": "2026-11-17T02:09:51.289Z"
+            "at": "2026-11-17T02:10:45.060Z"
           }
         },
         {
@@ -28237,7 +28263,7 @@
               "0.048",
               "1.750000000000102"
             ],
-            "at": "2026-11-17T02:09:51.587Z"
+            "at": "2026-11-17T02:10:45.362Z"
           }
         },
         {
@@ -28252,7 +28278,7 @@
               "94.48"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:51.900Z"
+            "at": "2026-11-17T02:10:45.660Z"
           }
         },
         {
@@ -28267,7 +28293,7 @@
               "67.37"
             ],
             "bestBid": null,
-            "at": "2026-11-17T02:09:52.181Z"
+            "at": "2026-11-17T02:10:45.923Z"
           }
         }
       ]
@@ -28307,7 +28333,7 @@
               "0.01",
               "4.95"
             ],
-            "at": "2026-11-17T02:09:26.550Z"
+            "at": "2026-11-17T02:10:19.819Z"
           }
         }
       ]
@@ -28346,7 +28372,7 @@
               "0.042",
               "62.87"
             ],
-            "at": "2026-11-17T02:09:26.825Z"
+            "at": "2026-11-17T02:10:20.101Z"
           }
         },
         {
@@ -28394,7 +28420,7 @@
       "book": {
         "bestAsk": null,
         "bestBid": null,
-        "at": "2026-11-17T02:09:27.113Z"
+        "at": "2026-11-17T02:10:20.404Z"
       }
     },
     {
@@ -28423,7 +28449,7 @@
           "book": {
             "bestAsk": null,
             "bestBid": null,
-            "at": "2026-11-17T02:09:27.388Z"
+            "at": "2026-11-17T02:10:20.680Z"
           }
         }
       ]
@@ -28463,7 +28489,7 @@
               "0.05",
               "5006.9"
             ],
-            "at": "2026-11-17T02:09:27.676Z"
+            "at": "2026-11-17T02:10:20.962Z"
           }
         }
       ]
@@ -28502,7 +28528,7 @@
               "0.02",
               "250"
             ],
-            "at": "2026-11-17T02:09:27.965Z"
+            "at": "2026-11-17T02:10:21.303Z"
           }
         },
         {
@@ -28657,7 +28683,7 @@
               "0.005",
               "1000"
             ],
-            "at": "2026-11-17T02:09:28.248Z"
+            "at": "2026-11-17T02:10:21.603Z"
           }
         }
       ]
