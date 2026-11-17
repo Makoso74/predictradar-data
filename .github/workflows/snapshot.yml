@@ -69,7 +69,7 @@ jobs:
           LOOP_SEC: "19800"          # 330 min -> 66 rounds
           ROUND_TIMEOUT_SEC: "240"   # one round may not hang longer than 4 min
           HEARTBEAT_SEC: "900"       # push to `data` at least every 15 min even if unchanged
-          LEGACY_MAIN: "true"        # transition for v10: also commit data/snapshot.json to main
+          LEGACY_MAIN: "false"       # main mirror off: app reads the data branch
           LEGACY_SEC: "900"          # ...not more often than every 15 min
         run: |
           set -u
